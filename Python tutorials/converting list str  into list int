@@ -1,0 +1,9 @@
+a=input("enter the number").split(',')
+y=[]
+for i in a:
+    if i.isalnum():
+        x=int(i)
+        y.append(x)
+print(y)
+print(type(y))
+

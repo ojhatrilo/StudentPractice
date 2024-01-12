@@ -1,0 +1,29 @@
+1.
+    write a python program to add two numbers given bellow a=55 and b=22
+    store the answer in a new variable
+    multiply the answer with a 
+    store the multiplied answer in new varaible 
+    compare the multiplied answer with value a 
+    if the answer is greater then multiply the answer with (pi)value
+    increment the answer by 34
+    and decrement the answer by 20 
+    then compare the value of all the present solution 
+2.
+    Write a Python program to display the examination schedule. (extract the date from exam_st_date).
+    exam_st_date = (11, 12, 2014)
+    Sample Output : The examination will start from : 11 / 12 / 2014
+3.
+    Write a Python program that calculates the area of a circle based on the radius 
+    Sample Output :
+    r = 1.1
+    Area = 3.8013271108436504
+4.
+    write a python program to find the area of a triangle
+5.
+    write a python program to swap two numbers
+    input format
+    a=4
+    b=9
+    output format 
+    a=9
+    b=4

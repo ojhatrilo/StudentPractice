@@ -1,0 +1,18 @@
+Python Programs:
+1.
+    create a dictionary of 3 key value pairs
+    then loop the keys in the dictionary
+    loop the values in dictionary
+    loop the both key and valuse in the dictionary
+2.
+    create a dictionary 
+    details={name:aswanth,
+             class:[1,2,3,4,5],
+             subject:[Tamil,English,Maths]            
+    }
+    you need to acess the list value from the details 
+    acess the the value 5 from the list present inside the details(dictionary)
+    acess the value English from the list
+    present inside the details(dictionary) 
+3.
+    get the name,phone no and E-mail from the user and store the values in the form of dictionary

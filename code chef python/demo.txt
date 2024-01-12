@@ -1,0 +1,1 @@
+['Paragraph', 'development', 'continues', 'with', 'an', 'elaboration', 'on', 'the', 'controlling', 'idea,', 'perhaps', 'explanation,', 'implication,', 'or', 'statement', 'about', 'significance.', 'Our', 'example', 'offers', 'a', 'possible', 'explanation', 'for', 'pervasiveness', 'of', 'myth.']
