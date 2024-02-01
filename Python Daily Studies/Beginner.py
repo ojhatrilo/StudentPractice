@@ -226,71 +226,130 @@
 
 # Acessing the particular value from the dict
 
-a = {"name":"Tharani",
-     "age":23,
-     "adress":"hopes"
-     }
-print(a['names'])
+# a = {"name":"Tharani",
+#      "age":23,
+#      "adress":"hopes"
+#      }
+# print(a['names'])
 
-print(a.get("ages"))
+# print(a.get("ages"))
 
-# Acessing the keys from the dict
-print(a.keys())
+# # Acessing the keys from the dict
+# print(a.keys())
 
-#  Acessing the values from the dict
-print(a.values())
+# #  Acessing the values from the dict
+# print(a.values())
 
-# Acessing the key,value pairs from the dict
-print(a.items())
+# # Acessing the key,value pairs from the dict
+# print(a.items())
 
-# Type check
-print(type(a))
+# # Type check
+# print(type(a))
 
-# verify a key exists
-print('name' in a)
+# # verify a key exists
+# print('name' in a)
 
-# Change values
-a["name"] = "engineer"
-print(a)
-z = {"age":24}
-a.update(z)
+# # Change values
+# a["name"] = "engineer"
+# print(a)
+# z = {"age":24}
+# a.update(z)
 
-# convert to dict
-op = dict(name = "super man", age=1000)
-print(op)
+# # convert to dict
+# op = dict(name = "super man", age=1000)
+# print(op)
 
-# Nested dictionaries
+# # Nested dictionaries
 
-member1 = {
-    "name": "Plant",
-    "instrument": "vocals"
-}
-member2 = {
-    "name": "Page",
-    "instrument": "guitar"
-}
-band = {
-    "member1": member1,
-    "member2": member2
-}
-print(band)
-print(band["member1"]["name"])
+# member1 = {
+#     "name": "Plant",
+#     "instrument": "vocals"
+# }
+# member2 = {
+#     "name": "Page",
+#     "instrument": "guitar"
+# }
+# band = {
+#     "member1": member1,
+#     "member2": member2
+# }
+# print(band)
+# print(band["member1"]["name"])
 
 
-family = {
+# family = {
 
-"father" : {
-"son":"dasy",
-"wife":"shaerin"
-},
-"grandFather" :{
-"mother":"meena",
-"status":"death"
-}
+# "father" : {
+# "son":"dasy",
+# "wife":"shaerin"
+# },
+# "grandFather" :{
+# "mother":"meena",
+# "status":"death"
+# }
 
-}
-print(family["grandFather"])
- 
+# }
+# print(family["grandFather"])
+
+
+# if and else condition
+# if and else condition are also known as Controlflow 
+# (if the)block if condition is become's true 
+# Then sequence of  statementes or expression runs under the if block condition
+# Else if the if block condition fails eles will be executed
+
+# Types of conditional statements
+# if 
+# if and else
+# nested if and else
+# elif  as the same funtion of else
+
+# a = 23
+# b = 23
+# if a==b:
+#     a+=23
+#     print(a)
+# else:
+#     b+=23
+#     print(b)
+
+# if b%2==0:
+#     print("divisible by 2")
+# else:
+#     print("not divisible by 2")
+
+
+# a = int(input("Enter the number:")) 
+
+# if a>0:
+
+#     if a%2 == 0:
+#         print("divisible by 2")
+#     elif  a%3 == 0:
+#         print("divisible by 3")
+#     elif a%5 == 0:
+#         print("divisible by 5")
+#     else:
+#         print("not divisible by any number")
+    
+# else:
+#     print("not divisible")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
