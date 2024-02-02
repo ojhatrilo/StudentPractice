@@ -363,7 +363,7 @@
 # to find the average of a given list
 # list1 = [23,45,32]
 # sum = 0
-# for i in list1:
+# for i in list 1:
 #     sum+=i
 # print(sum/len(list1))
 
@@ -374,7 +374,15 @@
 
 # print(min)
 
-# list1 = [12,3,45,56,54]
+list1 = [12,3,45,56,54]
+a = 56
+count = 0-1
+for i in list1:
+    count +=1
+    if a == i:
+        print("value found at index ",count)
+print(count)
+
 
 
 
