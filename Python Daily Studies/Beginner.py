@@ -336,6 +336,50 @@
 #     print("not divisible")
 
 
+# loops 
+# iterating the sequences like string, list, tuple, & sets etc
+# types of loops 
+# for loop
+# while loop
+
+# a =[1,2,3,"hellow"]
+# for i in a:
+#     print(i)
+
+# Dict loops
+# value = {
+#     "name":"ojha",
+#     "age":23,
+#     "phone":1234567890
+# }
+
+# for x in value:
+#     print(value[x])
+
+# print(value["name"])
+# print(value["age"])
+# print(value["phone"])
+
+# to find the average of a given list
+# list1 = [23,45,32]
+# sum = 0
+# for i in list1:
+#     sum+=i
+# print(sum/len(list1))
+
+#  min =list1[1]
+# for i in list1:
+#     if i<min:
+#         min=i
+
+# print(min)
+
+# list1 = [12,3,45,56,54]
+
+
+
+
+
 
 
 
