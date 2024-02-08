@@ -83,9 +83,9 @@
 # print(name.lower())
 # print(name.capitalize())
 # print(name.title())
-# print(name.replace('is','Is'))
+# print(name.replace('good','super'))
 # print(len(name))
-# print(name.rstrip(' '))
+# print(name.strip(" "))
 
 # Build a menu
 # title = "menu".upper()
@@ -96,6 +96,7 @@
 
 # name = "tharani is good"
 # print(name.startswith("t"))
+
 
 # #  integer type
 # price = 100
@@ -125,7 +126,8 @@
 
 # Join
 # users = ['Dave', 'John', 'Sara']
-# z = ' '.join(users)
+# print(users)
+# z = " ".join(users)
 # print(z)
 
 # split
@@ -143,6 +145,11 @@
 
 
 # list1 = [21,"hellow",True,23.5,"hellow"]
+# print(list1)
+
+# Acessing the list items
+# list1 = [21,"hellow",True,23.5,"hellow"] 
+# list1[0] = 56
 # print(list1)
 
 
@@ -178,6 +185,39 @@
 # clear -- It deletes the entire list
 # copy -- It makes duplicate of the present list
 # insert -- it is used to insert the vlue in the list
+
+# append
+# a = [1,2,3,4,5,"hello"]
+# a.append("sir")
+# print(a)
+
+# Extend
+# a = [1,2,3]
+# b = [4,66,7]
+# a.extend(b)
+# print(a)
+
+# index
+# a = [1,2,3,4]
+# print(a.index(4))
+# print(len(a))
+
+# reverse
+# a = [1,2,3,4,5,"hello"]
+# a.reverse()
+# print(a)
+
+# pop
+# a = [1,2,3,4,5,"hello"]
+# a.pop(2)
+# print(a)
+
+# remove
+# a = [1,2,3,4,5,"hello"]
+# a.remove(1)
+# print(a)
+
+
 
 # Tuples
 # It is used to store multiple items in a single variable
@@ -374,17 +414,14 @@
 
 # print(min)
 
-list1 = [12,3,45,56,54]
-a = 56
-count = 0-1
-for i in list1:
-    count +=1
-    if a == i:
-        print("value found at index ",count)
-print(count)
-
-
-
+# list1 = [12,3,45,56,54]
+# a = 56
+# count = 0-1
+# for i in list1:
+#     count +=1
+#     if a == i:
+#         print("value found at index ",count)
+# print(count)
 
 
 
