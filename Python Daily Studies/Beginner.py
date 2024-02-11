@@ -228,9 +228,15 @@
 # To convert into tuples we use "tuple()"
 
 # anothertuple = (1, 4, 2, 8, 2, 2)
+# x = anothertuple.count(2)
+# print(x)
+
 # x = list(anothertuple)
-# anothertuple.remove(8)
-# anothertuple.insert(3,10)
+# print(x)
+# x.remove(8)
+# print(x)
+# x.insert(3,10)
+# print(x)
 # print(anothertuple)
 # x[3] = 10
 # print(type(x))
@@ -262,16 +268,16 @@
 # Dictionaries are odered,changeable, not indexed and 
 # Dictionaries do not allow duplicates
 # We have nested dictionaries 
-# 
+ 
 
 # Acessing the particular value from the dict
 
-# a = {"name":"Tharani",
-#      "age":23,
-#      "adress":"hopes"
-#      }
-# print(a['names'])
-
+a = {
+    "name":"Ranjani",
+    "age":25,
+    "address":"UK"
+}
+# print(a["addresss"])
 # print(a.get("ages"))
 
 # # Acessing the keys from the dict
@@ -281,7 +287,12 @@
 # print(a.values())
 
 # # Acessing the key,value pairs from the dict
-# print(a.items())
+# x = a.items()
+# y = list(x)
+# z = y[0]
+
+# print(z)
+
 
 # # Type check
 # print(type(a))
@@ -290,10 +301,11 @@
 # print('name' in a)
 
 # # Change values
-# a["name"] = "engineer"
+# a["name"] = {"engineer":"SUPER"}
 # print(a)
-# z = {"age":24}
+# z = {"engineer":"SUPER"}
 # a.update(z)
+# print(a)
 
 # # convert to dict
 # op = dict(name = "super man", age=1000)
@@ -344,7 +356,7 @@
 # nested if and else
 # elif  as the same funtion of else
 
-# a = 23
+# a = 24
 # b = 23
 # if a==b:
 #     a+=23
