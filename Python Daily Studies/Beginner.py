@@ -271,12 +271,12 @@
  
 
 # Acessing the particular value from the dict
-
-a = {
-    "name":"Ranjani",
-    "age":25,
-    "address":"UK"
-}
+#
+# a = {
+#     "name":"Ranjani",
+#     "age":25,
+#     "address":"UK"
+# }
 # print(a["addresss"])
 # print(a.get("ages"))
 

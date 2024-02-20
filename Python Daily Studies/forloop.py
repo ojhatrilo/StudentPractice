@@ -1,6 +1,6 @@
 # list1 = [45,32,11,44,50]
-# # print('maimum value',max(list1))
-# # print('minimum value',min(list1))
+# print('maimum value',max(list1))
+# print('minimum value',min(list1))
 #
 # max_value = list1[0]
 # min_value = list1[0]
@@ -24,18 +24,29 @@
 #     user_list.append(x)
 # print(user_list)
 
-a = 'allibaba is bad'
-b = 'cheran is good'
-x = a.split()
-y = b.split()
+# a = 'allibaba is bad'
+# b = 'cheran is good'
+# x = a.split()
+# y = b.split()
+#
+# final = []
+# for i in range(min(len(x),len(y))):
+#     final.append(x[i])
+#     final.append(y[i])
+#
+# print(final)
 
-final = []
-for i in range(min(len(x),len(y))):
-    final.append(x[i])
-    final.append(y[i])
+# Nested for loop
+# for i in range(1,3):
+#     for j in range(1,3):
+#         print(i,j)
 
-print(final)
 
+#
+# for i in range(1,11):
+#     for j in range(1,11):
+#         print(i*j, end=' ')
+#     print()
 
 
 

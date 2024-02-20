@@ -10,9 +10,9 @@
 #         num.append(i)
 # print(word)
 # print(num)
-list1 = ['23','44','56']
-count =0
-for i in list1:
-    count+=1
-
-print(count)
+# list1 = ['23','44','56']
+# count =0
+# for i in list1:
+#     count+=1
+#
+# print(count)
