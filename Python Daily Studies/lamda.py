@@ -17,3 +17,26 @@
 # mydoubler = myfunc(2)
 
 # print(mydoubler(11))
+a =  lambda a,b,c:a+b+c
+
+num1= input()
+num2= input()
+num3= input()
+print(a(num1,num2,num3))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -11,9 +11,9 @@ def expand_string(input_str):
                 i += 1
             count = int(count)
             output += char * count
-        else:
-            output += char
-            i += 1
+        # else:
+        #     output += char
+        #     i += 1
     return output
 
 # Test the function
