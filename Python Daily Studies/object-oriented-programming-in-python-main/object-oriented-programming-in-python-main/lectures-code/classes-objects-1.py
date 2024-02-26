@@ -1,5 +1,3 @@
-# Copyright (C) Deepali Srivastava - All Rights Reserved
-# This code is part of Python course available on CourseGalaxy.com
 
 class Person:
       def  set_details(self, name, age):
@@ -23,3 +21,14 @@ p1.greet()
 p2 = Person()
 p2.set_details('Ted', 90)
 p2.greet()
+
+
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("John", 36)
+
+print(p1.name)
+print(p1.age)

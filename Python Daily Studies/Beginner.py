@@ -10,7 +10,7 @@
 
 # Variable rules
 # 1. A variable doesn't start with numbers and Special Characters
-# 2. A Variabele does't contain space 
+# 2. A Variabele doesn't contain space
 # 3. We can use (_) instead of space
 # 4. Special Characters or not used in variables 
 
@@ -346,7 +346,7 @@
 
 # if and else condition
 # if and else condition are also known as Controlflow 
-# (if the)block if condition is become's true 
+# (if the)block if condition  becomes true
 # Then sequence of  statementes or expression runs under the if block condition
 # Else if the if block condition fails eles will be executed
 

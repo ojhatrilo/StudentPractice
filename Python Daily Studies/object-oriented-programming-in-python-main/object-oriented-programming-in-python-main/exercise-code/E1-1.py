@@ -1,4 +1,4 @@
-# Copyright (C) Deepali Srivastava - All Rights Reserved
+
 # This code is part of Python course available on CourseGalaxy.com
 
 class BankAccount:
