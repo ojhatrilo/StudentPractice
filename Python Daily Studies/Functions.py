@@ -9,13 +9,13 @@
 # hello()
 # hi()
 
+#
 # def sai():
 #     return "iam sai function"
 #
-#
 # print(sai())
 
-# def add(num1,num2,num3):
+# def add(num1,num2):
 #     return num1+num2
 #
 #
@@ -23,18 +23,19 @@
 # a = int(input("Enter the number:"))
 # b = int(input("Enter the number:"))
 #
-# print(add(a,b,3))
+# print(add(a,b))
+# print(add(22,44))
 
 # Function Scope
 
-# a = 24
-#
-# def numacess():
-#    global a
-#    a+=3
-#    print(a)
-#
-# numacess()
+a = 24
+
+def numacess():
+   global a
+   a+=3
+   print(a)
+
+numacess()
 
 # Default Argument
 
