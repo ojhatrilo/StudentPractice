@@ -9,13 +9,13 @@
 # hello()
 # hi()
 
+#
 # def sai():
 #     return "iam sai function"
 #
-#
 # print(sai())
 
-# def add(num1,num2,num3):
+# def add(num1,num2):
 #     return num1+num2
 #
 #
@@ -23,7 +23,8 @@
 # a = int(input("Enter the number:"))
 # b = int(input("Enter the number:"))
 #
-# print(add(a,b,3))
+# print(add(a,b))
+# print(add(22,44))
 
 # Function Scope
 
@@ -66,7 +67,7 @@
 
 
 # Iterator
-# # define a list
+# define a list
 # my_list = [4, 7, 0]
 #
 # # create an iterator from the list
@@ -98,36 +99,96 @@
 #         value += 1
 #
 # # iterate over the generator object produced by my_generator
-# for value in my_generator(3):
+# print(list( my_generator(4)))
+
+    # print each value produced by generator
+
+# Closure is a function having access to the scope of its parent
+# function after the parent function has returned.
+
+# def parent_function(person, coins):
+#     # coins = 3
 #
-#     # print each value produced by generator
-#     print(value)
+#     def play_game():
+#         nonlocal coins
+#         coins -= 1
+#
+#         if coins > 1:
+#             print("\n" + person + " has " + str(coins) + " coins left.")
+#         elif coins == 1:
+#             print("\n" + person + " has " + str(coins) + " coin left.")
+#         else:
+#             print("\n" + person + " is out of coins.")
+#
+#     return play_game
+#
+#
+# tommy = parent_function("Tommy", 3)
+# jenny = parent_function("Jenny", 5)
+#
+# tommy()
+# tommy()
+# #
+# jenny()
+# tommy()
+
+
+
+
 
 
 # Decorator Concept
 
+#
 # def make_pretty(func):
-#     # define the inner function
-#     def inner():
-#         # add some additional behavior to decorated function
-#         print("I got decorated")
+#    # define the inner function
+#    def inner():
+#       # add some additional behavior to decorated function
+#       print("I got decorated")
 #
-#         # call original function
-#         func()
+#       # call original function
+#       func()
 #
-#     # return the inner function
-#     return inner
+#    # return the inner function
+#    return inner
 #
 #
 # # define ordinary function
-# @make_pretty
 # def ordinary():
-#     print("I am ordinary")
+#    print("I am ordinary")
 #
 #
 # # decorate the ordinary function
+# decorated_func = make_pretty(ordinary)
 #
-# ordinary()
+# # call the decorated function
+# decorated_func()
+
+
+
+
+def make_pretty(func):
+    # define the inner function
+    def inner():
+        # add some additional behavior to decorated function
+        print("I got decorated")
+
+        # call original function
+        func()
+
+    # return the inner function
+    return inner
+
+
+# define ordinary function
+@make_pretty
+def ordinary():
+    print("I am ordinary")
+
+
+# decorate the ordinary function
+
+ordinary()
 
 # call the decorated function
 
