@@ -106,31 +106,31 @@
 # Closure is a function having access to the scope of its parent
 # function after the parent function has returned.
 
-# def parent_function(person, coins):
-#     # coins = 3
+def parent_function(person, coins):
+    # coins = 3
+
+    def play_game():
+        nonlocal coins
+        coins -= 1
+
+        if coins > 1:
+            print("\n" + person + " has " + str(coins) + " coins left.")
+        elif coins == 1:
+            print("\n" + person + " has " + str(coins) + " coin left.")
+        else:
+            print("\n" + person + " is out of coins.")
+
+    return play_game
+
+
+tommy = parent_function("Tommy", 3) # play_game
+jenny = parent_function("Jenny", 5)
+
+tommy()
+tommy()
 #
-#     def play_game():
-#         nonlocal coins
-#         coins -= 1
-#
-#         if coins > 1:
-#             print("\n" + person + " has " + str(coins) + " coins left.")
-#         elif coins == 1:
-#             print("\n" + person + " has " + str(coins) + " coin left.")
-#         else:
-#             print("\n" + person + " is out of coins.")
-#
-#     return play_game
-#
-#
-# tommy = parent_function("Tommy", 3)
-# jenny = parent_function("Jenny", 5)
-#
-# tommy()
-# tommy()
-# #
-# jenny()
-# tommy()
+jenny()
+tommy()
 
 
 
@@ -166,29 +166,29 @@
 
 
 
-
-def make_pretty(func):
-    # define the inner function
-    def inner():
-        # add some additional behavior to decorated function
-        print("I got decorated")
-
-        # call original function
-        func()
-
-    # return the inner function
-    return inner
-
-
-# define ordinary function
-@make_pretty
-def ordinary():
-    print("I am ordinary")
-
-
-# decorate the ordinary function
-
-ordinary()
+#
+# def make_pretty(func):
+#     # define the inner function
+#     def inner():
+#         # add some additional behavior to decorated function
+#         print("I got decorated")
+#
+#         # call original function
+#         func()
+#
+#     # return the inner function
+#     return inner
+#
+#
+# # define ordinary function
+# @make_pretty
+# def ordinary():
+#     print("I am ordinary")
+#
+#
+# # decorate the ordinary function
+#
+# ordinary()
 
 # call the decorated function
 
