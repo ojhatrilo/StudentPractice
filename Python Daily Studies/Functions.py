@@ -42,8 +42,8 @@
 # def cyber(num1=2,num2=3):
 #    return num1+num2
 #
-# print(cyber(3,5))
-#
+# print(cyber(4,5))
+# #
 
 # def multiple_items(*args):
 #    print(args)
@@ -51,6 +51,20 @@
 #
 #
 # multiple_items("Dave", "John", "Sara")
+#
+# def multiple_items(*args):
+#    print(args + args)
+#    print(type(args))
+#
+#
+# multiple_items(2,6)
+
+
+
+
+
+
+
 
 
 # i = 0
@@ -83,7 +97,7 @@
 # print(next(iterator))  # prints 0
 
 
-# Generator
+# # Generator
 # def my_generator(n):
 #
 #     # initialize counter
@@ -105,34 +119,32 @@
 
 # Closure is a function having access to the scope of its parent
 # function after the parent function has returned.
-
-def parent_function(person, coins):
-    # coins = 3
-
-    def play_game():
-        nonlocal coins
-        coins -= 1
-
-        if coins > 1:
-            print("\n" + person + " has " + str(coins) + " coins left.")
-        elif coins == 1:
-            print("\n" + person + " has " + str(coins) + " coin left.")
-        else:
-            print("\n" + person + " is out of coins.")
-
-    return play_game
-
-
-tommy = parent_function("Tommy", 3) # play_game
-jenny = parent_function("Jenny", 5)
-
-tommy()
-tommy()
 #
-jenny()
-tommy()
-
-
+# def parent_function(person, coins):
+#     # coins = 3
+#
+#     def play_game():
+#         nonlocal coins
+#         coins -= 1
+#
+#         if coins > 1:
+#             print("\n" + person + " has " + str(coins) + " coins left.")
+#         elif coins == 1:
+#             print("\n" + person + " has " + str(coins) + " coin left.")
+#         else:
+#             print("\n" + person + " is out of coins.")
+#
+#     return play_game
+#
+#
+# tommy = parent_function("Tommy", 3) # play_game
+# jenny = parent_function("Jenny", 5)
+#
+# tommy()
+# tommy()
+# #
+# jenny()
+# tommy()
 
 
 

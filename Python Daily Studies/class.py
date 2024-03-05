@@ -2,6 +2,23 @@
 # Program to demonstrate 'Variable
 # defined outside the class'
 
+# class Hello:
+#     x = "Hello iam Executed"
+#
+#     def hi(self):
+#         return ("Hi")
+#
+# obj = Hello()
+# print(obj.hi())
+#
+
+
+
+
+
+
+
+
 # Variable defined outside the class.
 # outVar = 'outside_class'
 # print("Outside_class1", outVar)
@@ -16,8 +33,8 @@
 # # Calling method by creating object
 # uac = Geek()
 # uac.access_method()
-
-''' Class two '''
+#
+# ''' Class two '''
 # class Another_Geek_class:
 # 	print("Outside_class4", outVar)
 #
@@ -31,25 +48,17 @@
 
 # class details:
 #
-# 	def __init__(self,name,age):
-# 		self.name = name
-# 		self.age = age
+# 	def __init__(self):
+# 		self.name = "Ranjani"
+# 		self.age = 23
 #
 #
 #
 # 	def __str__(self):
 # 		return (f"name = {self.name}\nAge ={self.age}")
-#
-#
-# per = details("elakiya",23)
+# per = details()
 #
 # print(per)
-
-
-
-
-
-
 
 
 
