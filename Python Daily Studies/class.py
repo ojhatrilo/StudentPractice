@@ -66,8 +66,6 @@
 
 
 
-
-
 # Python program to demonstrate
 # single inheritance
 
@@ -88,8 +86,8 @@
 # object = Child()
 # object.func1()
 # object.func2()
-#
-#
+# #
+# #
 #
 # # Python program to demonstrate
 # # multiple inheritance
@@ -208,7 +206,7 @@
 # # Python program to demonstrate
 # # hybrid inheritance
 #
-#
+
 # class School:
 # 	def func1(self):
 # 		print("This function is in school.")
@@ -233,6 +231,7 @@
 # object = Student3()
 # object.func1()
 # object.func2()
+# object.func3()
 
 
 

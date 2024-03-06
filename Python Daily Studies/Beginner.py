@@ -18,7 +18,7 @@
 # +,-,*,/,//,%,**
 
 # Comparision Operators
-# <,>,<=,>=,==
+# <,>,<=,>=,==,!=
 
 # membership operators
 # in
