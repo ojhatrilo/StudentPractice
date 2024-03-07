@@ -53,12 +53,6 @@
 
 
 
-
-
-
-
-
-
 # Python program to demonstrate
 # single inheritance
 
