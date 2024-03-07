@@ -56,6 +56,21 @@
 # statement = "I like rock music from the"
 # print(statement,decade)
 
+# Escape Characters
+# \n -- New Line
+# print("hello my name is \n sanjeev")
+# \t -- Tab space
+# print("hello my name is\tsanjeev")
+# // -- Escapes the character
+# print("c:user\\name")
+# r -- raw string
+# print(r"c:user\name")
+# F -- Formated String
+# a  = "shri"
+# b  = 25
+# print(f"\tmy name is \"{a}\"\nMy age is {b}")
+
+
 # Accessing the characters from the given string
 # first_name = "Tharani Kumar"
 # single_char = first_name[0]
