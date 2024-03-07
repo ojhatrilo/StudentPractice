@@ -49,6 +49,23 @@
 #     print()
 
 
+list1 = ["tea","eat","ate","act","cat","tac"]
+group1 = list1[0]
+group = []
+group2 =[]
+
+for i in list1:
+    if sorted(group1) == sorted(i):
+        group.append(i)
+    else:
+        group2.append(i)
+
+print(group)
+print(group2)
+
+
+
+
 
 
 

@@ -47,7 +47,7 @@
 # Return double of n
 # def addition(n):
 #     return n + n
-#
+
 #
 # # We double all numbers using map()
 # numbers = (1, 2, 3, 4)
@@ -55,16 +55,16 @@
 # print(list(result))
 
 # Double all numbers using map and lambda
-#
+
 # numbers = (1, 2, 3, 4)
 # result = map(lambda x: x + x, numbers)
-# result1 = map(lambda x: x - x, numbers)
+#
 # list1 = list(numbers)
 # list2 = list(result)
 # dict1 = {}
 # for i,j in zip(list1,list2):
 #     dict1[i]=j
-#
+
 # print(dict1)
 
 

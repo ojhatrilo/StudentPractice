@@ -18,11 +18,13 @@
 # +,-,*,/,//,%,**
 
 # Comparision Operators
-# <,>,<=,>=,==
+# <,>,<=,>=,==,!=
 
 # membership operators
 # in
 # not in
+# a = "my name is Ms.Santhoshni"
+# print("Santhoshni" not in a)
 
 # Logical Operators
 # and
