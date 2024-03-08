@@ -1,6 +1,6 @@
-# # Python program to
-# # demonstrate protected members
-#
+# Python program to
+# demonstrate protected members
+
 # # Creating a base class
 # class Base:
 # 	def __init__(self):
@@ -30,6 +30,10 @@
 #
 # # Calling protected member
 # # Can be accessed but should not be done due to convention
+# print("Accessing protected member of obj1: ", obj1._a)
+#
+# obj1._a = 23
+#
 # print("Accessing protected member of obj1: ", obj1._a)
 #
 # # Accessing the protected variable outside
@@ -62,15 +66,16 @@
 # 		print(self.__c)
 #
 #
-# # Driver code 
+# # Driver code
 # obj1 = Base()
 # print(obj1.a)
-#
-# # Uncommenting print(obj1.c) will
-# # raise an AttributeError
-#
-# # Uncommenting obj2 = Derived() will
-# # also raise an AttributeError as
-# # private member of base class
-# # is called inside derived class
+# print(obj1.__c)
+
+# Uncommenting print(obj1.c) will
+# raise an AttributeError
+
+# Uncommenting obj2 = Derived() will
+# also raise an AttributeError as
+# private member of base class
+# is called inside derived class
 
