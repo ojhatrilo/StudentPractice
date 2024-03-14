@@ -27,11 +27,11 @@
 # l = ['sat', 'bat', 'cat', 'mat']
 #
 # # map() can listify the list of strings individually
-# test = tuple(map(list, l))
-# print(test)
-#
-# # Add two lists using map and lambda
-#
+# test = map(list, l)
+# print(list(test))
+
+# Add two lists using map and lambda
+
 # numbers1 = [1, 2, 3]
 # numbers2 = [4, 5, 6]
 #
@@ -44,10 +44,13 @@
 # Python program to demonstrate working
 # of map.
 
-# Return double of n
+# # Return double of n
 # def addition(n):
-#     return n + n
-
+#     if n % 2 == 0:
+#         return n+n
+#     else:
+#         return n
+#
 #
 # # We double all numbers using map()
 # numbers = (1, 2, 3, 4)
@@ -58,6 +61,7 @@
 
 # numbers = (1, 2, 3, 4)
 # result = map(lambda x: x + x, numbers)
+# print(list(result))
 #
 # list1 = list(numbers)
 # list2 = list(result)
@@ -67,14 +71,17 @@
 
 # print(dict1)
 
+# # number of elements
+# n = int(input("Enter number of elements : "))
+#
+# # Below line read inputs from user using map() function
+# a = list(map(int,
+# 	input("\nEnter the numbers : ").strip().split()))[:n]
+#
+# print("\nList is - ", a)
 
-
-
-
-
-
-
-
+# a = list(map(int,input("enter the ele:").split()))
+# print(a)
 
 
 

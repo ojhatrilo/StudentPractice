@@ -12,7 +12,7 @@
 # 1. A variable doesn't start with numbers and Special Characters
 # 2. A Variabele doesn't contain space
 # 3. We can use (_) instead of space
-# 4. Special Characters or not used in variables 
+# 4. Special Characters or not used in variables
 
 # Arthimatic operators
 # +,-,*,/,//,%,**
@@ -30,6 +30,7 @@
 # and
 # or
 # not
+
 
 # Identity Operators
 # is 
@@ -94,7 +95,7 @@
 # print(comp_value.real)
 # print(comp_value.imag)
 
-
+# String Methods
 # name = "tharani is good"
 # print(name.upper())
 # print(name.lower())
@@ -146,8 +147,8 @@
 # print(users)
 # z = " ".join(users)
 # print(z)
-
-# split
+#
+# # split
 # name = "tharani is good"
 # x = name.split()
 # print(x)
@@ -165,9 +166,10 @@
 # print(list1)
 
 # Acessing the list items
-# list1 = [21,"hellow",True,23.5,"hellow"] 
+# list1 = [21,"hellow",True,23.5,"hellow"]
 # list1[0] = 56
-# print(list1)
+# print(list1[0:4])
+
 
 
 # users = ['Dave', 'John', 'Sara','dmmi','anti']
@@ -216,7 +218,7 @@
 
 # index
 # a = [1,2,3,4]
-# print(a.index(4))
+# print(a.index(3))
 # print(len(a))
 
 # reverse
