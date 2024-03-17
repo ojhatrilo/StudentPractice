@@ -4,15 +4,44 @@
 
 # class Hello:
 #     x = "Hello iam Executed"
+#     print(x)
 #
 #     def hi(self):
 #         return ("Hi")
 #
 # obj = Hello()
 # print(obj.hi())
+
+
+
+class print_str:
+
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return (f"{self.name},{self.age}")
+
+
+hi=print_str("sony",24)
+print(hi)
+
+
+
+# Python program to illustrate destructor
+# class Employee:
 #
-
-
+# 	# Initializing
+# 	def __init__(self):
+# 		print('Employee created.')
+#
+# 	# Deleting (Calling destructor)
+# 	def __del__(self):
+# 		print('Destructor called, Employee deleted.')
+#
+# obj = Employee()
+# del obj
 
 
 
@@ -51,9 +80,7 @@
 # 	def __init__(self):
 # 		self.name = "Ranjani"
 # 		self.age = 23
-#
-#
-#
+
 # 	def __str__(self):
 # 		return (f"name = {self.name}\nAge ={self.age}")
 # per = details()
@@ -203,32 +230,32 @@
 # # hybrid inheritance
 #
 
-class School:
-	def func1(self):
-		print("This function is in school.")
-
-
-class Student1(School):
-	def func2(self):
-		print("This function is in student 1. ")
-
-
-class Student2(School):
-	def func3(self):
-		print("This function is in student 2.")
-
-
-class Student3(Student1, School):
-	def func4(self):
-		print("This function is in student 3.")
-
-
-# Driver's code
-object = Student3()
-object1 = Student2()
-object1.func1()
-# object1.func2()
-object1.func3()
+# class School:
+# 	def func1(self):
+# 		print("This function is in school.")
+#
+#
+# class Student1(School):
+# 	def func2(self):
+# 		print("This function is in student 1. ")
+#
+#
+# class Student2(School):
+# 	def func3(self):
+# 		print("This function is in student 2.")
+#
+#
+# class Student3(Student1, School):
+# 	def func4(self):
+# 		print("This function is in student 3.")
+#
+#
+# # Driver's code
+# object = Student3()
+# object1 = Student2()
+# object1.func1()
+# # object1.func2()
+# object1.func3()
 
 
 
