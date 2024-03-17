@@ -80,7 +80,7 @@
 # Accessing the mutiple characters from the given string
 # first_name = "Tharani Kumar"
 # single_char = first_name[0:7]
-# single_char = first_name[::-1]
+# single_char = first_name[::2]
 # print(single_char)
 # output (Tharani)
 # output (ramuK inarahT)
