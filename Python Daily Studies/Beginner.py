@@ -247,7 +247,7 @@
 # To convert into tuples we use "tuple()"
 
 # anothertuple = (1, 4, 2, 8, 2, 2)
-# x = anothertuple.count(2)
+# x = anothertuple.index(1)
 # print(x)
 
 # x = list(anothertuple)
@@ -274,9 +274,9 @@
 # Sets are unodered, unchageable, unidexed
 # Sets can be converted using "set()"
 
-# thisset = {1,2,3,4,45,6,5,34,33,45,23}
-# x = (32 not in thisset)
-# print(x)
+thisset = {1,2,3,4,45,6,5,34,33,45,23}
+x = (32 not in thisset)
+print(x)
 
 # nums = {1, True, 2, False, 3, 4, 0}
 # print(nums)
