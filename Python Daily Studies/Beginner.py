@@ -80,7 +80,7 @@
 # Accessing the mutiple characters from the given string
 # first_name = "Tharani Kumar"
 # single_char = first_name[0:7]
-# single_char = first_name[::2]
+# single_char = first_name[::-1]
 # print(single_char)
 # output (Tharani)
 # output (ramuK inarahT)
@@ -96,6 +96,8 @@
 # print(comp_value.imag)
 
 # String Methods
+
+
 # name = "tharani is good"
 # print(name.upper())
 # print(name.lower())
@@ -103,7 +105,7 @@
 # print(name.title())
 # print(name.replace('good','super'))
 # print(len(name))
-# print(name.strip(" "))
+# print(name.strip())
 
 # Build a menu
 # title = "menu".upper()
@@ -113,7 +115,7 @@
 # print("Cheesecake".ljust(16, ".") + "$4".rjust(4))
 
 # name = "tharani is good"
-# print(name.startswith("t"))
+# print(name.startswith("r"))
 
 
 # #  integer type
