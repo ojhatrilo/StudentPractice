@@ -277,8 +277,9 @@
 # Sets can be converted using "set()"
 
 # thisset = {1,2,3,4,45,6,5,34,33,45,23}
-# x = (32 not in thisset)
-# print(x)
+# # x = (32 not in thisset)
+# print(len(thisset))
+# print(thisset)
 
 # nums = {1, True, 2, False, 3, 4, 0}
 # print(nums)
@@ -298,8 +299,9 @@
 #     "age":25,
 #     "address":"UK"
 # }
-# print(a["addresss"])
-# print(a.get("ages"))
+# print(a)
+# print(a["address"])
+# print(a.get("age"))
 
 # # Acessing the keys from the dict
 # print(a.keys())
@@ -308,11 +310,11 @@
 # print(a.values())
 
 # # Acessing the key,value pairs from the dict
+# print(a.items())
 # x = a.items()
 # y = list(x)
 # z = y[0]
-
-# print(z)
+# print(y)
 
 
 # # Type check
@@ -322,9 +324,9 @@
 # print('name' in a)
 
 # # Change values
-# a["name"] = {"engineer":"SUPER"}
-# print(a)
-# z = {"engineer":"SUPER"}
+# a["name"] = "sarvesh"
+
+# a["engineer"] = "smart"
 # a.update(z)
 # print(a)
 
@@ -349,9 +351,9 @@
 # print(band)
 # print(band["member1"]["name"])
 
-
+#
 # family = {
-
+#
 # "father" : {
 # "son":"dasy",
 # "wife":"shaerin"
@@ -360,7 +362,7 @@
 # "mother":"meena",
 # "status":"death"
 # }
-
+#
 # }
 # print(family["grandFather"])
 
