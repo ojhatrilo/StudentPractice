@@ -380,7 +380,7 @@
 # elif  as the same funtion of else
 
 # a = 24
-# b = 23
+b = 24
 # if a==b:
 #     a+=23
 #     print(a)
