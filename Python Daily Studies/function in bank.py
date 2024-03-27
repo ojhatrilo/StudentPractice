@@ -19,11 +19,11 @@ def balance():
     print("Available",amount)
 
 while(True):
-    print(''' 
+    print('''
             press - 1 to deposite
             press - 2 to withdrawl
             press - 3 to balance
-            press - Q to exit               
+            press - Q to exit
                                       ''')
     options = input("Enter the number:").upper()
     if options == "1":

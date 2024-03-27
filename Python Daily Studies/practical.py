@@ -176,14 +176,19 @@
 
 
 
-#
+# #
 # import numpy as np
-# arr = np.array([1, 3, 5, 7])
-# x = np.searchsorted(arr, [2, 4, 6])
-# print(x)
 #
-
-
+# a = [[1,3,4],
+#      [2,5,8],
+#      [7,6,3]]
+#
+# b = [[2,8,9],
+#      [4,3,6],
+#      [5,4,2]]
+#
+# c = np.dot(a,b)
+# print(c)
 
 
 

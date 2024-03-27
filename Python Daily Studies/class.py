@@ -14,18 +14,18 @@
 
 
 
-class print_str:
-
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
-
-    def __str__(self):
-        return (f"{self.name},{self.age}")
-
-
-hi=print_str("sony",24)
-print(hi)
+# class print_str:
+#
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+#
+#     def __str__(self):
+#         return (f"{self.name},{self.age}")
+#
+#
+# hi=print_str("sony",24)
+# print(hi)
 
 
 
@@ -42,9 +42,6 @@ print(hi)
 #
 # obj = Employee()
 # del obj
-
-
-
 
 
 
@@ -259,7 +256,16 @@ print(hi)
 
 
 
+class Elakkiya:
+    print("XXYY")
 
+    def __init__(self):
+        self.staf1 = "Kishore"
+        self.staf2 = "Karthick"
+        self.staf3 =  "Priya"
+        print(self.staf1+"\n"+self.staf2)
+
+Elakkiya()
 
 
 
