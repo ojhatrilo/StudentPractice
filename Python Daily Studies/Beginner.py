@@ -14,6 +14,7 @@
 # 3. We can use (_) instead of space
 # 4. Special Characters or not used in variables
 
+
 # Arthimatic operators
 # +,-,*,/,//,%,**
 
@@ -44,6 +45,8 @@
 # Type Casting
 
 # a = 23
+# b = int(a)
+# print(b)
 # print(type(a))
 # convert_str = str(a)
 # print(type(convert_str))
@@ -70,6 +73,8 @@
 # a  = "shri"
 # b  = 25
 # print(f"\tmy name is \"{a}\"\nMy age is {b}")
+
+# print('my "name" is "shri"')
 
 
 # Accessing the characters from the given string
@@ -115,7 +120,7 @@
 # print("Cheesecake".ljust(16, ".") + "$4".rjust(4))
 
 # name = "tharani is good"
-# print(name.startswith("r"))
+# print(name.startswith("t"))
 
 
 # #  integer type
@@ -149,7 +154,7 @@
 # print(users)
 # z = " ".join(users)
 # print(z)
-#
+
 # # split
 # name = "tharani is good"
 # x = name.split()
