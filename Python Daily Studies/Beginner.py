@@ -168,7 +168,7 @@ name = "tharani is good"
 # It can store multiple datatyes in single Variable
 # To convert list we use "list()"
 
-
+#
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # print(list1)
 
@@ -240,7 +240,7 @@ name = "tharani is good"
 
 # remove
 # a = [1,2,3,4,5,"hello"]
-# a.remove(1)
+# a.remove(3)
 # print(a)
 
 
@@ -385,7 +385,7 @@ name = "tharani is good"
 # elif  as the same funtion of else
 
 # a = 24
-b = 24
+# b = 24
 # if a==b:
 #     a+=23
 #     print(a)
@@ -399,10 +399,10 @@ b = 24
 #     print("not divisible by 2")
 
 
-# a = int(input("Enter the number:")) 
-
+# a = int(input("Enter the number:"))
+#
 # if a>0:
-
+#
 #     if a%2 == 0:
 #         print("divisible by 2")
 #     elif  a%3 == 0:
@@ -411,7 +411,7 @@ b = 24
 #         print("divisible by 5")
 #     else:
 #         print("not divisible by any number")
-    
+#
 # else:
 #     print("not divisible")
 
@@ -462,7 +462,6 @@ b = 24
 #     if a == i:
 #         print("value found at index ",count)
 # print(count)
-
 
 
 
