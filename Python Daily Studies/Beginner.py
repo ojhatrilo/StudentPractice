@@ -95,15 +95,15 @@
 # print(f"My Age is {age}")
 
 # complex type
-# comp_value = 5+3j
+# comp_value = 5+3j+2j
 # print(type(comp_value))
-# print(comp_value.real)
+# print(comp_value)
 # print(comp_value.imag)
 
 # String Methods
 
 
-# name = "tharani is good"
+name = "tharani is good"
 # print(name.upper())
 # print(name.lower())
 # print(name.capitalize())
@@ -157,7 +157,7 @@
 
 # # split
 # name = "tharani is good"
-# x = name.split()
+# x = name.split("i")
 # print(x)
 
 
@@ -462,7 +462,6 @@ b = 24
 #     if a == i:
 #         print("value found at index ",count)
 # print(count)
-
 
 
 
