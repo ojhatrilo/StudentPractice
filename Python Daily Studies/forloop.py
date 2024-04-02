@@ -49,21 +49,70 @@
 #     print()
 
 
-list1 = ["tea","eat","ate","act","cat","tac"]
-group1 = list1[0]
-group = []
-group2 =[]
+# list1 = ["tea","eat","ate","act","cat","tac"]
+# group1 = list1[0]
+# group = []
+# group2 =[]
+#
+# for i in list1:
+#     if sorted(group1) == sorted(i):
+#         group.append(i)
+#     else:
+#         group2.append(i)
+#
+# print(group)
+# print(group2)
 
-for i in list1:
-    if sorted(group1) == sorted(i):
-        group.append(i)
-    else:
-        group2.append(i)
 
-print(group)
-print(group2)
+# input_str = "aaaccvv"
+#
+# prev = input_str[0]
+# output = ""
+# count = 0
+# for i in input_str:
+#     if i == prev:
+#         count +=1
+#     else:
+#         output += prev+str(count)
+#         count = 1
+#         prev = i
+# output += prev+str(count)
+# print(output)
 
 
+a = "iam good"
+b = "he is is great"
+
+sep1 = a.split()
+sep2 = b.split()
+
+output = []
+
+x = len(sep1) # 4
+y = len(sep2)  # 2
+
+if x>y:
+    more = x
+    high = sep1
+else:
+    more = y
+    high = sep2
+
+if y<x:
+     less = y
+else:
+    less = x
+
+
+for i in range(min(len(sep1),len(sep2))):
+    output.append(sep1[i])
+    output.append(sep2[i])
+
+for j in range(less,more):
+    output.append(high[j])
+
+print(output)
+#
 
 
 
