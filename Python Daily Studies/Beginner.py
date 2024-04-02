@@ -267,8 +267,14 @@
 # To create tuples "()"
 # To convert into tuples we use "tuple()"
 
+
+
 # anothertuple = (1, 4, 2, 8, 2, 2)
-# x = anothertuple.index(1)
+# y = anothertuple.index(1)
+# print(y)
+#
+# anothertuple = (1, 4, 2, 8, 2, 2)
+# x = anothertuple.count(2)
 # print(x)
 
 # x = list(anothertuple)
