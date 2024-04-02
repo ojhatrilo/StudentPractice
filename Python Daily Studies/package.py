@@ -6,18 +6,20 @@ class add:
     def addition(self):
         return self.num1 + self.num2
 
+
 # add1 = add(3,4)
 # print(add1.addition())
 
-#
-# class sub(add):
-#     # def __init__(self, num1, num2):
-#     #     self.num1 = num1
-#     #     self.num2 = num2
-#
-#     def subtraction(self):
-#         return self.num1 - self.num2
-#
+
+class sub(add):
+    # def __init__(self, num1, num2):
+    #     self.num1 = num1
+    #     self.num2 = num2
+
+    def subtraction(self):
+        return self.num1 - self.num2
+
+
 # class mul(sub):
 #     # def __init__(self, num1, num2):
 #     #     self.num1 = num1

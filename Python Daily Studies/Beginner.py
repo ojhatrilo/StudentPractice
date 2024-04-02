@@ -103,7 +103,7 @@
 # String Methods
 
 
-name = "tharani is good"
+# name = "tharani is good"
 # print(name.upper())
 # print(name.lower())
 # print(name.capitalize())
@@ -149,7 +149,7 @@ name = "tharani is good"
 # endswith
 
 
-# Join
+# # Join
 # users = ['Dave', 'John', 'Sara']
 # print(users)
 # z = " ".join(users)
@@ -157,7 +157,7 @@ name = "tharani is good"
 
 # # split
 # name = "tharani is good"
-# x = name.split("i")
+# x = name.split()
 # print(x)
 
 
@@ -175,7 +175,7 @@ name = "tharani is good"
 # Acessing the list items
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # list1[0] = 56
-# print(list1[0:4])
+# print(list1[0])
 
 
 
@@ -184,8 +184,22 @@ name = "tharani is good"
 # print(users)
 
 
+# copy
+
+# num = [12,10,1]
+# y = num
+# x = num.copy()
+# num.sort()
+# print(x)
+# print(y)
+
+
+
 # nums = [4, 42, 78, 1, 5]
+# num1 = nums
+# print(num1)
 # numscopy = nums.copy()
+# print(numscopy)
 # mynums = list(nums)
 # mycopy = nums[:]
 # print(numscopy)
@@ -200,14 +214,14 @@ name = "tharani is good"
 
 # List Methods
 # Extend -- Join the given two or more list 
-# append -- Given valuse can be joined with list
+# append -- Given valuse can be joined with in the list
 # index -- To find the index value according to the present name
 # len -- To define the lenth of the value in the list
 # sort -- To arrange the values in asscending
 # reverse -- To reverse the list (opposite to oder)
-# pop(1) -- To remove last Element in the list
+# pop() -- To remove last Element in the list
 # remove -- To remove dfined name in the list
-# delete-- To delete the whole list or indexed value
+# delete -- To delete the whole list or indexed value
 # clear -- It deletes the entire list
 # copy -- It makes duplicate of the present list
 # insert -- it is used to insert the vlue in the list
@@ -235,7 +249,7 @@ name = "tharani is good"
 
 # pop
 # a = [1,2,3,4,5,"hello"]
-# a.pop(2)
+# a.pop()
 # print(a)
 
 # remove
