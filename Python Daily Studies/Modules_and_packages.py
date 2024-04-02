@@ -18,6 +18,15 @@
 #
 # sys.path.append("D://StudentPractice//modules_package")
 #
+
+# import hello
+# hello.hi()
+
+# import identity as iden
+#
+# iden.idmatrix()
+
+
 # # import hello
 # # hello.hi()
 #
@@ -25,5 +34,6 @@
 #
 # iden.idmatrix()
 #
+
 # print(__name__)
 

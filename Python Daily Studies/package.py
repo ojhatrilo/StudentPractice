@@ -7,6 +7,10 @@ class add:
         return self.num1 + self.num2
 
 
+# add1 = add(3,4)
+# print(add1.addition())
+
+
 class sub(add):
     # def __init__(self, num1, num2):
     #     self.num1 = num1
@@ -14,6 +18,7 @@ class sub(add):
 
     def subtraction(self):
         return self.num1 - self.num2
+
 
 # class mul(sub):
 #     # def __init__(self, num1, num2):
@@ -45,7 +50,7 @@ class sub(add):
 #             break
 
 
-person1 = {
-    'name':'tharani',
-    'age': 24
-}
+# person1 = {
+#     'name':'tharani',
+#     'age': 24
+# }
