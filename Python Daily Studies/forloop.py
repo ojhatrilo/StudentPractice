@@ -122,7 +122,17 @@
 #             print(i,j,k)
 
 
-
-
+#
+# seceret = 10
+#
+#
+# for i in range(3):
+#     user = int(input("enter the number:"))
+#     if user == seceret:
+#         print("win")
+#         break
+#     else:
+#         print("you loose continue")
+#         break
 
 
