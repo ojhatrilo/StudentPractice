@@ -6,22 +6,24 @@
 # def hi():
 #     print("belongs to Hi function")
 #
-# hello()
+#
 # hi()
+# hello()
+
 
 #
 # def sai():
 #     return "iam sai function"
-#
+# #
 # print(sai())
 
 # def add(num1,num2):
 #     return num1+num2
+# #
+# #
 #
-#
-#
-# a = int(input("Enter the number:"))
-# b = int(input("Enter the number:"))
+# a = input("Enter the number:")
+# b = input("Enter the number:")
 #
 # print(add(a,b))
 # print(add(22,44))
@@ -39,11 +41,11 @@
 
 # Default Argument
 
-# def cyber(num1=2,num2=3):
+# def cyber(num1=3,num2=4):
 #    return num1+num2
-#
-# print(cyber(4,5))
 # #
+# print(cyber(23,67))
+# # #
 
 # def multiple_items(*args):
 #    print(args)
@@ -151,29 +153,29 @@
 
 # Decorator Concept
 
-def make_pretty(func):
-   # define the inner function
-   def inner():
-      # add some additional behavior to decorated function
-      print("I got decorated")
-
-      # call original function
-      func()
-
-   # return the inner function
-   return inner
+# def make_pretty(func):
+#    # define the inner function
+#    def inner():
+#       # add some additional behavior to decorated function
+#       print("I got decorated")
+#
+#       # call original function
+#       func()
+#
+#    # return the inner function
+#    return inner
 
 
 # define ordinary function
-def ordinary():
-   print("I am ordinary")
+# def ordinary():
+#    print("I am ordinary")
 
 
 # decorate the ordinary function
-decorated_func = make_pretty(ordinary)
+# decorated_func = make_pretty(ordinary)
 
 # call the decorated function
-decorated_func()
+# decorated_func()
 
 
 
