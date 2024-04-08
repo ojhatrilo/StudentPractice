@@ -14,16 +14,45 @@
 
 
 
-num = [2,4,8]
+# num = [2,4,8]
+#
+# output = 2
+# quotient = []
+# for i in num:
+#     output = i/output
+#     quotient.append(output)
+#
+# print(output)
+# print(quotient)
+#
+# for i in range(0,len(num),2):
+#     print(quotient[i],end=' ')
 
-output = 2
-quotient = []
-for i in num:
-    output = i/output
-    quotient.append(output)
 
-print(output)
-print(quotient)
 
-for i in range(0,len(num),2):
-    print(quotient[i],end=' ')
+int = "22"
+b = "33"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
