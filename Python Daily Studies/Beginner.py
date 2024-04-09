@@ -62,7 +62,7 @@
 
 # Escape Characters
 # \n -- New Line
-# print("hello my name is \n sanjeev")
+# print("hello my name is \nsanjeev")
 # \t -- Tab space
 # print("hello my name is\tsanjeev")
 # // -- Escapes the character
@@ -123,7 +123,7 @@
 # print(name.startswith("t"))
 
 
-# #  integer type
+# integer type
 # price = 100
 # best_price = "hi"
 # print(type(price))
@@ -175,7 +175,7 @@
 # Acessing the list items
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # list1[0] = 56
-# print(list1[0])
+# print(list1)
 
 
 
@@ -249,7 +249,7 @@
 
 # pop
 # a = [1,2,3,4,5,"hello"]
-# a.pop()
+# a.pop(1)
 # print(a)
 
 # remove
@@ -264,7 +264,7 @@
 # It allows duplicates
 # It is odered
 # It is not changeable or not mutable
-# To create tuples "()"
+# To c"reate tuples "()
 # To convert into tuples we use "tuple()"
 
 
@@ -272,7 +272,7 @@
 # anothertuple = (1, 4, 2, 8, 2, 2)
 # y = anothertuple.index(1)
 # print(y)
-#
+
 # anothertuple = (1, 4, 2, 8, 2, 2)
 # x = anothertuple.count(2)
 # print(x)
@@ -302,7 +302,8 @@
 # Sets can be converted using "set()"
 
 # thisset = {1,2,3,4,45,6,5,34,33,45,23}
-# # x = (32 not in thisset)
+# x = (23 not in thisset)
+# print(x)
 # print(len(thisset))
 # print(thisset)
 
@@ -350,9 +351,10 @@
 
 # # Change values
 # a["name"] = "sarvesh"
-
+# a["name"] = "vishwa"
+#
 # a["engineer"] = "smart"
-# a.update(z)
+#
 # print(a)
 
 # # convert to dict
@@ -389,7 +391,7 @@
 # }
 #
 # }
-# print(family["grandFather"])
+# print(family)
 
 
 # if and else condition
