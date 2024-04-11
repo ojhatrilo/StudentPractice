@@ -62,7 +62,7 @@
 
 # Escape Characters
 # \n -- New Line
-# print("hello my name is \n sanjeev")
+# print("hello my name is \nsanjeev")
 # \t -- Tab space
 # print("hello my name is\tsanjeev")
 # // -- Escapes the character
@@ -123,7 +123,7 @@ name = "tharani is good"
 # print(name.startswith("t"))
 
 
-# #  integer type
+# integer type
 # price = 100
 # best_price = "hi"
 # print(type(price))
@@ -175,9 +175,12 @@ name = "tharani is good"
 # Acessing the list items
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # list1[0] = 56
+
 #
 #
 # print(list1[1])
+
+# print(list1)
 
 
 
@@ -251,7 +254,7 @@ name = "tharani is good"
 
 # pop
 # a = [1,2,3,4,5,"hello"]
-# a.pop()
+# a.pop(1)
 # print(a)
 
 # remove
@@ -266,7 +269,7 @@ name = "tharani is good"
 # It allows duplicates
 # It is ordered
 # It is not changeable or not mutable
-# To create tuples "()"
+# To c"reate tuples "()
 # To convert into tuples we use "tuple()"
 
 
@@ -274,7 +277,7 @@ name = "tharani is good"
 # anothertuple = (1, 4, 2, 8, 2, 2)
 # y = anothertuple.index(1)
 # print(y)
-#
+
 # anothertuple = (1, 4, 2, 8, 2, 2)
 # x = anothertuple.count(2)
 # print(x)
@@ -303,6 +306,12 @@ name = "tharani is good"
 # Sets are unodered, unchageable, unidexed
 # Sets can be converted using "set()"
 
+
+# thisset = {1,2,3,4,45,6,5,34,33,45,23}
+# x = (23 not in thisset)
+# print(x)
+# print(len(thisset))
+# print(thisset)
 
 # thisset = {1,2,3,4,45,6,5,34,33,45,23}
 # x = (32 not in thisset)
@@ -354,9 +363,15 @@ a = {
 
 # # Change values
 # a["name"] = "sarvesh"
+
 # print(a)
 
 # a["engineer"] = "smart"
+
+# a["name"] = "vishwa"
+#
+# a["engineer"] = "smart"
+
 # print(a)
 
 # # convert to dict
@@ -393,7 +408,7 @@ a = {
 # }
 # #
 # }
-# print(family["grandFather"])
+# print(family)
 
 
 # if and else condition

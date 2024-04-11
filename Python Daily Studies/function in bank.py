@@ -25,7 +25,7 @@ while(True):
             press - 3 to balance
             press - Q to exit
                                       ''')
-    options = input("Enter the number:").upper()
+    options = input("Enter the Option:").upper()
     if options == "1":
         num1 = int(input("enter the nuber:"))
         deposite(num1)

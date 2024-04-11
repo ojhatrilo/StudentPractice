@@ -80,46 +80,59 @@
 # print(output)
 
 
-a = "iam good"
-b = "he is is great"
-
-sep1 = a.split()
-sep2 = b.split()
-
-output = []
-
-x = len(sep1) # 4
-y = len(sep2)  # 2
-
-if x>y:
-    more = x
-    high = sep1
-else:
-    more = y
-    high = sep2
-
-if y<x:
-     less = y
-else:
-    less = x
-
-
-for i in range(min(len(sep1),len(sep2))):
-    output.append(sep1[i])
-    output.append(sep2[i])
-
-for j in range(less,more):
-    output.append(high[j])
-
-print(output)
+# a = "iam good"
+# b = "he is is great"
 #
+# sep1 = a.split()
+# sep2 = b.split()
+#
+# output = []
+#
+# x = len(sep1) # 2
+# y = len(sep2)  # 4
+#
+# if x>y:
+#     more = x
+#     high = sep1
+# else:
+#     more = y
+#     high = sep2
+#
+# if y<x:
+#      less = y
+# else:
+#     less = x
+#
+#
+# for i in range(min(len(sep1),len(sep2))):
+#     output.append(sep1[i])
+#     output.append(sep2[i])
+#
+# for j in range(less,more):
+#     output.append(high[j])
+#
+# print(output)
+# #
 
 
 
+# for i in range(1,3):
+#     for j in range(1,3):
+#         for k in range(1,3):
+#             print(i,j,k)
 
 
-
-
-
+#
+# seceret = 10
+#
+#
+# for i in range(3):
+#     user = int(input("enter the number:"))
+#     if user == seceret:
+#         print("win")
+#         break
+#     else:
+#         print("you loose continue")
+#         break
 
 
