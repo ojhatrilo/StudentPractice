@@ -103,7 +103,7 @@
 # String Methods
 
 
-# name = "tharani is good"
+name = "tharani is good"
 # print(name.upper())
 # print(name.lower())
 # print(name.capitalize())
@@ -149,13 +149,13 @@
 # endswith
 
 
-# # Join
+# Join
 # users = ['Dave', 'John', 'Sara']
 # print(users)
 # z = " ".join(users)
 # print(z)
 
-# # split
+# split
 # name = "tharani is good"
 # x = name.split()
 # print(x)
@@ -175,7 +175,9 @@
 # Acessing the list items
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # list1[0] = 56
-# print(list1[0])
+#
+#
+# print(list1[1])
 
 
 
@@ -262,13 +264,13 @@
 # Tuples
 # It is used to store multiple items in a single variable
 # It allows duplicates
-# It is odered
+# It is ordered
 # It is not changeable or not mutable
 # To create tuples "()"
 # To convert into tuples we use "tuple()"
 
 
-
+#
 # anothertuple = (1, 4, 2, 8, 2, 2)
 # y = anothertuple.index(1)
 # print(y)
@@ -301,13 +303,15 @@
 # Sets are unodered, unchageable, unidexed
 # Sets can be converted using "set()"
 
-# thisset = {1,2,3,4,45,6,5,34,33,45,23}
-# # x = (32 not in thisset)
-# print(len(thisset))
-# print(thisset)
 
+# thisset = {1,2,3,4,45,6,5,34,33,45,23}
+# x = (32 not in thisset)
+# print(len(thisset))
+# print(thisset,x)
 # nums = {1, True, 2, False, 3, 4, 0}
 # print(nums)
+
+
 
 # Dictionaries 
 # Dictionaries are used to store key,value pairs
@@ -319,14 +323,14 @@
 
 # Acessing the particular value from the dict
 #
-# a = {
-#     "name":"Ranjani",
-#     "age":25,
-#     "address":"UK"
-# }
+a = {
+    "name":"Ranjani",
+    "age":25,
+    "address":"UK"
+}
 # print(a)
-# print(a["address"])
-# print(a.get("age"))
+# print(a["addresss"])
+# print(a.get("ages"))
 
 # # Acessing the keys from the dict
 # print(a.keys())
@@ -339,7 +343,7 @@
 # x = a.items()
 # y = list(x)
 # z = y[0]
-# print(y)
+# print(z)
 
 
 # # Type check
@@ -350,9 +354,9 @@
 
 # # Change values
 # a["name"] = "sarvesh"
+# print(a)
 
 # a["engineer"] = "smart"
-# a.update(z)
 # print(a)
 
 # # convert to dict
@@ -360,7 +364,7 @@
 # print(op)
 
 # # Nested dictionaries
-
+#
 # member1 = {
 #     "name": "Plant",
 #     "instrument": "vocals"
@@ -373,10 +377,10 @@
 #     "member1": member1,
 #     "member2": member2
 # }
-# print(band)
+#  print(band)
 # print(band["member1"]["name"])
 
-#
+
 # family = {
 #
 # "father" : {
@@ -387,7 +391,7 @@
 # "mother":"meena",
 # "status":"death"
 # }
-#
+# #
 # }
 # print(family["grandFather"])
 
@@ -486,7 +490,13 @@
 
 
 
+# a = "qw"
+# print(a.isalpha())
 
+
+# for i in range(0,3):
+#     for j in range(0,3):
+#         print(i,j)
 
 
 
