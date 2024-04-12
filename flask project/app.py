@@ -1,4 +1,7 @@
 # Store this code in 'app.py' file
+#  Make sure you have Python installed on your machine and also install the required libraries by running: pip install
+# You should install the bellow  libraries before running the program:
+# pip install flask
 
 from flask import Flask, render_template, request, redirect, url_for, session
 from flask_mysqldb import MySQL

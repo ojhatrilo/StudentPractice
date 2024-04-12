@@ -149,11 +149,12 @@ name = "tharani is good"
 # endswith
 
 
-# # Join
+# Join
 # users = ['Dave', 'John', 'Sara']
 # print(users)
 # z = " ".join(users)
 # print(z)
+
 
 
 # split
@@ -177,6 +178,11 @@ name = "tharani is good"
 # Acessing the list items
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # list1[0] = 56
+
+#
+#
+# print(list1[1])
+
 # print(list1)
 
 
@@ -264,13 +270,13 @@ name = "tharani is good"
 # Tuples
 # It is used to store multiple items in a single variable
 # It allows duplicates
-# It is odered
+# It is ordered
 # It is not changeable or not mutable
 # To c"reate tuples "()
 # To convert into tuples we use "tuple()"
 
 
-
+#
 # anothertuple = (1, 4, 2, 8, 2, 2)
 # y = anothertuple.index(1)
 # print(y)
@@ -303,14 +309,21 @@ name = "tharani is good"
 # Sets are unodered, unchageable, unidexed
 # Sets can be converted using "set()"
 
+
 # thisset = {1,2,3,4,45,6,5,34,33,45,23}
 # x = (23 not in thisset)
 # print(x)
 # print(len(thisset))
 # print(thisset)
 
+# thisset = {1,2,3,4,45,6,5,34,33,45,23}
+# x = (32 not in thisset)
+# print(len(thisset))
+# print(thisset,x)
 # nums = {1, True, 2, False, 3, 4, 0}
 # print(nums)
+
+
 
 # Dictionaries 
 # Dictionaries are used to store key,value pairs
@@ -322,14 +335,14 @@ name = "tharani is good"
 
 # Acessing the particular value from the dict
 #
-# a = {
-#     "name":"Ranjani",
-#     "age":25,
-#     "address":"UK"
-# }
+a = {
+    "name":"Ranjani",
+    "age":25,
+    "address":"UK"
+}
 # print(a)
-# print(a["address"])
-# print(a.get("age"))
+# print(a["addresss"])
+# print(a.get("ages"))
 
 # # Acessing the keys from the dict
 # print(a.keys())
@@ -342,7 +355,7 @@ name = "tharani is good"
 # x = a.items()
 # y = list(x)
 # z = y[0]
-# print(y)
+# print(z)
 
 
 # # Type check
@@ -353,10 +366,15 @@ name = "tharani is good"
 
 # # Change values
 # a["name"] = "sarvesh"
+
+# print(a)
+
+# a["engineer"] = "smart"
+
 # a["name"] = "vishwa"
 #
 # a["engineer"] = "smart"
-#
+
 # print(a)
 
 # # convert to dict
@@ -364,7 +382,7 @@ name = "tharani is good"
 # print(op)
 
 # # Nested dictionaries
-
+#
 # member1 = {
 #     "name": "Plant",
 #     "instrument": "vocals"
@@ -377,10 +395,10 @@ name = "tharani is good"
 #     "member1": member1,
 #     "member2": member2
 # }
-# print(band)
+#  print(band)
 # print(band["member1"]["name"])
 
-#
+
 # family = {
 #
 # "father" : {
@@ -391,7 +409,7 @@ name = "tharani is good"
 # "mother":"meena",
 # "status":"death"
 # }
-#
+# #
 # }
 # print(family)
 
@@ -490,7 +508,13 @@ name = "tharani is good"
 
 
 
+# a = "qw"
+# print(a.isalpha())
 
+
+# for i in range(0,3):
+#     for j in range(0,3):
+#         print(i,j)
 
 
 
