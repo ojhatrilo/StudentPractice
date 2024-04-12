@@ -103,14 +103,14 @@
 # String Methods
 
 
-# name = "tharani is good"
+name = "tharani is good"
 # print(name.upper())
 # print(name.lower())
 # print(name.capitalize())
 # print(name.title())
 # print(name.replace('good','super'))
 # print(len(name))
-# print(name.strip())
+# print(name.strip()
 
 # Build a menu
 # title = "menu".upper()
@@ -155,7 +155,8 @@
 # z = " ".join(users)
 # print(z)
 
-# # split
+
+# split
 # name = "tharani is good"
 # x = name.split()
 # print(x)
@@ -168,9 +169,10 @@
 # It can store multiple datatyes in single Variable
 # To convert list we use "list()"
 
-#
+
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # print(list1)
+
 
 # Acessing the list items
 # list1 = [21,"hellow",True,23.5,"hellow"]
