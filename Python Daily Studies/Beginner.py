@@ -103,7 +103,7 @@
 # String Methods
 
 
-name = "tharani is good"
+# name = "tharani is good"
 # print(name.upper())
 # print(name.lower())
 # print(name.capitalize())
@@ -170,7 +170,7 @@ name = "tharani is good"
 # It can store multiple datatyes in single Variable
 # To convert list we use "list()"
 
-
+#
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # print(list1)
 
@@ -178,11 +178,11 @@ name = "tharani is good"
 # Acessing the list items
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # list1[0] = 56
-
 #
-#
+# #
+# #
 # print(list1[1])
-
+#
 # print(list1)
 
 
@@ -334,15 +334,16 @@ name = "tharani is good"
  
 
 # Acessing the particular value from the dict
-#
+
 a = {
     "name":"Ranjani",
     "age":25,
     "address":"UK"
 }
 # print(a)
-# print(a["addresss"])
-# print(a.get("ages"))
+# print(a["age"])
+# print(a.get("age"))
+
 
 # # Acessing the keys from the dict
 # print(a.keys())
@@ -354,7 +355,7 @@ a = {
 # print(a.items())
 # x = a.items()
 # y = list(x)
-# z = y[0]
+# z = y[0:2]
 # print(z)
 
 
@@ -366,10 +367,11 @@ a = {
 
 # # Change values
 # a["name"] = "sarvesh"
-
+#
 # print(a)
 
 # a["engineer"] = "smart"
+# print(a)
 
 # a["name"] = "vishwa"
 #
@@ -395,9 +397,9 @@ a = {
 #     "member1": member1,
 #     "member2": member2
 # }
-#  print(band)
+# # print(band)
 # print(band["member1"]["name"])
-
+#
 
 # family = {
 #

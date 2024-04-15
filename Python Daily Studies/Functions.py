@@ -53,7 +53,7 @@
 # #
 # #
 # multiple_items("Dave", "John", "Sara")
-# #
+# # #
 # def multiple_items(*args):
 #    print(args + args)
 #    print(type(args))
@@ -82,22 +82,25 @@
 
 
 
-# Iterator
-# define a list
+# # Iterator
+# # define a list
 # my_list = [4, 7, 0]
-# #
-# # create an iterator from the list
+# # #
+# # # create an iterator from the list
 # iterator = iter(my_list)
-#
-# # get the first element of the iterator
+# #
+# # # get the first element of the iterator
 # print(next(iterator))  # prints 4
-#
-# # get the second element of the iterator
+# #
+# # # get the second element of the iterator
 # print(next(iterator))  # prints 7
-#
-# # get the third element of the iterator
+# #
+# # # get the third element of the iterator
 # print(next(iterator))  # prints 0
+#
 
+
+# print(next(iterator))
 
 # # Generator
 # def my_generator(n):
@@ -113,8 +116,8 @@
 #
 #         # increment the counter
 #         value += 1
-
-# iterate over the generator object produced by my_generator
+#
+# # iterate over the generator object produced by my_generator
 # print(list( my_generator(4)))
 
     # print each value produced by generator
@@ -144,10 +147,10 @@
 #
 # tommy = parent_function("Tommy", 3) # play_game
 # jenny = parent_function("Jenny", 5)
-
+#
 # tommy()
 # tommy()
-# #
+# # #
 # jenny()
 # tommy()
 
@@ -172,8 +175,8 @@
 # # define ordinary function
 # def ordinary():
 #    print("I am ordinary")
-
-
+#
+#
 # # decorate the ordinary function
 # decorated_func = make_pretty(ordinary)
 #
@@ -221,6 +224,30 @@
 # se=hello()
 # se()
 
+
+
+
+# def add(func):
+#     a = 25
+#     b = 21
+#     c = a+b
+#
+#     def sub():
+#         nonlocal a
+#         nonlocal c
+#         num1 = c
+#         num2 = a
+#         z = num1 - num2
+#
+#         print(z)
+#         func(z)
+#
+#     return sub
+# @add
+# def mul(a):
+#     print(a*5)
+#
+# mul()
 
 
 

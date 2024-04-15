@@ -135,4 +135,26 @@
 #         print("you loose continue")
 #         break
 
+#
+# list1 = [22,44,55,44,55,22]
+#
+# count = 0
+# value = list1[0]
+# list2 = []
+#
+# for i in list1:
+#     value = i
+#     for j in list1:
+#         if i == j:
+#             count +=1
+#
+#     if (str(i)+"-"+str(count)) not in list2:
+#         list2.append(str(i)+"-"+str(count))
+#         count = 0
+#     else:
+#         count = 0
+#
+#
+# print(list2)
+
 
