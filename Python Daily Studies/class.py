@@ -2,15 +2,19 @@
 # Program to demonstrate 'Variable
 # defined outside the class'
 
-# class Hello:
-#     x = "Hello iam Executed"
-#     print(x)
-#
-#     def hi(self):
-#         return ("Hi")
-#
-# obj = Hello()
-# print(obj.hi())
+class Hello:
+    x = "Hello iam Executed"
+    print(x)
+
+    def hi(self):
+        return ("Hi")
+
+    def hello(self):
+        return ("ajay")
+
+obj = Hello()
+print(obj.hello())
+print(obj.hi())
 
 
 
@@ -256,16 +260,16 @@
 
 
 
-class Elakkiya:
-    print("XXYY")
-
-    def __init__(self):
-        self.staf1 = "Kishore"
-        self.staf2 = "Karthick"
-        self.staf3 =  "Priya"
-        print(self.staf1+"\n"+self.staf2)
-
-Elakkiya()
+# class Elakkiya:
+#     print("XXYY")
+#
+#     def __init__(self):
+#         self.staf1 = "Kishore"
+#         self.staf2 = "Karthick"
+#         self.staf3 =  "Priya"
+#         print(self.staf1+"\n"+self.staf2)
+#
+# Elakkiya()
 
 
 

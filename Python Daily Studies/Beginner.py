@@ -1,6 +1,6 @@
 # a = 23
-# b = 32
-# c = a > b
+# b = 23
+# c = a != b
 # print(c)
 
 # Data Types 
@@ -25,7 +25,7 @@
 # in
 # not in
 # a = "my name is Ms.Santhoshni"
-# print("Santhoshni" not in a)
+# print("Santhoshni" in a)
 
 # Logical Operators
 # and
@@ -83,7 +83,7 @@
 # print(single_char)
 
 # Accessing the mutiple characters from the given string
-# first_name = "Tharani Kumar"
+first_name = "Tharani Kumar"
 # single_char = first_name[0:7]
 # single_char = first_name[::-1]
 # print(single_char)
@@ -103,22 +103,22 @@
 # String Methods
 
 
-# name = "tharani is good"
+name = "   tharani is good"
 # print(name.upper())
 # print(name.lower())
 # print(name.capitalize())
 # print(name.title())
 # print(name.replace('good','super'))
 # print(len(name))
-# print(name.strip()
+# print(name.strip())
 
-# Build a menu
+# # Build a menu
 # title = "menu".upper()
 # print(title.center(20, "="))
 # print("Coffee".ljust(16, ".") + "$1".rjust(4))
 # print("Muffin".ljust(16, ".") + "$2".rjust(4))
 # print("Cheesecake".ljust(16, ".") + "$4".rjust(4))
-
+#
 # name = "tharani is good"
 # print(name.startswith("t"))
 
@@ -179,8 +179,7 @@
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # list1[0] = 56
 #
-# #
-# #
+
 # print(list1[1])
 #
 # print(list1)
@@ -257,7 +256,7 @@
 
 # pop
 # a = [1,2,3,4,5,"hello"]
-# a.pop(1)
+# a.pop()
 # print(a)
 
 # remove
@@ -278,7 +277,7 @@
 
 #
 # anothertuple = (1, 4, 2, 8, 2, 2)
-# y = anothertuple.index(1)
+# y = anothertuple.index(2)
 # print(y)
 
 # anothertuple = (1, 4, 2, 8, 2, 2)
@@ -335,11 +334,11 @@
 
 # Acessing the particular value from the dict
 
-a = {
-    "name":"Ranjani",
-    "age":25,
-    "address":"UK"
-}
+# a = {
+#     "name":"Ranjani",
+#     "age":25,
+#     "address":"UK"
+# }
 # print(a)
 # print(a["age"])
 # print(a.get("age"))

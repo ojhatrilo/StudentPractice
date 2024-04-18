@@ -27,6 +27,12 @@
 #     print(quotient[i],end=' ')
 
 
+a = "hello every one"
+x = a[12:15]
+# print(x)
+y = x[::-1]
+print(y)
+
 
 
 
