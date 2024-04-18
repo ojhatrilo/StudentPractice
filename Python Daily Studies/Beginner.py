@@ -103,7 +103,11 @@ first_name = "Tharani Kumar"
 # String Methods
 
 
-name = "   tharani is good"
+
+name = "tharani is good"
+
+# name = "tharani is good"
+
 # print(name.upper())
 # print(name.lower())
 # print(name.capitalize())
@@ -506,16 +510,26 @@ name = "   tharani is good"
 #         print("value found at index ",count)
 # print(count)
 
-
-
-
 # a = "qw"
 # print(a.isalpha())
-
-
 # for i in range(0,3):
 #     for j in range(0,3):
 #         print(i,j)
+
+
+
+
+
+
+list1 = [22,12,34,65,23]
+
+add = 0
+for i in list1:
+    add+=i
+
+print(add)
+
+
 
 
 
