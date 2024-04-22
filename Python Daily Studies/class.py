@@ -2,19 +2,19 @@
 # Program to demonstrate 'Variable
 # defined outside the class'
 
-class Hello:
-    x = "Hello iam Executed"
-    print(x)
-
-    def hi(self):
-        return ("Hi")
-
-    def hello(self):
-        return ("ajay")
-
-obj = Hello()
-print(obj.hello())
-print(obj.hi())
+# class Hello:
+#     x = "Hello iam Executed"
+#     print(x)
+#
+#     def hi(self):
+#         return ("Hi")
+#
+#     def hello(self):
+#         return ("ajay")
+#
+# obj = Hello()
+# print(obj.hello())
+# print(obj.hi())
 
 
 
@@ -34,18 +34,18 @@ print(obj.hi())
 
 
 # Python program to illustrate destructor
-# class Employee:
-#
-# 	# Initializing
-# 	def __init__(self):
-# 		print('Employee created.')
-#
-# 	# Deleting (Calling destructor)
-# 	def __del__(self):
-# 		print('Destructor called, Employee deleted.')
-#
-# obj = Employee()
-# del obj
+class Employee:
+
+	# Initializing
+	def __init__(self):
+		print('Employee created.')
+
+	# Deleting (Calling destructor)
+	def __del__(self):
+		print('Destructor called, Employee deleted.')
+
+obj = Employee()
+del obj
 
 
 

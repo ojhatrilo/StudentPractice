@@ -50,7 +50,7 @@
 #
 #     def addition(self):
 #         return self.num1 + self.num2
-
+#
 # class sub(add):
 #     # def __init__(self,num1,num2):
 #     #     self.num1 = num1
@@ -182,23 +182,21 @@
 # print(divchange.division())
 
 
-
-class myclass:
-
-
-
-    def __init__(self,num1,num2):
-        self.num1 = num1
-        self.num2 = num2
-    def add(self):
-
-       return self.num1+self.num2
-
-    def sub(self):
-        return self.num2 - self.num1
-
-obj = myclass(34,43)
-print(obj.add())
+#
+# class myclass:
+#
+#     def __init__(self,num1,num2):
+#         self.num1 = num1
+#         self.num2 = num2
+#     def add(self):
+#
+#        return self.num1+self.num2
+#
+#     def sub(self):
+#         return self.num2 - self.num1
+#
+# obj = myclass(34,43)
+# print(obj.add())
 # print(obj.sub())
 
 

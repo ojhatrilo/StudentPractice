@@ -333,21 +333,21 @@ name = "tharani is good"
 # Dictionaries 
 # Dictionaries are used to store key,value pairs
 # Dictionaries are used to create "{}"
-# Dictionaries are odered,changeable, not indexed and 
+# Dictionaries are odered, changeable, and not indexed
 # Dictionaries do not allow duplicates
 # We have nested dictionaries 
  
 
 # Acessing the particular value from the dict
 
-# a = {
-#     "name":"Ranjani",
-#     "age":25,
-#     "address":"UK"
-# }
+a = {
+    "name":"Ranjani",
+    "age":25,
+    "address":"UK"
+}
 # print(a)
 # print(a["age"])
-# print(a.get("age"))
+# print(a.get("ages"))
 
 
 # # Acessing the keys from the dict
@@ -388,8 +388,8 @@ name = "tharani is good"
 # op = dict(name = "super man", age=1000)
 # print(op)
 
-# # Nested dictionaries
-#
+# Nested dictionaries
+
 # member1 = {
 #     "name": "Plant",
 #     "instrument": "vocals"
@@ -402,7 +402,7 @@ name = "tharani is good"
 #     "member1": member1,
 #     "member2": member2
 # }
-# # print(band)
+# print(band)
 # print(band["member1"]["name"])
 #
 
