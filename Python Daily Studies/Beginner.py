@@ -182,10 +182,11 @@ name = "tharani is good"
 # Acessing the list items
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # list1[0] = 56
-#
+# print(list1[0:3])
+# print(len(list1))
 
 # print(list1[1])
-#
+# #
 # print(list1)
 
 
@@ -239,7 +240,8 @@ name = "tharani is good"
 
 # append
 # a = [1,2,3,4,5,"hello"]
-# a.append("sir")
+# a1 = 'JOE'
+# a.append(a1)
 # print(a)
 
 # Extend
@@ -260,12 +262,12 @@ name = "tharani is good"
 
 # pop
 # a = [1,2,3,4,5,"hello"]
-# a.pop()
+# a.pop(3)
 # print(a)
 
 # remove
 # a = [1,2,3,4,5,"hello"]
-# a.remove(3)
+# a.remove(4)
 # print(a)
 
 
@@ -521,13 +523,13 @@ name = "tharani is good"
 
 
 
-list1 = [22,12,34,65,23]
-
-add = 0
-for i in list1:
-    add+=i
-
-print(add)
+# list1 = [22,12,34,65,23]
+#
+# add = 0
+# for i in list1:
+#     add+=i
+#
+# print(add)
 
 
 
