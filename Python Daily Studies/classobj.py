@@ -125,6 +125,7 @@
 #         break
 
 
+
 # Multiple Inheritance
 # class add:
 #     def __init__(self,num1,num2):

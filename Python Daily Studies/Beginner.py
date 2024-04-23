@@ -277,11 +277,10 @@
 # It allows duplicates
 # It is ordered
 # It is not changeable or not mutable
-# To c"reate tuples "()
+# To create tuples "()"
 # To convert into tuples we use "tuple()"
 
 
-#
 # anothertuple = (1, 4, 2, 8, 2, 2)
 # y = anothertuple.index(2)
 # print(y)

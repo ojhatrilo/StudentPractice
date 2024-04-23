@@ -1,6 +1,6 @@
-def vowels(var):
+def vowels():
     print("Removing vowels letters from the given word")
-    # var=input("enter the word:").lower()
+    var=input("enter the word:").lower()
     list1=["a","e","i","o","u"]
     end=''
     for i in var:
@@ -8,11 +8,13 @@ def vowels(var):
             end+=''.join(i)
     print(end)
 
-def idmatrix(num):
-    for i in range(num):
-        for j in range(num):
-            if i==j:
-                print(num,end=" ")
-            else:
-                print("*",end=" ")
-        print()
+vowels()
+
+# def idmatrix(num):
+#     for i in range(num):
+#         for j in range(num):
+#             if i==j:
+#                 print(num,end=" ")
+#             else:
+#                 print("*",end=" ")
+#         print()
