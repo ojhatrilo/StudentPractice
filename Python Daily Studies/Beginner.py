@@ -110,7 +110,7 @@
 # print(name.title())
 # print(name.replace('good','super'))
 # print(len(name))
-# print(name.strip()
+# print(name.strip())
 
 # Build a menu
 # title = "menu".upper()
@@ -335,22 +335,22 @@
 
 # Acessing the particular value from the dict
 #
-a = {
-    "name":"Ranjani",
-    "age":25,
-    "address":"UK"
-}
+# a = {
+#     "name":"Ranjani",
+#     "age":25,
+#     "address":"UK"
+# }
 # print(a)
-# print(a["addresss"])
+# print(a["address"])
 # print(a.get("ages"))
 
-# # Acessing the keys from the dict
+# Acessing the keys from the dict
 # print(a.keys())
 
-# #  Acessing the values from the dict
+#  Acessing the values from the dict
 # print(a.values())
 
-# # Acessing the key,value pairs from the dict
+# Acessing the key,value pairs from the dict
 # print(a.items())
 # x = a.items()
 # y = list(x)
@@ -395,7 +395,7 @@ a = {
 #     "member1": member1,
 #     "member2": member2
 # }
-#  print(band)
+# print(band)
 # print(band["member1"]["name"])
 
 
@@ -411,7 +411,7 @@ a = {
 # }
 # #
 # }
-# print(family)
+# print(family["father"])
 
 
 # if and else condition
@@ -470,7 +470,7 @@ a = {
 
 # Dict loops
 # value = {
-#     "name":"ojha",
+#     "name":"ojha",  
 #     "age":23,
 #     "phone":1234567890
 # }
@@ -515,14 +515,31 @@ a = {
 
 
 
+#
+# list1 = [22,12,34,65,23]
+#
+# add = 0
+# for i in list1:
+#     add+=i
+#
+# print(add)
 
-list1 = [22,12,34,65,23]
 
-add = 0
-for i in list1:
-    add+=i
+# list1 = [22,44,55,86,92,55]
 
-print(add)
+# count = 0-1
+# key = 55
+#
+# for i in list1:
+#     count+=1
+#     if i == key:
+#         print("55 in index of",count)
+
+
+# add = 0
+# for i in list1:
+#     add+=i
+# print(add)
 
 
 

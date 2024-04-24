@@ -122,6 +122,14 @@
 #             print(i,j,k)
 
 
+
+
+
+
+
+
+
+
 #
 # seceret = 10
 #
@@ -134,5 +142,34 @@
 #     else:
 #         print("you loose continue")
 #         break
+
+
+
+# list1 = [56,23,15,45,34,72]
+#
+# for num in list1:
+#     if num%2 != 0:
+#         print(num)
+
+
+# n = int(input("Enter The number:"))
+# for i in range(n):
+#     for j in range(n):
+#         if i == j:
+#             print("*",end=" ")
+#         else:
+#             print(0,end=" ")
+#     print()
+
+
+
+
+
+
+
+
+
+
+
 
 

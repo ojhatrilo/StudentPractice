@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.greeting{
+
+  padding-top: 20px;
+}
+
+.card{
+  margin: 10px;
+  max-width: 250px;
+  border: solid hsla(0, 1%, 22%, 0.572);
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 52%);
+  padding:20px
+  
+}
