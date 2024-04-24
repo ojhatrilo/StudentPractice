@@ -39,12 +39,12 @@ import re
 #     print("invalid")
 
 
-import re
-
-pattern = r'^[a-zA-Z0-9]{8}$'  # This pattern matches strings with exactly 8 alphanumeric characters
-input_str = input("enter the number:")
-
-if re.match(pattern, input_str):
-    print("Valid input")
-else:
-    print("Invalid input")
+# import re
+#
+# pattern = r'^[a-zA-Z0-9]{8}$'  # This pattern matches strings with exactly 8 alphanumeric characters
+# input_str = input("enter the number:")
+#
+# if re.match(pattern, input_str):
+#     print("Valid input")
+# else:
+#     print("Invalid input")

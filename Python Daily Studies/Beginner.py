@@ -1,6 +1,6 @@
 # a = 23
-# b = 32
-# c = a > b
+# b = 23
+# c = a != b
 # print(c)
 
 # Data Types 
@@ -25,7 +25,7 @@
 # in
 # not in
 # a = "my name is Ms.Santhoshni"
-# print("Santhoshni" not in a)
+# print("Santhoshni" in a)
 
 # Logical Operators
 # and
@@ -103,7 +103,11 @@
 # String Methods
 
 
+
 # name = "tharani is good"
+
+# name = "tharani is good"
+
 # print(name.upper())
 # print(name.lower())
 # print(name.capitalize())
@@ -112,13 +116,13 @@
 # print(len(name))
 # print(name.strip())
 
-# Build a menu
+# # Build a menu
 # title = "menu".upper()
 # print(title.center(20, "="))
 # print("Coffee".ljust(16, ".") + "$1".rjust(4))
 # print("Muffin".ljust(16, ".") + "$2".rjust(4))
 # print("Cheesecake".ljust(16, ".") + "$4".rjust(4))
-
+#
 # name = "tharani is good"
 # print(name.startswith("t"))
 
@@ -170,7 +174,7 @@
 # It can store multiple datatyes in single Variable
 # To convert list we use "list()"
 
-
+#
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # print(list1)
 
@@ -178,11 +182,11 @@
 # Acessing the list items
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # list1[0] = 56
+# print(list1[0:3])
+# print(len(list1))
 
-#
-#
 # print(list1[1])
-
+# #
 # print(list1)
 
 
@@ -236,7 +240,8 @@
 
 # append
 # a = [1,2,3,4,5,"hello"]
-# a.append("sir")
+# a1 = 'JOE'
+# a.append(a1)
 # print(a)
 
 # Extend
@@ -257,12 +262,12 @@
 
 # pop
 # a = [1,2,3,4,5,"hello"]
-# a.pop(1)
+# a.pop(3)
 # print(a)
 
 # remove
 # a = [1,2,3,4,5,"hello"]
-# a.remove(3)
+# a.remove(4)
 # print(a)
 
 
@@ -272,13 +277,12 @@
 # It allows duplicates
 # It is ordered
 # It is not changeable or not mutable
-# To c"reate tuples "()
+# To create tuples "()"
 # To convert into tuples we use "tuple()"
 
 
-#
 # anothertuple = (1, 4, 2, 8, 2, 2)
-# y = anothertuple.index(1)
+# y = anothertuple.index(2)
 # print(y)
 
 # anothertuple = (1, 4, 2, 8, 2, 2)
@@ -328,12 +332,13 @@
 # Dictionaries 
 # Dictionaries are used to store key,value pairs
 # Dictionaries are used to create "{}"
-# Dictionaries are odered,changeable, not indexed and 
+# Dictionaries are odered, changeable, and not indexed
 # Dictionaries do not allow duplicates
 # We have nested dictionaries 
  
 
 # Acessing the particular value from the dict
+
 #
 # a = {
 #     "name":"Ranjani",
@@ -345,6 +350,20 @@
 # print(a.get("ages"))
 
 # Acessing the keys from the dict
+
+
+a = {
+    "name":"Ranjani",
+    "age":25,
+    "address":"UK"
+}
+# print(a)
+# print(a["age"])
+# print(a.get("ages"))
+
+
+# # Acessing the keys from the dict
+
 # print(a.keys())
 
 #  Acessing the values from the dict
@@ -354,7 +373,7 @@
 # print(a.items())
 # x = a.items()
 # y = list(x)
-# z = y[0]
+# z = y[0:2]
 # print(z)
 
 
@@ -366,10 +385,11 @@
 
 # # Change values
 # a["name"] = "sarvesh"
-
+#
 # print(a)
 
 # a["engineer"] = "smart"
+# print(a)
 
 # a["name"] = "vishwa"
 #
@@ -381,8 +401,8 @@
 # op = dict(name = "super man", age=1000)
 # print(op)
 
-# # Nested dictionaries
-#
+# Nested dictionaries
+
 # member1 = {
 #     "name": "Plant",
 #     "instrument": "vocals"
@@ -397,7 +417,7 @@
 # }
 # print(band)
 # print(band["member1"]["name"])
-
+#
 
 # family = {
 #
@@ -525,6 +545,7 @@
 # print(add)
 
 
+
 # list1 = [22,44,55,86,92,55]
 
 # count = 0-1
@@ -539,6 +560,14 @@
 # add = 0
 # for i in list1:
 #     add+=i
+
+# list1 = [22,12,34,65,23]
+#
+# add = 0
+# for i in list1:
+#     add+=i
+#
+
 # print(add)
 
 

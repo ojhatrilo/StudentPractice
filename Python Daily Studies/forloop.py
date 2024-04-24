@@ -143,6 +143,43 @@
 #         print("you loose continue")
 #         break
 
+#
+# list1 = [22,44,55,44,55,22]
+#
+# count = 0
+# value = list1[0]
+# list2 = []
+#
+# for i in list1:
+#     value = i
+#     for j in list1:
+#         if i == j:
+#             count +=1
+#
+#     if (str(i)+"-"+str(count)) not in list2:
+#         list2.append(str(i)+"-"+str(count))
+#         count = 0
+#     else:
+#         count = 0
+#
+#
+# print(list2)
+
+
+# def group_anagrams(words):
+#     anagram_dict = {}
+#     for word in words:
+#         sorted_word = ''.join(sorted(word))
+#         if sorted_word in anagram_dict:
+#             anagram_dict[sorted_word].append(word)
+#         else:
+#             anagram_dict[sorted_word] = [word]
+#     return list(anagram_dict.values())
+#
+#
+# words = ['lump', 'eat', 'me', 'tea', 'em', 'plum']
+# print(group_anagrams(words))
+
 
 
 # list1 = [56,23,15,45,34,72]

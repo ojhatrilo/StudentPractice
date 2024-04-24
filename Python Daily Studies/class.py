@@ -9,7 +9,11 @@
 #     def hi(self):
 #         return ("Hi")
 #
+#     def hello(self):
+#         return ("ajay")
+#
 # obj = Hello()
+# print(obj.hello())
 # print(obj.hi())
 
 
@@ -30,18 +34,18 @@
 
 
 # Python program to illustrate destructor
-# class Employee:
-#
-# 	# Initializing
-# 	def __init__(self):
-# 		print('Employee created.')
-#
-# 	# Deleting (Calling destructor)
-# 	def __del__(self):
-# 		print('Destructor called, Employee deleted.')
-#
-# obj = Employee()
-# del obj
+class Employee:
+
+	# Initializing
+	def __init__(self):
+		print('Employee created.')
+
+	# Deleting (Calling destructor)
+	def __del__(self):
+		print('Destructor called, Employee deleted.')
+
+obj = Employee()
+del obj
 
 
 
@@ -256,16 +260,16 @@
 
 
 
-class Elakkiya:
-    print("XXYY")
-
-    def __init__(self):
-        self.staf1 = "Kishore"
-        self.staf2 = "Karthick"
-        self.staf3 =  "Priya"
-        print(self.staf1+"\n"+self.staf2)
-
-Elakkiya()
+# class Elakkiya:
+#     print("XXYY")
+#
+#     def __init__(self):
+#         self.staf1 = "Kishore"
+#         self.staf2 = "Karthick"
+#         self.staf3 =  "Priya"
+#         print(self.staf1+"\n"+self.staf2)
+#
+# Elakkiya()
 
 
 
