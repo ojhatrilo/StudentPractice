@@ -339,6 +339,19 @@
 
 # Acessing the particular value from the dict
 
+#
+# a = {
+#     "name":"Ranjani",
+#     "age":25,
+#     "address":"UK"
+# }
+# print(a)
+# print(a["address"])
+# print(a.get("ages"))
+
+# Acessing the keys from the dict
+
+
 a = {
     "name":"Ranjani",
     "age":25,
@@ -350,12 +363,13 @@ a = {
 
 
 # # Acessing the keys from the dict
+
 # print(a.keys())
 
-# #  Acessing the values from the dict
+#  Acessing the values from the dict
 # print(a.values())
 
-# # Acessing the key,value pairs from the dict
+# Acessing the key,value pairs from the dict
 # print(a.items())
 # x = a.items()
 # y = list(x)
@@ -417,7 +431,7 @@ a = {
 # }
 # #
 # }
-# print(family)
+# print(family["father"])
 
 
 # if and else condition
@@ -475,7 +489,7 @@ a = {
 
 # Dict loops
 # value = {
-#     "name":"ojha",
+#     "name":"ojha",  
 #     "age":23,
 #     "phone":1234567890
 # }
@@ -520,6 +534,31 @@ a = {
 
 
 
+#
+# list1 = [22,12,34,65,23]
+#
+# add = 0
+# for i in list1:
+#     add+=i
+#
+# print(add)
+
+
+
+# list1 = [22,44,55,86,92,55]
+
+# count = 0-1
+# key = 55
+#
+# for i in list1:
+#     count+=1
+#     if i == key:
+#         print("55 in index of",count)
+
+
+# add = 0
+# for i in list1:
+#     add+=i
 
 # list1 = [22,12,34,65,23]
 #
@@ -527,6 +566,7 @@ a = {
 # for i in list1:
 #     add+=i
 #
+
 # print(add)
 
 
