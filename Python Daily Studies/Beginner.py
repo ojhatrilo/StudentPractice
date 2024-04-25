@@ -346,7 +346,7 @@ a = {
 }
 # print(a)
 # print(a["age"])
-# print(a.get("ages"))
+# print(a.get("age"))
 
 
 # # Acessing the keys from the dict
@@ -359,7 +359,7 @@ a = {
 # print(a.items())
 # x = a.items()
 # y = list(x)
-# z = y[0:2]
+# z = y[1]
 # print(z)
 
 
@@ -388,7 +388,7 @@ a = {
 # print(op)
 
 # Nested dictionaries
-
+# 
 # member1 = {
 #     "name": "Plant",
 #     "instrument": "vocals"
@@ -434,11 +434,11 @@ a = {
 
 # a = 24
 # b = 24
-# if a==b:
+# if a!=b:
 #     a+=23
 #     print(a)
 # else:
-#     b+=23
+#     b+=27
 #     print(b)
 
 # if b%2==0:
@@ -453,7 +453,7 @@ a = {
 #
 #     if a%2 == 0:
 #         print("divisible by 2")
-#     elif  a%3 == 0:
+#     elif a%3 == 0:
 #         print("divisible by 3")
 #     elif a%5 == 0:
 #         print("divisible by 5")
@@ -462,7 +462,6 @@ a = {
 #
 # else:
 #     print("not divisible")
-
 
 # loops 
 # iterating the sequences like string, list, tuple, & sets etc
