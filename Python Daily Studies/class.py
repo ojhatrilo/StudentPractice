@@ -18,34 +18,34 @@
 
 
 
-# class print_str:
-#
-#     def __init__(self,name,age):
-#         self.name = name
-#         self.age = age
-#
-#     def __str__(self):
-#         return (f"{self.name},{self.age}")
-#
-#
-# hi=print_str("sony",24)
-# print(hi)
+class print_str:
+
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return (f"{self.name},{self.age}")
+
+
+hi=print_str("sony",24)
+print(hi)
 
 
 
 # Python program to illustrate destructor
-class Employee:
-
-	# Initializing
-	def __init__(self):
-		print('Employee created.')
-
-	# Deleting (Calling destructor)
-	def __del__(self):
-		print('Destructor called, Employee deleted.')
-
-obj = Employee()
-del obj
+# class Employee:
+#
+# 	# Initializing
+# 	def __init__(self):
+# 		print('Employee created.')
+#
+# 	# Deleting (Calling destructor)
+# 	def __del__(self):
+# 		print('Destructor called, Employee deleted.')
+#
+# obj = Employee()
+# del obj
 
 
 
