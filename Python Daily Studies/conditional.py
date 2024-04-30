@@ -26,19 +26,19 @@
 #     print("invalid input")
 
 # nested if else statement
-# a = int(input("enter the num1:"))
-# if a>0:
-#     if a%2==0:
-#         print("divisible by 2")
-#     elif a%3 == 0:
-#         print("divisible by 3")
-#     elif a%4 == 0:
-#         print("divisible by 4")
-#     else:
-#         print("not Match")
-#
-# else:
-#     print("invalid input")
+a = int(input("enter the num1:"))
+if a>0:
+    if a%2==0:
+        print("divisible by 2")
+    elif a%3 == 0:
+        print("divisible by 3")
+    elif a%4 == 0:
+        print("divisible by 4")
+    else:
+        print("not Match")
+
+else:
+    print("invalid input")
 #
 
 # num = int(input("Enter the number:"))
@@ -59,6 +59,47 @@
 #
 # else:
 #     print("Invalid Input")
+
+
+# num = int(input("Enter the number:"))
+#
+# if num%2 ==0 or num%3 ==0 or num%5 == 0:
+#     print("Not a prime")
+# else:
+#     print("Is a Prime")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

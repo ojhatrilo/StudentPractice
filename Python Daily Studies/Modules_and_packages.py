@@ -1,12 +1,16 @@
-# import package as pk
-#
-# Add1 = pk.add(2,3)
+import package as pk
+# from package import add as pk
+
+x = dir(pk)
+print(x)
+
+# Add1 = pk(2,3)
 # print(Add1.addition())
-#
+
 # pk.options()
+
 #
-#
-# from package import *
+
 # import package as pk
 # # options()
 # a = pk.person1["age"]
