@@ -448,12 +448,17 @@
 
 # a = 24
 # b = 24
+
 # if a==b:
 #     a+=23
+
+# if a!=b:
+#     a+=24
+
 #     print(a)
 # else:
 #     b+=27
-#     print(b)
+#     print(b)`
 
 # if b%2==0:
 #     print("divisible by 2")
@@ -461,13 +466,20 @@
 #     print("not divisible by 2")
 
 
+
 # a = int(input("Enter the number:"))
 # #
 # if 0<a<100:
+
+#
+# a = int(input("Enter the number:"))
+# #
+# if a>0:
+
 #
 #     if a%2 == 0:
 #         print("divisible by 2")
-#     elif a%3 == 0:
+#     if a%3 == 0:
 #         print("divisible by 3")
 #     elif a%5 == 0:
 #         print("divisible by 5")
