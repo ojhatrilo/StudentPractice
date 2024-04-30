@@ -5,7 +5,6 @@
 # Nested if else is the condition which is return inside the if statemet
 
 
-
 # if & else statement example
 # a = 23
 # b = 34
@@ -42,7 +41,24 @@
 #     print("invalid input")
 #
 
-
+# num = int(input("Enter the number:"))
+#
+# if 0<num<100:
+#     if num > 90:
+#         print("Grade O")
+#     elif num > 80:
+#         print("Grade A")
+#     elif num > 70:
+#         print("Grade B")
+#     elif num > 60:
+#         print("Grade C")
+#     elif num >50:
+#         print("Grade D")
+#     else:
+#         print("You are Fail")
+#
+# else:
+#     print("Invalid Input")
 
 
 

@@ -352,11 +352,11 @@
 # Acessing the keys from the dict
 
 
-a = {
-    "name":"Ranjani",
-    "age":25,
-    "address":"UK"
-}
+# a = {
+#     "name":"Ranjani",
+#     "age":25,
+#     "address":"UK"
+# }
 # print(a)
 # print(a["age"])
 # print(a.get("age"))
@@ -448,7 +448,7 @@ a = {
 
 # a = 24
 # b = 24
-# if a!=b:
+# if a==b:
 #     a+=23
 #     print(a)
 # else:
@@ -462,8 +462,8 @@ a = {
 
 
 # a = int(input("Enter the number:"))
-#
-# if a>0:
+# #
+# if 0<a<100:
 #
 #     if a%2 == 0:
 #         print("divisible by 2")
@@ -475,7 +475,7 @@ a = {
 #         print("not divisible by any number")
 #
 # else:
-#     print("not divisible")
+#     print("invalid input")
 
 # loops 
 # iterating the sequences like string, list, tuple, & sets etc
@@ -483,9 +483,19 @@ a = {
 # for loop
 # while loop
 
-# a =[1,2,3,"hellow"]
-# for i in a:
-#     print(i)
+a =[25,44,53,"hellow","hi","how"]
+num = []
+str1 = []
+
+for i in a:
+    x = str(i)
+    if x.isalpha():
+        str1.append(x)
+    else:
+        num.append(int(x))
+
+print(num)
+print(str1)
 
 # Dict loops
 # value = {
