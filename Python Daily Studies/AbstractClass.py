@@ -2,9 +2,9 @@
 # # abstract base class work
 
 
-# from abc import ABC, abstractmethod
-#
-#
+from abc import ABC, abstractmethod
+# #
+# #
 # class Polygon(ABC):
 #
 # 	@abstractmethod
@@ -38,9 +38,9 @@
 # 	# overriding abstract method
 # 	def noofsides(self):
 # 		print("I have 4 sides")
-
-
-# Driver code
+#
+#
+# # Driver code
 # R = Triangle()
 # R.noofsides()
 #
@@ -57,3 +57,14 @@
 # Cannot be called this method without inheriting it
 # obj1 = Polygon()
 # obj1.noofsides()
+
+
+# class Name(ABC):
+#     @abstractmethod
+#     def fname(self,name1):
+#         return name1
+# class Display(Name):
+#     def fname(self,name1):
+#         return name1
+# obj1 = Name()
+# print(obj1.fname("hello"))
