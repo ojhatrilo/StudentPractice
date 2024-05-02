@@ -495,27 +495,27 @@
 # for loop
 # while loop
 
-a =[25,44,53,"hellow","hi","how"]
-num = []
-str1 = []
-
-for i in a:
-    x = str(i)
-    if x.isalpha():
-        str1.append(x)
-    else:
-        num.append(int(x))
-
-print(num)
-print(str1)
+# a =[25,44,53,"hellow","hi","how"]
+# num = []
+# str1 = []
+#
+# for i in a:
+#     x = str(i)
+#     if x.isalpha():
+#         str1.append(x)
+#     else:
+#         num.append(int(x))
+#
+# print(num)
+# print(str1)
 
 # Dict loops
 # value = {
-#     "name":"ojha",  
+#     "name":"ojha",
 #     "age":23,
 #     "phone":1234567890
 # }
-
+#
 # for x in value:
 #     print(value[x])
 
@@ -525,8 +525,9 @@ print(str1)
 
 # to find the average of a given list
 # list1 = [23,45,32]
-# sum = 0
-# for i in list 1:
+# # sum = 0
+# for i in list1:
+#     sum = 0
 #     sum+=i
 # print(sum/len(list1))
 

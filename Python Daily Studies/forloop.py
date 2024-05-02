@@ -203,13 +203,20 @@
 # for i in range(1,n):
 #     print(" "*(n-i-1),"* "*i)
 
+#
+# a = [22,33,45,67]
+#
+# for i in a:
+#     print(i+5)
 
-a = [22,33,45,67]
+# a = [22,33,45,67]
+# for i in range(0,3):
+#     print(i)
 
-for i in a:
-    print(i+5)
 
-
+# for i in range(0,3):
+#     for j in range(0,3):
+#         print(i,j)
 
 
 

@@ -1,8 +1,8 @@
-import package as pk
+# import package as pk
 # from package import add as pk
 
-x = dir(pk)
-print(x)
+# x = dir(pk)
+# print(x)
 
 # Add1 = pk(2,3)
 # print(Add1.addition())

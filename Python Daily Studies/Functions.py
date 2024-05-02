@@ -5,8 +5,8 @@
 #
 # def hi():
 #     print("belongs to Hi function")
-#
-#
+
+
 # hi()
 # hello()
 
@@ -26,7 +26,7 @@
 # b = input("Enter the number:")
 #
 # print(add(a,b))
-# print(add(22,44))
+# print(add(44,23))
 
 # Function Scope
 #
