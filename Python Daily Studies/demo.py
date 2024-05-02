@@ -87,13 +87,20 @@
 
 
 
-list1 = [25,44,55,72]
+# list1 = [25,44,55,72]
 
-temp  =  list1[0]
-list1[0] = list1[-1]
-list1[-1] = temp
+# temp  =  list1[0]
+# list1[0] = list1[-1]
+# list1[-1] = temp
 
-print(list1)
+# print(list1)
+
+
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+    
 
 
 

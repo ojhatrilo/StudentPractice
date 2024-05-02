@@ -25,7 +25,7 @@
 # in
 # not in
 # a = "my name is Ms.Santhoshni"
-# print("Santhoshni" in a)
+# print("santhoshni" in a)
 
 # Logical Operators
 # and
@@ -68,11 +68,12 @@
 # // -- Escapes the character
 # print("c:user\\name")
 # r -- raw string
-# print(r"c:user\name")
+# print(r"c:user\\name")
 # F -- Formated String
 # a  = "shri"
 # b  = 25
 # print(f"\tmy name is \"{a}\"\nMy age is {b}")
+
 
 # print('my "name" is "shri"')
 
@@ -495,19 +496,19 @@
 # for loop
 # while loop
 
-a =[25,44,53,"hellow","hi","how"]
-num = []
-str1 = []
-
-for i in a:
-    x = str(i)
-    if x.isalpha():
-        str1.append(x)
-    else:
-        num.append(int(x))
-
-print(num)
-print(str1)
+# a =[25,44,53,"hellow","hi","how"]
+# num = []
+# str1 = []
+#
+# for i in a:
+#     x = str(i)
+#     if x.isalpha():
+#         str1.append(x)
+#     else:
+#         num.append(int(x))
+#
+# print(num)
+# print(str1)
 
 # Dict loops
 # value = {

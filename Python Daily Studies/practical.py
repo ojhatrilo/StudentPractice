@@ -194,7 +194,18 @@
 
 
 
-
+# details = {
+#
+#     1:{"name":"hardik","age":24,"post":"player"},
+#     2:{"name":"suresh","age":17,"post":"umpire"}
+#
+# }
+#
+# def name():
+#     for i in details:
+#         print(details[i]["name"])
+#
+# name()
 
 
 
