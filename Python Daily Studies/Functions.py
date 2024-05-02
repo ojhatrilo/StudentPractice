@@ -11,16 +11,19 @@
 # hello()
 
 
+
+
+
+
 #
 # def sai():
 #     return "iam sai function"
-# #
+#
 # print(sai())
 
 # def add(num1,num2):
 #     return num1+num2
-# #
-# #
+#
 #
 # a = input("Enter the number:")
 # b = input("Enter the number:")
@@ -31,24 +34,24 @@
 # Function Scope
 #
 # a = 24
-
+#
 # def numacess():
 #    global a
-#    a+=3
+#    a +=33
 #    print(a)
 # #
 # numacess()
 
 # Default Argument
 
-# def cyber(num1=3,num2=4):
+# def cyber(num1=0,num2=0):
 #    return num1+num2
 # #
-# print(cyber())
-# #
+# print(cyber(25,66))
+#
 
-# def multiple_items(*args):
-#    print(args)
+# def multiple_items(*args):0
+#    print(args)--------------------------
 #    print(type(args))
 # #
 # #
