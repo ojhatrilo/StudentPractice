@@ -34,41 +34,36 @@
 # Function Scope
 #
 # a = 24
-#
+
 # def numacess():
-#    global a
-#    a +=33
-#    print(a)
-# #
+   # global a
+   # a +=33
+   # print(a)
+
 # numacess()
 
 # Default Argument
 
 # def cyber(num1=0,num2=0):
 #    return num1+num2
-# #
-# print(cyber(25,66))
+#
+# print(cyber(22,45))
+
+
+# def multiple_items(*args):
+#    print(args)
+#    print(type(args))
+#
+# multiple_items("Dave", "John", "Sara")
 #
 
-# def multiple_items(*args):0
-#    print(args)--------------------------
-#    print(type(args))
-# #
-# #
-# multiple_items("Dave", "John", "Sara")
-# # #
+
 # def multiple_items(*args):
-#    print(args + args)
+#    print(args[0] + args[1])
 #    print(type(args))
 #
 #
 # multiple_items(2,6)
-
-
-
-
-
-
 
 
 
@@ -85,10 +80,10 @@
 
 
 
-# # Iterator
-# # define a list
+# Iterator
+# define a list
 # my_list = [4, 7, 0]
-# # #
+# #
 # # # create an iterator from the list
 # iterator = iter(my_list)
 # #
@@ -100,12 +95,15 @@
 # #
 # # # get the third element of the iterator
 # print(next(iterator))  # prints 0
-#
+
+# for i in my_list:
+#     print(next(iterator))
+
 
 
 # print(next(iterator))
 
-# # Generator
+# Generator
 # def my_generator(n):
 #
 #     # initialize counter
@@ -119,9 +117,9 @@
 #
 #         # increment the counter
 #         value += 1
-#
-# # iterate over the generator object produced by my_generator
-# print(list( my_generator(4)))
+
+# iterate over the generator object produced by my_generator
+# print(tuple( my_generator(4)))
 
     # print each value produced by generator
 
@@ -147,21 +145,21 @@
 #
 #     return play_game
 #
-#
+# #
 # tommy = parent_function("Tommy", 3) # play_game
 # jenny = parent_function("Jenny", 5)
-#
+
 # tommy()
 # tommy()
-# # #
+# #
 # jenny()
 # tommy()
 
 
 
 
-# # Decorator Concept
-#
+# Decorator Concept
+
 # def make_pretty(func):
 #    # define the inner function
 #    def inner():
@@ -173,17 +171,17 @@
 #
 #    # return the inner function
 #    return inner
-#
-#
-# # define ordinary function
+
+
+# define ordinary function
 # def ordinary():
 #    print("I am ordinary")
-#
-#
-# # decorate the ordinary function
+
+
+# decorate the ordinary function
 # decorated_func = make_pretty(ordinary)
-#
-# # call the decorated function
+
+# call the decorated function
 # decorated_func()
 
 
@@ -205,7 +203,7 @@
 # @make_pretty
 # def ordinary():
 #     print("I am ordinary")
-#
+
 
 # decorate the ordinary function
 

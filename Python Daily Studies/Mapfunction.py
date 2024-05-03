@@ -1,14 +1,14 @@
 # # Define a function that doubles even numbers and leaves odd numbers as is
 # def double_even():
 #     numans = []
-#     num = [1,2,3,34,5]
+#     # num = [1,2,3,34,5]
 #     for i in num:
 #         if i % 2 == 0:
 #             numans.append(i * 2)
 #         else:
 #             numans.append(i)
 #     return numans
-#
+
 # print(double_even())
 
 # Create a list of numbers to apply the function to
@@ -25,8 +25,8 @@
 #
 # List of strings
 # l = ['sat', 'bat', 'cat', 'mat']
-#
-# # map() can listify the list of strings individually
+
+# map() can listify the list of strings individually
 # test = map(list, l)
 # print(list(test))
 
@@ -50,7 +50,7 @@
 #         return n+n
 #     else:
 #         return n
-#
+
 #
 # # We double all numbers using map()
 # numbers = (1, 2, 3, 4)
@@ -59,9 +59,9 @@
 
 # Double all numbers using map and lambda
 
-numbers = {1, 2, 3, 4}
-result = map(lambda x: x + x, numbers)
-print(list(result))
+# numbers = {1, 2, 3, 4}
+# result = map(lambda x: x + x, numbers)
+# print(list(result))
 
 # list1 = list(numbers)
 # list2 = list(result)
@@ -79,8 +79,8 @@ print(list(result))
 #
 # print("\nList is - ", a)
 #
-a = map(int,input("enter the ele:").split())
-print(list(a))
+# a = map(int,input("enter the ele:").split())
+# print(list(a))
 
 
 

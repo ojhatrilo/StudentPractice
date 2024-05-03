@@ -1,11 +1,11 @@
-def myfunc(n):
-  return lambda a : a * n
-
-mydoubler = myfunc(2)
-mytripler = myfunc(3)
-
-print(mydoubler(11))
-print(mytripler(11))
+# def myfunc(n):
+#   return lambda a : a * n
+#
+# mydoubler = myfunc(2)
+# mytripler = myfunc(3)
+#
+# print(mydoubler(11))
+# print(mytripler(11))
 
 # x = lambda a: a + 10
 # print(x(5))
@@ -27,19 +27,21 @@ print(mytripler(11))
 
 
 
-add = lambda a,b : a+b
-sub = lambda a,b : a-b
+# add = lambda a,b : a+b
+# sub = lambda a,b : a-b
+#
+# print(add(23,45))
 
-while(True):
-    options = input("enter option:")
-    num1 = int(input("enter the number:"))
-    num2 = int(input("enter the number:"))
-    if options == "1":
-        print(add(num1,num2))
-    elif options =='2':
-        print(sub(num1,num2))
-    else:
-        break
+# while(True):
+#     options = input("enter option:")
+#     num1 = int(input("enter the number:"))
+#     num2 = int(input("enter the number:"))
+#     if options == "1":
+#         print(add(num1,num2))
+#     elif options =='2':
+#         print(sub(num1,num2))
+#     else:
+#         break
 
 
 
