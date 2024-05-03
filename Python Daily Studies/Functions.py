@@ -5,8 +5,8 @@
 #
 # def hi():
 #     print("belongs to Hi function")
-
-
+#
+#
 # hi()
 # hello()
 
@@ -17,8 +17,8 @@
 
 #
 # def sai():
-#     return "iam sai function"
-#
+    # return "iam sai function"
+
 # print(sai())
 
 # def add(num1,num2):
@@ -33,14 +33,14 @@
 
 # Function Scope
 #
-# a = 24
+a = 24
 
-# def numacess():
-   # global a
-   # a +=33
-   # print(a)
+def numacess():
+   global a
+   a +=33
+   print(a)
 
-# numacess()
+numacess()
 
 # Default Argument
 
