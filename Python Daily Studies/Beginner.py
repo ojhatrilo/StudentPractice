@@ -83,10 +83,11 @@
 # single_char = first_name[0]
 # print(single_char)
 
-# Accessing the mutiple characters from the given string
+# Accessing the multiple characters from the given string
 # first_name = "Tharani Kumar"
 # single_char = first_name[0:7]
 # single_char = first_name[::-1]
+# single_char = first_name[::2]
 # print(single_char)
 # output (Tharani)
 # output (ramuK inarahT)
@@ -96,7 +97,7 @@
 # print(f"My Age is {age}")
 
 # complex type
-# comp_value = 5+3j+2j
+# comp_value = 5+3j
 # print(type(comp_value))
 # print(comp_value)
 # print(comp_value.imag)
@@ -159,7 +160,6 @@
 # print(users)
 # z = " ".join(users)
 # print(z)
-
 
 
 # split
