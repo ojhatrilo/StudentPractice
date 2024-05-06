@@ -80,6 +80,7 @@
 # print(output)
 
 
+
 # a = "iam good"
 # b = "he is is great"
 #
@@ -240,7 +241,12 @@
 
 
 
+# a = [24,45,20,23,50]
+# sum = 0
+# for x in a:
+#     sum+=x
 
+# print(sum)
 
 
 
