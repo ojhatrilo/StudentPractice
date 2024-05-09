@@ -2,9 +2,9 @@
 # # abstract base class work
 
 
-from abc import ABC, abstractmethod
-# #
-# #
+# from abc import ABC, abstractmethod
+# # #
+# # #
 # class Polygon(ABC):
 #
 # 	@abstractmethod
@@ -38,9 +38,9 @@ from abc import ABC, abstractmethod
 # 	# overriding abstract method
 # 	def noofsides(self):
 # 		print("I have 4 sides")
-#
-#
-# # Driver code
+
+
+# Driver code
 # R = Triangle()
 # R.noofsides()
 #

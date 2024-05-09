@@ -24,6 +24,7 @@
 # 			self._a)
 #
 #
+#
 # obj1 = Derived()
 #
 # obj2 = Base()
@@ -65,12 +66,12 @@
 # 		print("Calling private member of base class: ")
 # 		print(self.a)
 
-#
-# # Driver code
+
+# Driver code
 # obj1 = Base()
 # obj2 = Derived()
-# print(obj1.a)
-# print(obj1.__c)
+# print(obj2.a)
+# print(obj2.__c)
 
 # Uncommenting print(obj1.c) will
 # raise an AttributeError

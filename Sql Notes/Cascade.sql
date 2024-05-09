@@ -76,3 +76,37 @@ TRUNCATE TABLE Student_details;
 select * from Student_details;
 
 SET SQL_SAFE_UPDATES=1;
+
+
+use ranju;
+CREATE TABLE GFGemployees(employee_id 
+INT PRIMARY KEY, employee_name VARCHAR(50), manager_id INT);
+
+INSERT INTO GFGemployees (employee_id, employee_name, manager_id)
+VALUES  (1, 'Zaid', 3),  (2, 'Rahul', 3),  (3, 'Raman', 4),  
+(4, 'Kamran', NULL),  (5, 'Farhan', 4);
+
+SELECT e.employee_name AS employee,
+m.employee_name AS manager FROM 
+GFGemployees AS e JOIN GFGemployees 
+AS m ON m.manager_id = e.employee_id;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
