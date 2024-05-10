@@ -20,6 +20,16 @@
 # list1 = tuple(a)
 # print(type(list1))
 
-list1 = [22,33,556,66]
-for i in list1:
-    print(i)
+# list1 = [22,33,556,66]
+# for i in list1:
+#     print(i)
+
+
+
+
+
+# a = 5
+# a+=5
+# print(a)
+
+
