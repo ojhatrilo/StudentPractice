@@ -1,3 +1,4 @@
+
 class add:
     def __init__(self,num1,num2,value=0):
         self.num1 = num1
@@ -38,40 +39,85 @@ while True:
     else:
         break
 
-
-
-
-# Inheritance
-# Single Inheritance
 # class add:
+#     def __init__(self,num1,num2,value=0):
+#         self.num1 = num1
+#         self.num2 = num2
+#         self.value = value
+#
+#     def addition(self):
+#         self.value += self.num1 + self.num2
+#         return(self.value)
+
+#     def __str__ (self):
+#         return (f"{self.num1}+{self.num2}={self.value}")
+#
+# Sum = add(22,44)
+# Sum.addition()
+# print(Sum)
+
+
+
+# class sub:
 #     def __init__(self,num1,num2):
 #         self.num1 = num1
 #         self.num2 = num2
-#
-#     def addition(self):
-#         return self.num1 + self.num2
-#
-# class sub(add):
-#     # def __init__(self,num1,num2):
-#     #     self.num1 = num1
-#     #     self.num2 = num2
 #
 #     def subtraction(self):
 #         return self.num1 - self.num2
 #
 #
+# a = int(input("enter the number: "))
+# b = int(input("enter the number: "))
+#
 # while True:
-#     a = int(input("enter the number: "))
-#     b = int(input("enter the number2: "))
+#
 #     options = input("enter the add-1 and sub-2:")
 #     if options == "1":
-#         Add1 = sub(a,b)
+#         Add1 = add(a,b)
+#         # Add1.addition()
 #         print(Add1.addition())
 #     elif options == "2":
 #         Sub1 = sub(a,b)
 #         print(Sub1.subtraction())
 #     else:
 #         break
+
+
+
+
+
+# Inheritance
+# Single Inheritance
+class add:
+    def __init__(self,num1,num2):
+        self.num1 = num1
+        self.num2 = num2
+
+    def addition(self):
+        return self.num1 + self.num2
+
+class sub(add):
+    # def __init__(self,num1,num2):
+    #     self.num1 = num1
+    #     self.num2 = num2
+
+    def subtraction(self):
+        return self.num1 - self.num2
+
+
+while True:
+    a = int(input("enter the number: "))
+    b = int(input("enter the number2: "))
+    options = input("enter the add-1 and sub-2:")
+    if options == "1":
+        Add1 = sub(a,b)
+        print(Add1.addition())
+    elif options == "2":
+        Sub1 = sub(a,b)
+        print(Sub1.subtraction())
+    else:
+        break
 
 
 

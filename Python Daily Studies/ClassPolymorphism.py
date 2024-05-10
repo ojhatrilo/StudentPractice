@@ -25,8 +25,8 @@
 # class India:
 # 	def capital(self):
 # 		print("New Delhi is the capital of India.")
-#
-#
+
+
 # 	def language(self):
 # 		print("Hindi is the most widely spoken language of India.")
 #
@@ -105,19 +105,19 @@
 # class ostrich(Bird):
 #     def flight(self):
 #         print("Ostriches cannot fly.")
-#
+# #
 #
 # obj_bird = Bird()
 # obj_spr = sparrow()
 # obj_ost = ostrich()
-#
+# #
 # obj_bird.intro()
 # obj_bird.flight()
 #
 # obj_spr.intro()
 # obj_spr.flight()
-# # obj_spr.flight()
-#
+# obj_spr.flight()
+# #
 # obj_ost.intro()
 # obj_ost.flight()
 
