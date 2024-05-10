@@ -18,18 +18,18 @@
 
 
 
-class print_str:
-
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
-
-    def __str__(self):
-        return (f"{self.name},{self.age}")
-
-
-hi=print_str("sony",24)
-print(hi)
+# class print_str:
+#
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+#
+#     def __str__(self):
+#         return (f"{self.name},{self.age}")
+#
+#
+# hi=print_str("sony",24)
+# print(hi)
 
 
 

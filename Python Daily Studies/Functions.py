@@ -17,7 +17,9 @@
 
 #
 # def sai():
-    # return "iam sai function"
+#     return "iam sai function"
+#
+#
 
 # print(sai())
 
@@ -29,25 +31,25 @@
 # b = input("Enter the number:")
 #
 # print(add(a,b))
-# print(add(44,23))
+# print(add(44,34))
 
 # Function Scope
 #
 a = 24
 
-def numacess():
-   global a
-   a +=33
-   print(a)
-
-numacess()
+# def numacess():
+#    global a
+#    a +=33
+#    print(a)
+#
+# numacess()
 
 # Default Argument
 
-# def cyber(num1=0,num2=0):
+# def cyber(num1=1,num2=1):
 #    return num1+num2
 #
-# print(cyber(22,45))
+# print(cyber())
 
 
 # def multiple_items(*args):
@@ -55,15 +57,15 @@ numacess()
 #    print(type(args))
 #
 # multiple_items("Dave", "John", "Sara")
-#
+# #
 
 
 # def multiple_items(*args):
-#    print(args[0] + args[1])
+#    print(args[0] + args[2])
 #    print(type(args))
 #
 #
-# multiple_items(2,6)
+# multiple_items(2,6,7)
 
 
 
@@ -82,20 +84,20 @@ numacess()
 
 # Iterator
 # define a list
-# my_list = [4, 7, 0]
-# #
+# my_list = [4, 7, 0, 3]
+#
 # # # create an iterator from the list
 # iterator = iter(my_list)
-# #
-# # # get the first element of the iterator
+#
+# # get the first element of the iterator
 # print(next(iterator))  # prints 4
-# #
-# # # get the second element of the iterator
+#
+# # get the second element of the iterator
 # print(next(iterator))  # prints 7
-# #
-# # # get the third element of the iterator
+#
+# # get the third element of the iterator
 # print(next(iterator))  # prints 0
-
+#
 # for i in my_list:
 #     print(next(iterator))
 
@@ -117,9 +119,9 @@ numacess()
 #
 #         # increment the counter
 #         value += 1
-
-# iterate over the generator object produced by my_generator
-# print(tuple( my_generator(4)))
+#
+# # iterate over the generator object produced by my_generator
+# print(list( my_generator(4)))
 
     # print each value produced by generator
 
@@ -148,7 +150,7 @@ numacess()
 # #
 # tommy = parent_function("Tommy", 3) # play_game
 # jenny = parent_function("Jenny", 5)
-
+#
 # tommy()
 # tommy()
 # #

@@ -3,7 +3,7 @@
 #
 # mydoubler = myfunc(2)
 # mytripler = myfunc(3)
-#
+# #
 # print(mydoubler(11))
 # print(mytripler(11))
 
@@ -31,7 +31,7 @@
 # sub = lambda a,b : a-b
 #
 # print(add(23,45))
-
+#
 # while(True):
 #     options = input("enter option:")
 #     num1 = int(input("enter the number:"))

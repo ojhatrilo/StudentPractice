@@ -21,16 +21,16 @@ while(True):
     value_1 = int(input("Enter the number:"))
     value_2 = int(input("Enter the number:"))
 
-    if value_2 > value_1:
-        # temp = value_2
-        # value_2 = value_1
-        # value_1 = temp
-        value_1,value_2 = value_2,value_1
-    else:
-        # temp = value_1
-        # value_1 = value_2
-        # value_2 = temp
-        value_2,value_1 = value_1,value_2
+    # if value_2 > value_1:
+    #     # temp = value_2
+    #     # value_2 = value_1
+    #     # value_1 = temp
+    #     value_1,value_2 = value_2,value_1
+    # else:
+    #     # temp = value_1
+    #     # value_1 = value_2
+    #     # value_2 = temp
+    #     value_2,value_1 = value_1,value_2
 
 
     if option == "1":
