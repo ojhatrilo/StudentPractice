@@ -35,7 +35,7 @@
 
 # Function Scope
 #
-a = 24
+# a = 24
 
 # def numacess():
 #    global a

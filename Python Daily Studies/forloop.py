@@ -113,7 +113,7 @@
 #     output.append(high[j])
 #
 # print(output)
-# #
+#
 
 
 
@@ -225,10 +225,10 @@
 # for i in range(0,4,2):
 #     print(a[i],end=" ")
 
-# for i in range(0,4):
-#     for j in range(0,4):
-#         print(i,j)
-#     print(i)
+# for a in range(0,4):
+#     for b in range(0,4):
+#         print(a,b)
+#     print(b)
 #
 # num = int(input("Enter the number:"))
 # for i in range(num):
@@ -277,6 +277,7 @@
 # print(num)
 # print(alp)
 # print(result)
+
 
 
 
