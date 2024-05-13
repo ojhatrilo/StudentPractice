@@ -5,12 +5,11 @@
 #
 # def hi():
 #     print("belongs to Hi function")
+#     return ("satisfied")
 #
 #
-# hi()
+# print(hi())
 # hello()
-
-
 
 
 
@@ -20,16 +19,17 @@
 #     return "iam sai function"
 #
 #
-
+#
 # print(sai())
 
 # def add(num1,num2):
-#     return num1+num2
-#
-#
+#     sum = num1+num2
+#     return sum
+
+
 # a = input("Enter the number:")
 # b = input("Enter the number:")
-#
+# #
 # print(add(a,b))
 # print(add(44,34))
 
@@ -43,13 +43,14 @@
 #    print(a)
 #
 # numacess()
-
+# print(a)
 # Default Argument
 
-# def cyber(num1=1,num2=1):
+# def cyber(num1=0,num2=0):
 #    return num1+num2
 #
 # print(cyber())
+
 
 
 # def multiple_items(*args):
@@ -57,7 +58,7 @@
 #    print(type(args))
 #
 # multiple_items("Dave", "John", "Sara")
-# #
+#
 
 
 # def multiple_items(*args):
