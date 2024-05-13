@@ -1,43 +1,43 @@
-
-class add:
-    def __init__(self,num1,num2,value=0):
-        self.num1 = num1
-        self.num2 = num2
-        self.value = value
-
-
-    def addition(self):
-        self.value += self.num1 + self.num2
-
-
-    def __str__ (self):
-        return (f"{self.num1}+{self.num2}={self.value}")
-
-
-class sub:
-    def __init__(self,num1,num2):
-        self.num1 = num1
-        self.num2 = num2
-
-    def subtraction(self):
-        return self.num1 - self.num2
-
-
-a = int(input("enter the number: "))
-b = int(input("enter the number: "))
-
-while True:
-
-    options = input("enter the add-1 and sub-2:")
-    if options == "1":
-        Add1 = add(a,b)
-        Add1.addition()
-        print(Add1)
-    elif options == "2":
-        Sub1 = sub(a,b)
-        print(Sub1.subtraction())
-    else:
-        break
+#
+# class add:
+#     def __init__(self,num1,num2,value=0):
+#         self.num1 = num1
+#         self.num2 = num2
+#         self.value = value
+#
+#
+#     def addition(self):
+#         self.value += self.num1 + self.num2
+#
+#
+#     def __str__ (self):
+#         return (f"{self.num1}+{self.num2}={self.value}")
+#
+#
+# class sub:
+#     def __init__(self,num1,num2):
+#         self.num1 = num1
+#         self.num2 = num2
+#
+#     def subtraction(self):
+#         return self.num1 - self.num2
+#
+#
+# a = int(input("enter the number: "))
+# b = int(input("enter the number: "))
+#
+# while True:
+#
+#     options = input("enter the add-1 and sub-2:")
+#     if options == "1":
+#         Add1 = add(a,b)
+#         Add1.addition()
+#         print(Add1)
+#     elif options == "2":
+#         Sub1 = sub(a,b)
+#         print(Sub1.subtraction())
+#     else:
+#         break
 
 # class add:
 #     def __init__(self,num1,num2,value=0):
@@ -89,86 +89,86 @@ while True:
 
 # Inheritance
 # Single Inheritance
-class add:
-    def __init__(self,num1,num2):
-        self.num1 = num1
-        self.num2 = num2
-
-    def addition(self):
-        return self.num1 + self.num2
-
-class sub(add):
-    # def __init__(self,num1,num2):
-    #     self.num1 = num1
-    #     self.num2 = num2
-
-    def subtraction(self):
-        return self.num1 - self.num2
-
-
-while True:
-    a = int(input("enter the number: "))
-    b = int(input("enter the number2: "))
-    options = input("enter the add-1 and sub-2:")
-    if options == "1":
-        Add1 = sub(a,b)
-        print(Add1.addition())
-    elif options == "2":
-        Sub1 = sub(a,b)
-        print(Sub1.subtraction())
-    else:
-        break
-
-
-
-
-
-# Multilevel Inheritance
 # class add:
-#     def __init__(self, num1, num2):
+#     def __init__(self,num1,num2):
 #         self.num1 = num1
 #         self.num2 = num2
 #
 #     def addition(self):
 #         return self.num1 + self.num2
 #
-#
 # class sub(add):
-#     # def __init__(self, num1, num2):
+#     # def __init__(self,num1,num2):
 #     #     self.num1 = num1
 #     #     self.num2 = num2
 #
 #     def subtraction(self):
 #         return self.num1 - self.num2
 #
-# class mul(sub):
-#     # def __init__(self, num1, num2):
-#     #     self.num1 = num1
-#     #     self.num2 = num2
-#
-#     def multiplication(self):
-#         return self.num1 * self.num2
-#
-# class div(mul):
-#     def division(self):
-#         return self.num2/self.num1
-#
 #
 # while True:
 #     a = int(input("enter the number: "))
 #     b = int(input("enter the number2: "))
-#     options = input("enter the add-1  sub-2  mul-3  div-4:")
-#     cal = div(a,b)
+#     options = input("enter the add-1 and sub-2:")
 #     if options == "1":
-#         print(cal.addition())
+#         Add1 = sub(a,b)
+#         print(Add1.addition())
 #     elif options == "2":
-#         print(cal.subtraction())
-#     elif options == "3":
-#         print(cal.multiplication())
-#     elif options == "4":
-#         print(cal.division())
+#         Sub1 = sub(a,b)
+#         print(Sub1.subtraction())
 #     else:
 #         break
+
+
+
+
+
+# Multilevel Inheritance
+class add:
+    def __init__(self, num1, num2):
+        self.num1 = num1
+        self.num2 = num2
+
+    def addition(self):
+        return self.num1 + self.num2
+
+
+class sub(add):
+    # def __init__(self, num1, num2):
+    #     self.num1 = num1
+    #     self.num2 = num2
+
+    def subtraction(self):
+        return self.num1 - self.num2
+
+class mul(sub):
+    # def __init__(self, num1, num2):
+    #     self.num1 = num1
+    #     self.num2 = num2
+
+    def multiplication(self):
+        return self.num1 * self.num2
+
+class div(mul):
+    def division(self):
+        return self.num2/self.num1
+
+
+while True:
+    a = int(input("enter the number: "))
+    b = int(input("enter the number2: "))
+    options = input("enter the add-1  sub-2  mul-3  div-4:")
+    cal = div(a,b)
+    if options == "1":
+        print(cal.addition())
+    elif options == "2":
+        print(cal.subtraction())
+    elif options == "3":
+        print(cal.multiplication())
+    elif options == "4":
+        print(cal.division())
+    else:
+        break
 
 
 
