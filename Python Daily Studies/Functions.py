@@ -86,7 +86,7 @@
 # Iterator
 # define a list
 # my_list = [4, 7, 0, 3]
-#
+
 # # # create an iterator from the list
 # iterator = iter(my_list)
 #
@@ -98,7 +98,8 @@
 #
 # # get the third element of the iterator
 # print(next(iterator))  # prints 0
-#
+# #
+# print(next(iterator))
 # for i in my_list:
 #     print(next(iterator))
 
@@ -122,7 +123,7 @@
 #         value += 1
 #
 # # iterate over the generator object produced by my_generator
-# print(list( my_generator(4)))
+# print(tuple( my_generator(5)))
 
     # print each value produced by generator
 
@@ -174,17 +175,18 @@
 #
 #    # return the inner function
 #    return inner
-
-
-# define ordinary function
+#
+#
+# # define ordinary function
 # def ordinary():
 #    print("I am ordinary")
-
-
-# decorate the ordinary function
+#    print("Hello Every one")
+#
+#
+# # decorate the ordinary function
 # decorated_func = make_pretty(ordinary)
-
-# call the decorated function
+#
+# # call the decorated function
 # decorated_func()
 
 
@@ -200,9 +202,9 @@
 #
 #     # return the inner function
 #     return inner
-
-
-# define ordinary function
+#
+#
+# # define ordinary function
 # @make_pretty
 # def ordinary():
 #     print("I am ordinary")
