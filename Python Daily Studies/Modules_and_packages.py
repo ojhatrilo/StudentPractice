@@ -4,7 +4,7 @@
 # x = dir(pk)
 # print(x)
 
-# Add1 = pk(2,3)
+# Add1 = pk.add(2,3)
 # print(Add1.addition())
 
 # pk.options()

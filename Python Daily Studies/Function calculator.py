@@ -10,14 +10,16 @@
 #
 # def division(num1,num2):
 #     return num1/num2
-
-
-
-
+#
+#
+#
+#
+#
 #
 # while(True):
 #     print("press 1-add\npress 2-sub\npress 3-mul\npress 4-div\npress q-quit")
 #     option = input("Enter the Option:")
+#
 #     value_1 = int(input("Enter the number:"))
 #     value_2 = int(input("Enter the number:"))
 

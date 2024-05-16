@@ -2,13 +2,13 @@
 # # abstract base class work
 
 
-# from abc import ABC, abstractmethod
-# # #
-# # #
+from abc import ABC, abstractmethod
+
+
 # class Polygon(ABC):
 #
 # 	@abstractmethod
-# 	def noofsides(self):
+# 	def noofside(self):
 # 		pass
 #
 #
@@ -43,6 +43,7 @@
 # Driver code
 # R = Triangle()
 # R.noofsides()
+# R.noofside()
 #
 # K = Quadrilateral()
 # K.noofsides()
@@ -55,8 +56,8 @@
 
 
 # Cannot be called this method without inheriting it
-# obj1 = Polygon()
-# obj1.noofsides()
+obj1 = Polygon()
+obj1.noofside()
 
 
 # class Name(ABC):
