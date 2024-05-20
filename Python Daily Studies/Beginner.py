@@ -14,6 +14,7 @@
 # 3. We can use (_) instead of space
 # 4. Special Characters or not used in variables
 
+# age ="my age"
 
 # Arthimatic operators
 # +,-,*,/,//,%,**
@@ -25,7 +26,7 @@
 # in
 # not in
 # a = "my name is Ms.Santhoshni"
-# print("santhoshni" in a)
+# print("Santhoshni" in a)
 
 # Logical Operators
 # and
@@ -80,7 +81,7 @@
 
 # Accessing the characters from the given string
 # first_name = "Tharani Kumar"
-# single_char = first_name[0]
+# single_char = first_name[3]
 # print(single_char)
 
 # Accessing the multiple characters from the given string
@@ -175,7 +176,7 @@
 # It can store multiple datatyes in single Variable
 # To convert list we use "list()"
 
-#
+
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # print(list1)
 
@@ -183,11 +184,12 @@
 # Acessing the list items
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # list1[0] = 56
+# print(list1[0])
 # print(list1[0:3])
 # print(len(list1))
 
 # print(list1[1])
-# #
+#
 # print(list1)
 
 
@@ -263,7 +265,7 @@
 
 # pop
 # a = [1,2,3,4,5,"hello"]
-# a.pop(3)
+# a.pop()
 # print(a)
 
 # remove
@@ -283,7 +285,7 @@
 
 
 # anothertuple = (1, 4, 2, 8, 2, 2)
-# y = anothertuple.index(2)
+# y = anothertuple.index(4)
 # print(y)
 
 # anothertuple = (1, 4, 2, 8, 2, 2)
@@ -339,28 +341,15 @@
  
 
 # Acessing the particular value from the dict
-
 #
 # a = {
 #     "name":"Ranjani",
 #     "age":25,
 #     "address":"UK"
 # }
-# print(a)
+# # print(a)
 # print(a["address"])
 # print(a.get("ages"))
-
-# Acessing the keys from the dict
-
-
-# a = {
-#     "name":"Ranjani",
-#     "age":25,
-#     "address":"UK"
-# }
-# print(a)
-# print(a["age"])
-# print(a.get("age"))
 
 
 # # Acessing the keys from the dict
@@ -386,7 +375,7 @@
 
 # # Change values
 # a["name"] = "sarvesh"
-#
+# #
 # print(a)
 
 # a["engineer"] = "smart"
@@ -403,7 +392,7 @@
 # print(op)
 
 # Nested dictionaries
-# 
+
 # member1 = {
 #     "name": "Plant",
 #     "instrument": "vocals"
@@ -455,11 +444,11 @@
 
 # if a!=b:
 #     a+=24
-
+#
 #     print(a)
 # else:
 #     b+=27
-#     print(b)`
+#     print(b)
 
 # if b%2==0:
 #     print("divisible by 2")
@@ -474,13 +463,13 @@
 
 #
 # a = int(input("Enter the number:"))
-# #
+#
 # if a>0:
-
+#
 #
 #     if a%2 == 0:
 #         print("divisible by 2")
-#     if a%3 == 0:
+#     elif a%3 == 0:
 #         print("divisible by 3")
 #     elif a%5 == 0:
 #         print("divisible by 5")
@@ -532,11 +521,11 @@
 #     sum+=i
 # print(sum/len(list1))
 
-#  min =list1[1]
+# min =list1[1]
 # for i in list1:
 #     if i<min:
 #         min=i
-
+#
 # print(min)
 
 # list1 = [12,3,45,56,54]

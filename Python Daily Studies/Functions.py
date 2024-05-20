@@ -5,49 +5,52 @@
 #
 # def hi():
 #     print("belongs to Hi function")
+#     return ("satisfied")
 #
 #
-# hi()
+# print(hi())
 # hello()
-
-
 
 
 
 
 #
 # def sai():
-    # return "iam sai function"
-
+#     return "iam sai function"
+#
+#
+#
 # print(sai())
 
 # def add(num1,num2):
-#     return num1+num2
-#
-#
+#     sum = num1+num2
+#     return sum
+
+
 # a = input("Enter the number:")
 # b = input("Enter the number:")
-#
+# #
 # print(add(a,b))
-# print(add(44,23))
+# print(add(44,34))
 
 # Function Scope
 #
-a = 24
+# a = 24
 
-def numacess():
-   global a
-   a +=33
-   print(a)
-
-numacess()
-
+# def numacess():
+#    global a
+#    a +=33
+#    print(a)
+#
+# numacess()
+# print(a)
 # Default Argument
 
 # def cyber(num1=0,num2=0):
 #    return num1+num2
 #
-# print(cyber(22,45))
+# print(cyber())
+
 
 
 # def multiple_items(*args):
@@ -59,11 +62,11 @@ numacess()
 
 
 # def multiple_items(*args):
-#    print(args[0] + args[1])
+#    print(args[0] + args[2])
 #    print(type(args))
 #
 #
-# multiple_items(2,6)
+# multiple_items(2,6,7)
 
 
 
@@ -82,20 +85,21 @@ numacess()
 
 # Iterator
 # define a list
-# my_list = [4, 7, 0]
-# #
+# my_list = [4, 7, 0, 3]
+
 # # # create an iterator from the list
 # iterator = iter(my_list)
-# #
-# # # get the first element of the iterator
+#
+# # get the first element of the iterator
 # print(next(iterator))  # prints 4
-# #
-# # # get the second element of the iterator
+#
+# # get the second element of the iterator
 # print(next(iterator))  # prints 7
-# #
-# # # get the third element of the iterator
+#
+# # get the third element of the iterator
 # print(next(iterator))  # prints 0
-
+# #
+# print(next(iterator))
 # for i in my_list:
 #     print(next(iterator))
 
@@ -117,9 +121,9 @@ numacess()
 #
 #         # increment the counter
 #         value += 1
-
-# iterate over the generator object produced by my_generator
-# print(tuple( my_generator(4)))
+#
+# # iterate over the generator object produced by my_generator
+# print(tuple( my_generator(5)))
 
     # print each value produced by generator
 
@@ -148,7 +152,7 @@ numacess()
 # #
 # tommy = parent_function("Tommy", 3) # play_game
 # jenny = parent_function("Jenny", 5)
-
+#
 # tommy()
 # tommy()
 # #
@@ -171,17 +175,18 @@ numacess()
 #
 #    # return the inner function
 #    return inner
-
-
-# define ordinary function
+#
+#
+# # define ordinary function
 # def ordinary():
 #    print("I am ordinary")
-
-
-# decorate the ordinary function
+#    print("Hello Every one")
+#
+#
+# # decorate the ordinary function
 # decorated_func = make_pretty(ordinary)
-
-# call the decorated function
+#
+# # call the decorated function
 # decorated_func()
 
 
@@ -197,9 +202,9 @@ numacess()
 #
 #     # return the inner function
 #     return inner
-
-
-# define ordinary function
+#
+#
+# # define ordinary function
 # @make_pretty
 # def ordinary():
 #     print("I am ordinary")

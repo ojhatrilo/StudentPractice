@@ -1,7 +1,7 @@
-# # Python program to
-# # demonstrate protected members
-#
-# # Creating a base class
+# Python program to
+# demonstrate protected members
+
+# Creating a base class
 # class Base:
 # 	def __init__(self):
 #
@@ -22,11 +22,20 @@
 # 		self._a = 3
 # 		print("Calling modified protected member outside class: ",
 # 			self._a)
+
+# class organ:
+#
+#     def __init__(self):
+#
+#         Base.__init__(self)
+#         print(self._a)
 #
 #
-#
+# ooj = organ()
+
+
 # obj1 = Derived()
-#
+# #
 # obj2 = Base()
 #
 # # #Calling protected member
@@ -39,11 +48,11 @@
 #
 # # #Accessing the protected variable outside
 # print("Accessing protected member of obj2: ", obj2._a)
-#
-#
-#
-#
-#
+
+
+
+
+
 
 # Python program to
 # demonstrate private members

@@ -113,7 +113,7 @@
 #     output.append(high[j])
 #
 # print(output)
-# #
+#
 
 
 
@@ -225,11 +225,11 @@
 # for i in range(0,4,2):
 #     print(a[i],end=" ")
 
-# for i in range(0,4):
-#     for j in range(0,4):
-#         print(i,j)
-#     print(i)
-
+# for a in range(0,4):
+#     for b in range(0,4):
+#         print(a,b)
+#     print(b)
+#
 # num = int(input("Enter the number:"))
 # for i in range(num):
 #     for j in range(num):
@@ -250,6 +250,33 @@
 
 
 
+# for i in range(0,2):
+#     for j in range(0,3):
+#         for k in range(0,3):
+#             print(i,j,k)
+
+
+# list1 = [22,45,6,4]
+# for i in range(len(list1)):
+#     print(list1[i])
+
+
+# a = "a5b3c4"
+# num =[]
+# alp = []
+# result = ''
+# for i in a:
+#     if i.isalpha():
+#         alp.append(i)
+#         ch = i
+#     else:
+#         num.append(int(i))
+#         x = int(i)
+#         result+=x*ch
+#
+# print(num)
+# print(alp)
+# print(result)
 
 
 

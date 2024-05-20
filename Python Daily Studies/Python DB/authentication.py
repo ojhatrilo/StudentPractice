@@ -10,7 +10,7 @@ mydb = mysql.connector.connect(
 
 db = mydb.cursor()
 # db.execute ("create database if not exists authentication")
-# db.execute("create table if not exists userdata (username varchar(255) not null, password varchar(255) not null)")
+db.execute("create table if not exists userdata (username varchar(255) not null, password varchar(255) not null)")
 
 def register():
     username = input("enter your name:")
@@ -44,7 +44,7 @@ def login():
         print("incorect username and password")
 
 while True:
-    options = input("option 1-register\noption 2-login")
+    options = input("option 1-register\noption 2-login:")
     if options == "1":
         register()
     elif options == "2":
