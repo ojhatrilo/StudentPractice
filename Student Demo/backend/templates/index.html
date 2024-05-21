@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nithya</title>
+</head>
+
+<body>
+    <center>
+        <h1>Hello world</h1>
+        <p><i>Lorem ipsum dolor sit amet <b>consectetur</b> adipisicing elit. Optio culpa tenetur aliquam, eligendi
+                dolor
+                <strong style="color: brown;">temporibus ab magni reprehenderit libero enim saepe</strong>. Quibusdam,
+                ratione quod? Sit amet nam minus commodi officiis!</i></p>
+        <img src="https://img.freepik.com/free-vector/gradient-human-rights-day-background_52683-149974.jpg?t=st=1715779397~exp=1715782997~hmac=6975cf814b128ae8bdd204a0b6d9ea6d704f01cf0f19a080476ac33e129aa68b&w=1380"
+            alt="no image" width="300px" height="300px"><br>
+        <img src="https://img.freepik.com/free-vector/flat-design-collage-background_23-2149545328.jpg?t=st=1715780185~exp=1715783785~hmac=9719dcecc211f06e6d40f9297dd214ffce233dd11b226d727e9982a9715c6b76&w=996"
+            alt="" width="300px" height="300px">
+    </center>
+    <hr>
+    <center>
+        
+        <table style="border: 2px solid black;">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Instrument</th>
+            </tr>
+            {% for i in querys %}
+            <tr>
+
+                <td>{{i.first_name}}</td>
+                <td>{{i.last_name}}</td>
+                <td>{{i.instrument}}</td>
+
+            </tr>
+            {% endfor %}
+        </table>
+        
+    </center>
+
+</body>
+
+</html>
