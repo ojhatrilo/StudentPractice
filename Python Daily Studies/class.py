@@ -4,8 +4,9 @@
 
 # class Hello:
 #     x = "Hello iam Executed"
-#     print(x)
 #
+#     # def __str__(self):
+#     #     return self.x
 #     def hi(self):
 #         return ("Hi")
 #
@@ -18,27 +19,17 @@
 
 
 
-# class print_str:
-
-
+# class _str:
+#
 #     def __init__(self,name,age):
 #         self.name = name
 #         self.age = age
-
+#
 #     def __str__(self):
 #         return (f"{self.name},{self.age}")
-
-#     def __init__(ke,name,age):
-#         ke.name = name
-#         ke.age = age
-#         # print(ke.name,ke.age)
-#
-#     def __str__(ke):
-#         return (f"{ke.name},{ke.age}")
-
 #
 #
-# hi=print_str("sony",24)
+# hi=_str("sony",24)
 # print(hi)
 
 

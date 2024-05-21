@@ -125,9 +125,13 @@
 # # iterate over the generator object produced by my_generator
 # print(tuple( my_generator(5)))
 
+
     # print each value produced by generator
 
+def my_function():
+    print("hello")
 
+my_function()
 
 # Closure is a function having access to the scope of its parent
 # function after the parent function has returned.
@@ -254,6 +258,40 @@
 #     print(a*5)
 #
 # mul()
+
+
+
+
+# def add(q):
+#
+#     def inner():
+#         x = "supper"
+#
+#         q(x)
+#     return inner
+#
+#
+# @add
+# def sub(ans):
+#     print(ans)
+
+# @add
+# def mul():
+#     print("decorated")
+
+
+
+# sub()
+# mul()
+
+
+
+
+
+
+
+
+
 
 
 

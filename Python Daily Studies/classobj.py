@@ -89,35 +89,34 @@
 
 # Inheritance
 # Single Inheritance
-class add:
-    def __init__(self,num1,num2):
-        self.num1 = num1
-        self.num2 = num2
-
-    def addition(self):
-        return self.num1 + self.num2
-
-class sub(add):
-    # def __init__(self,num1,num2):
-    #     self.num1 = num1
-    #     self.num2 = num2
-
-    def subtraction(self):
-        return self.num1 - self.num2
-
-
-while True:
-    a = int(input("enter the number: "))
-    b = int(input("enter the number2: "))
-    options = input("enter the add-1 and sub-2:")
-    if options == "1":
-        Add1 = sub(a,b)
-        print(Add1.addition())
-    elif options == "2":
-        Sub1 = sub(a,b)
-        print(Sub1.subtraction())
-    else:
-        break
+# class add:
+#     def __init__(self,num1,num2):
+#         self.num1 = num1
+#         self.num2 = num2
+#
+#     def addition(self):
+#         return self.num1 + self.num2
+#
+# class sub(add):
+#     # def __init__(self,num1,num2):
+#     #     self.num1 = num1
+#     #     self.num2 = num2
+#
+#     def subtraction(self):
+#         return self.num1 - self.num2
+#
+#
+# while True:
+#     a = int(input("enter the number: "))
+#     b = int(input("enter the number2: "))
+#     options = input("enter the add-1 and sub-2:")
+#     Add1 = sub(a, b)
+#     if options == "1":
+#         print(Add1.addition())
+#     elif options == "2":
+#         print(Add1.subtraction())
+#     else:
+#         break
 
 
 
@@ -222,12 +221,12 @@ while True:
 #         print(cal.division())
 #     else:
 #         break
-
+#
 # divchange  = div()
 # divchange.num2 = 24
 # divchange.num1 = 2
 # print(divchange.division())
-
+#
 
 #
 # class myclass:
@@ -245,5 +244,41 @@ while True:
 # obj = myclass(34,43)
 # print(obj.add())
 # print(obj.sub())
+
+
+
+
+# Contructor
+#
+# class Bio:
+#     def __init__(self,sub1,sub2):
+#         self.sub1 = sub1
+#         self.sub2 = sub2
+#
+#     def __str__(self):
+#         return (f"{self.sub1} and {self.sub2}")
+#
+# class comp(Bio):
+#     pass
+
+#     def __init__(self,sub1,sub2):
+#         self.sub1 = sub1
+#         self.sub2 = sub2
+#         # Bio.__init__(self,sub1,sub2)
+#     def __str__(self):
+#         return (f'{self.sub1} and {self.sub2}')
+# #
+#
+# sub = comp("Maths","Physics")
+# # sub2 = comp()
+# print(sub)
+
+# sub=comp("eng","math")
+# print(sub)
+
+
+
+
+
 
 
