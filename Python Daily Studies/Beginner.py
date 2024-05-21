@@ -278,7 +278,6 @@
 # print(a)
 
 
-
 # Tuples
 # It is used to store multiple items in a single variable
 # It allows duplicates
