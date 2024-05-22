@@ -10,5 +10,14 @@
 <body>
     <h1><i>Hello World</i></h1>
     <p>Check out my <a href="/about">About</a> page.</p>
+<center>
+    {% for i in data %}
+       <a href="{% url 'contact' i.id %}"> {{i.name}} </a><br>
+        {{i.email}}<br>
+        {{i.Age}}<br>
+        {{i.Phone}}<br><br>
+
+    {% endfor %}
+</center>
 </body>
 </html>
