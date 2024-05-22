@@ -31,7 +31,7 @@
             {% for i in querys %}
             <tr>
 
-                <td>{{i.first_name}}</td>
+                <td><a href="{% url 'intro' i.id %}">{{i.first_name}}</a></td>
                 <td>{{i.last_name}}</td>
                 <td>{{i.instrument}}</td>
 
