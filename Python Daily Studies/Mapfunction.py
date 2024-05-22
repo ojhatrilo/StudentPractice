@@ -1,14 +1,13 @@
 # # Define a function that doubles even numbers and leaves odd numbers as is
-# def double_even():
-#     numans = []
-#     num = [1,2,3,34,5]
-#     for i in num:
-#         if i % 2 == 0:
-#             numans.append(i * 2)
-#         else:
-#             numans.append(i)
-#     return numans
+# def double_even(n):
 #
+#     # num = [1,2,3,34,5]
+#     # for i in num:
+#     if n % 2 == 0:
+#         return n*2
+#     else:
+#         return  n
+
 # print(double_even())
 
 # Create a list of numbers to apply the function to
@@ -83,6 +82,24 @@
 # a = map(int,input("enter the ele:").split())
 # print(list(a))
 
+# n = int(input("Enter the number of elements to be stored:"))
+# a = input("enter the element:").split()
+#
+# if len(a) == n:
+#     a = map(int,a)
+#     print(list(a))
+# else:
+#     print("length is not satisfied")
 
+
+
+
+# list1 = []
+# n = int(input("Enter the number of elements to be stored:"))
+#
+# for i in range(n):
+#     a = int(input("Enter the number:"))
+#     list1.append(a)
+# print(list1)
 
 

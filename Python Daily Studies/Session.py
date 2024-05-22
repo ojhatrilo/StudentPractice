@@ -32,23 +32,38 @@
 # a+=5
 # print(a)
 
-a = 5
-if a % 2 == 0:
-    print(a)
-    if a%4 == 0:
-        a+=7
-        a+=21
-        a+=34
-        print(a)
+# a = 5
+# if a % 2 == 0:
+#     print(a)
+#     if a%4 == 0:
+#         a+=7
+#         a+=21
+#         a+=34
+#         print(a)
+#
+# elif (a % 5 == 0):
+#
+#     a+=7
+#     a+=21
+#     a+=34
+#     print(a)
+# else:
+#     a+=7
+#     print(a)
 
-elif (a % 5 == 0):
+# a = 23
+# # print(type(a))
+# cov_str = float(a)
+# print(type(cov_str))
 
-    a+=7
-    a+=21
-    a+=34
-    print(a)
-else:
-    a+=7
-    print(a)
+
+
+
+
+
+
+
+
+
 
 

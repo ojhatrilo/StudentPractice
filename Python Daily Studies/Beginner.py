@@ -26,7 +26,7 @@
 # in
 # not in
 # a = "my name is Ms.Santhoshni"
-# print("Santhoshni" in a)
+# print("Santhoshni" not in a)
 
 # Logical Operators
 # and
@@ -81,7 +81,7 @@
 
 # Accessing the characters from the given string
 # first_name = "Tharani Kumar"
-# single_char = first_name[3]
+# single_char = first_name[0]
 # print(single_char)
 
 # Accessing the multiple characters from the given string
@@ -125,7 +125,7 @@
 # print("Coffee".ljust(16, ".") + "$1".rjust(4))
 # print("Muffin".ljust(16, ".") + "$2".rjust(4))
 # print("Cheesecake".ljust(16, ".") + "$4".rjust(4))
-#
+
 # name = "tharani is good"
 # print(name.startswith("t"))
 
@@ -161,6 +161,10 @@
 # print(users)
 # z = " ".join(users)
 # print(z)
+
+# cov_str1 = str(users)
+# print(type(cov_str1))
+
 
 
 # split
@@ -272,7 +276,6 @@
 # a = [1,2,3,4,5,"hello"]
 # a.remove(4)
 # print(a)
-
 
 
 # Tuples

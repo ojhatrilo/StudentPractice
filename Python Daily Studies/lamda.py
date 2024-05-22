@@ -107,7 +107,7 @@
 # x(10,20)
 
 
-str="abcd123"
-
-print("Alphabets:",alphabets)
-print("Numbers:",numbers)
+# str="abcd123"
+#
+# print("Alphabets:",alphabets)
+# print("Numbers:",numbers)
