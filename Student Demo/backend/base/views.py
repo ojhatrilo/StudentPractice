@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.http import HttpResponse,JsonResponse
 from .models import Musician,Album
 
@@ -9,7 +9,19 @@ def hello(request):
     context = {"querys":query}    
     return render(request, 'index.html',context)
 
-def hi(request,id):
-    query = Album.objects.get(id = id)
-    return render(request, 'famous.html',{"data":query})
+def hi(request):
+    # query = Album.objects.get(id = id)
+    if request.method =="POST":
+        fname = request.POST.get('fname')
+        lname = request.POST.get('lname')
+        instrument = request.POST.get('instrument')
+
+        value = Musician(first_name = fname,last_name = lname,instrument = instrument)
+        value.save()
+        return redirect('home')
+    return render(request, 'famous.html')
+
+def viewdata(request,id):
+    query = Musician.objects.get(id = id)
+    return render(request,'data.html',{"data":query})
 
