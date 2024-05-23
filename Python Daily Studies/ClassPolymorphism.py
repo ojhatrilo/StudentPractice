@@ -14,8 +14,8 @@
 
 # def add(x, y, z = 0):
 # 	return x + y + z
-#
-# # Driver code
+# #
+# # # Driver code
 # print(add(2, 3))
 # print(add(2, 3, 4))
 
@@ -113,7 +113,7 @@
 # #
 # obj_bird.intro()
 # obj_bird.flight()
-#
+
 # obj_spr.intro()
 # obj_spr.flight()
 # obj_spr.flight()
@@ -134,7 +134,8 @@
 #         print("Most of the birds are Fast")
 #
 # obj1 = Bird()
-# obj1.flight(1)
+# obj1.flight()
+# obj1.intro()
 
 
 

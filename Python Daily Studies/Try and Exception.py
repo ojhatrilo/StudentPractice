@@ -12,9 +12,9 @@
 #             print(z)
 #
 #         finally:
-#             print("")
-#     hello()
+#             print("mvyg")
 #
+#     hello()
 # except :
 #     print("error while calling function")
 #
@@ -23,14 +23,28 @@
 
 
 
-#
+
 # try:
 #     a = int(input("Enter the number;"))
 #     b = int(input("Enter the number:"))
-#     z = a+b
-#     print(z)
-# except:
+#     try:
+#         z = a/b
+#         print(z)
+#     except SyntaxError:
+#         print("SyntaxError")
+#     except ZeroDivisionError:
+#         print("input is not valid")
+#     else:
+#         print("Something Wrong")
+# except ValueError:
 #     print("Given input is not valid")
+# else:
+#     print("something problem")
 
 
 # a = int(input("Enter the number;"))
+
+# a = int(input("Enter the number;"))
+# b = int(input("Enter the number:"))
+# z = a+b:
+# print(z)
