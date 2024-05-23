@@ -9,7 +9,7 @@ def hello(request):
     context = {"querys":query}    
     return render(request, 'index.html',context)
 
-def hi(request):
-    query = Album.objects.all()
+def hi(request,id):
+    query = Album.objects.get(id = id)
     return render(request, 'famous.html',{"data":query})
 
