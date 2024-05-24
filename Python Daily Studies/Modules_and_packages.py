@@ -41,3 +41,47 @@
 
 # print(__name__)
 
+# import Functions as fun
+# fun.my_function()
+
+
+# obj = dir(fun)
+# print(obj)
+
+# from function_in_bank import *
+# withdrawl()
+
+# import function_in_bank as bk
+
+# bk.withdrawl()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

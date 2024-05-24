@@ -128,10 +128,11 @@
 
     # print each value produced by generator
 
-def my_function():
-    print("hello")
-
-my_function()
+# def my_function():
+#     print("hello")
+#
+# if __name__ =='__main__':
+#     my_function()
 
 # Closure is a function having access to the scope of its parent
 # function after the parent function has returned.
