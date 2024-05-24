@@ -25,5 +25,26 @@ def hi(request):
 
 def viewdata(request,id):
     query = Musician.objects.get(id = id)
+    if request.method == "POST":
+        fname = request.POST.get('fname')
+        lname = request.POST.get('lname')
+        instrument = request.POST.get('instrument')
+        query.first_name = fname
+        query.last_name = lname
+        query.instrument = instrument
+        query.save()        # value.save()
+        return redirect("home")
+
     return render(request,'data.html',{"data":query})
 
+def showdata(request,id):
+    query = Musician.objects.get(id = id)
+    return render(request,'showdata.html',{"data":query})
+
+
+def delete(request,id):
+    data = Musician.objects.get(id = id)
+    data.delete()
+    return redirect('home')
+
+    

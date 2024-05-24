@@ -9,9 +9,23 @@
 
 <body>
     <center>
-        {{data.first_name}}<br>
+        <form method="POST">
+            {% csrf_token %}
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="{{data.first_name}}"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="{{data.last_name}}"><br>
+            <label for="instrument">instrument:</label><br>
+            <input type="text" id="lname" name="instrument" value="{{data.instrument}}"><br><br>
+            <input type="submit" value="Update">
+        </form>
+        <br>
+
+        <!-- {{data.first_name}}<br>
         {{data.last_name}}<br>
-        {{data.instrument}}<br>
+        {{data.instrument}}<br> -->
+
+        <a href="{% url 'delete' data.id %}"><button>Delete</button><a />
     </center>
 
 </body>
