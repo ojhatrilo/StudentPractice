@@ -587,6 +587,23 @@
 
 
 
+# name = input("Enter your name:")
+# vowles = "aeiou"
+# output = ''
+# for i in name:
+#     if i.isupper():
+#         if i.lower() not in  vowles:
+#             output+=i
+#     if i.islower():
+#         if i.lower() not in  vowles:
+#             output+=i
+# print(output)
+
+
+
+
+
+
 
 
 
