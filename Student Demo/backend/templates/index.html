@@ -36,6 +36,7 @@
                 <td><a href="{% url 'data' i.id %}">{{i.first_name}}</a></td>
                 <td>{{i.last_name}}</td>
                 <td>{{i.instrument}}</td>
+                <td><a href="{% url 'showdata' i.id %}"><button>Show</button></a></td>
 
             </tr>
             {% endfor %}
