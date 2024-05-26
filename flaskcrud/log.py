@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 app.config['MYSQL_HOST'] = 'localhost'        
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Admin@123'
+app.config['MYSQL_PASSWORD'] = 'root'
 app.config['MYSQL_DB'] = 'flaskapp'
                 
 mysql = MySQL(app)
@@ -48,3 +48,4 @@ def login():
 
 if __name__ == "__main__":
     app.run(debug=True)
+    app.run(host='0.0.0.0', port=3000)
