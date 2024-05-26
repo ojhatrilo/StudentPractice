@@ -13,7 +13,7 @@
 
 import re
 # s=input("enter the E-mail: ")
-# valid="^[a-z0-9]+@[a-zA-Z0-9]+\.[a-z]{1,3}$"
+# valid="^[a-z0-9]+@[a-zA-Z0-9]+\\.com$"
 # if re.match(valid,s):
 #     print("True")
 # else:
