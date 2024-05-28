@@ -278,6 +278,33 @@
 # print(alp)
 # print(result)
 
+list1 = [22,45,67,34]
+list2 = [44,55,33]
+# for i in range(len(list1)):
+#     print(list1[i])
+
+# print(list1[2])
+# if len(list1)> len(list2):
+#     for i in range(min(len(list1),len(list2))):
+#             print(list2[i])
+# else:
+#     for i in range(max(len(list1),len(list2))):
+#             print(list2[i])
+
+
+# list1 = [22,22,22,54,54,33,33]
+#
+# unique = {}
+#
+# for i in range(0,len(list1),2):
+#     if list1[i] not in unique:
+#         unique[list1[i]] = 1
+#     else:
+#         unique[list1[i]] += 1
+#
+# print(unique)
+
+
 
 
 

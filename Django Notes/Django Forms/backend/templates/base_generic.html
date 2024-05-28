@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crud</title>
+  
+</head>
+<body>
+    <header>
+        <h1>My Django App</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'item_list' %}">Home</a></li>
+                <li><a href="{% url 'create_item' %}">Create New Item</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Django App</p>
+    </footer>
+</body>
+</html>
