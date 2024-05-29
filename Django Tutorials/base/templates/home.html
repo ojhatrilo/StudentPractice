@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1><i>Hello World</i></h1>
-    <p>Check out my <a href="/about">About</a> page.</p>
+    <p>Check out my <a href="{% url 'hello' %}">About</a> page.</p>
 <center>
     {% for i in data %}
        <a href="{% url 'contact' i.id %}"> {{i.name}} </a><br>
