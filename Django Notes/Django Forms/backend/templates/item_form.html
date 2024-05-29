@@ -1,0 +1,11 @@
+
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h2>{{ form.instance.pk|yesno:"Update Item,Create Item" }}</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">{{ form.instance.pk|yesno:"Update,Create" }}</button>
+  </form>
+{% endblock %}
