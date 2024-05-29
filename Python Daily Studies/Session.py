@@ -57,9 +57,20 @@
 # print(type(cov_str))
 
 
+# Base = 24
+# Height = 30
+# Area = 1/2*Base*Height
+# print(Area)
 
+# a = "Navenna"
+# y = slice(0,7,-1)
+# print(a[y])
+# print(a)
 
-
+# a = "23"
+# b = 23
+# c = int(a)+b
+# print(c)
 
 
 
