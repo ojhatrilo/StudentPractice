@@ -26,7 +26,7 @@
 # in
 # not in
 # a = "my name is Ms.Santhoshni"
-# print("Santhoshni" not in a)
+# print("Santhoshni"  in a)
 
 # Logical Operators
 # and
