@@ -286,17 +286,7 @@
 # mul()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+n=int(input("Enter the values:"))
+for i in range(0,5):
+    i=n**2
+    print()
