@@ -36,7 +36,7 @@ def update_item(request, pk):
             return redirect('item_detail', pk=item.pk)
     else:
         form = ItemForm(instance=item)
-    return render(request, 'myapp/item_form.html', {'form': form})
+    return render(request, 'item_form.html', {'form': form})
 
 # Delete
 def delete_item(request, pk):
@@ -45,3 +45,8 @@ def delete_item(request, pk):
         item.delete()
         return redirect('item_list')
     return render(request, 'myapp/item_confirm_delete.html', {'item': item})
+
+
+def viewform(request):
+    form = ItemForm()
+    return render(request,'test.html',{"form":form})

@@ -72,9 +72,33 @@
 # c = int(a)+b
 # print(c)
 
+# list1 = ["hello",1,"hi",2]
+# word = []
+# num = []
+# for i in list1:
+#     if type(i) == str:
+#         word.append(i)
+#     else:
+#         num.append(i)
+#
+# print(word)
+# print(num)
+
+
+# [1 0 0
+#  0 1 0
+#  0 0 1 ]
 
 
 
+a = "hi my name is yogesh"
+
+output = "himy nameis YOGESH"
+
+
+b = "hi my name is yogesh"
+
+output1 = "hi my name is Hsegoy"
 
 
 
