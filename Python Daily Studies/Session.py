@@ -89,6 +89,48 @@
 #  0 1 0
 #  0 0 1 ]
 
+#
+# a = input("").split()
+# ch = 1
+# for i in a:
+#     ch*=int(i)
+#
+# print(ch)
+
+
+
+# i = 0
+# while i<5:
+#     print(i)
+#     i+=1
+#     while i<4:
+#         print(i)
+#         i+=1
+
+
+
+
+# list1 = [22,33,45]
+# i=0
+# while i<len(list1):
+#     pass
+#     break
+
+# for j in list1:
+#     pass
+#
+# print(list1)
+
+
+
+
+
+
+
+
+
+
+
 
 
 a = "hi my name is yogesh"

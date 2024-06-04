@@ -6,10 +6,17 @@
 # def hi():
 #     print("belongs to Hi function")
 #     return ("satisfied")
-#
-#
+
+# hi = "satisfied"
+
 # print(hi())
 # hello()
+
+
+
+
+
+
 
 
 
@@ -25,8 +32,8 @@
 # def add(num1,num2):
 #     sum = num1+num2
 #     return sum
-
-
+#
+#
 # a = input("Enter the number:")
 # b = input("Enter the number:")
 # #
@@ -284,19 +291,4 @@
 
 # sub()
 # mul()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

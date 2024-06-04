@@ -13,7 +13,8 @@
         {{sin.email}}<br>
         {{sin.Age}}<br>
         {{sin.Phone}}<br><br>
-        <a href="{% url 'delete' sin.id %}"><button>Delete</button></a>
+        <a href="{% url 'delete' sin.id %}"><button>Delete</button></a><br><br>
+        <a href="{% url 'edit' sin.id %}"><button>Update</button></a>
     </center>
 </body>
 

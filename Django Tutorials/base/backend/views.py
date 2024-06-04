@@ -43,3 +43,22 @@ def delete(request,id):
         return redirect('index')
     else:
         return redirect('index')
+    
+def update(request,id):
+    data = models.Student.objects.get(id=id)
+    if request.user.is_authenticated:
+        if request.method == 'POST':
+            name = request.POST.get('fname')
+            Age  = request.POST.get('number')
+            email = request.POST.get('email')
+            Phone = request.POST.get('phone')
+            data.name = name
+            data.Age = Age
+            data.email = email
+            data.Phone = Phone
+            data.save()
+            return redirect('index')
+    else:
+        return redirect('index')
+    
+    return render(request,"edit.html", {"data":data})
