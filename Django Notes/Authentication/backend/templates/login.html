@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+
+</head>
+<body>
+	<div class="container mt-5">
+		<!-- Login form -->
+		<form  method="post" >
+			<h1 style="text-align: center;"><span style="color: green;">Livewire </span></h1>
+
+			{% csrf_token %} <!-- CSRF token for security -->
+
+			<!-- Login heading -->
+			<h3>Login</h3>
+			<hr>
+
+			<!-- Display error/success messages -->
+			{% if messages %}
+			<div>
+				{% for message in messages %}
+				{{ message }}
+				{% endfor %}
+			</div>
+			{% endif %}
+
+			<!-- Username input field -->
+			<div>
+				<label for="exampleInputEmail1">Username</label>
+				<input type="text" class="form-control" name="username" id="exampleInputEmail1" aria-describedby="emailHelp"
+					placeholder="Enter username" required>
+			</div>
+
+			<!-- Password input field -->
+			<div>
+				<label for="exampleInputPassword1">Password</label>
+				<input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+			</div>
+
+			<!-- Link to registration page -->
+			<p>Don't have an account <a href="/register/">Register</a> </p>
+
+			<!-- Submit button -->
+			<button >Submit</button>
+		</form>
+	</div>
+</body>
+</html>

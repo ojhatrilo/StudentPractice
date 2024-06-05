@@ -2,6 +2,7 @@ from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from . import models
 from django.contrib.auth import login,logout,authenticate
+# from .forms import DetailsForms
 def homepage(request):
     # return HttpResponse("Hello World! I'm Home.")
     data = models.Student.objects.all()
@@ -11,6 +12,7 @@ def homepage(request):
 
 def about(request):
     # return HttpResponse("My About page.")
+    # form = DetailsForms()
     if request.user.is_authenticated:
         if request.method == 'POST':
             name = request.POST.get('fname')
