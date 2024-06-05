@@ -60,12 +60,23 @@
 
 
 
+# a = 34
+# def groot():
+#     s = "super"
+#     global a
+#     a = 345
+#     print(a)
+#     return s
+#
+# groot()
+# print(a)
+
 # def multiple_items(*args):
 #    print(args)
 #    print(type(args))
 #
 # multiple_items("Dave", "John", "Sara")
-#
+
 
 
 # def multiple_items(*args):
