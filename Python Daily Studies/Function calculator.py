@@ -53,20 +53,26 @@
 
 # Calaculator 2.o
 
-def add(n1, n2):
-    return (n1 + n2)
+# def add(n1, n2):
+#     return (n1 + n2)
+#
+#
+# def sub(n1, n2):
+#     return (n1 - n2)
+#
+#
+# def mul(n1, n2):
+#     return (n1 * n2)
+#
+#
+# def div(n1, n2):
+#     return (n1 / n2)
 
 
-def sub(n1, n2):
-    return (n1 - n2)
-
-
-def mul(n1, n2):
-    return (n1 * n2)
-
-
-def div(n1, n2):
-    return (n1 / n2)
+add = lambda n1,n2:n1+n2
+sub = lambda n1,n2:n1-n2
+mul = lambda n1,n2:n1*n2
+div = lambda n1,n2:n1/n2
 
 
 def call():

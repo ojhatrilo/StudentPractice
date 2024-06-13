@@ -133,14 +133,18 @@
 
 
 
-a = "hi my name is yogesh"
+# a = "hi my name is yogesh"
+#
+# output = "himy nameis YOGESH"
+#
+#
+# b = "hi my name is yogesh"
+#
+# output1 = "hi my name is Hsegoy"
 
-output = "himy nameis YOGESH"
 
 
-b = "hi my name is yogesh"
 
-output1 = "hi my name is Hsegoy"
 
 
 

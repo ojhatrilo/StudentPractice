@@ -1,4 +1,4 @@
-from django.shortcuts import render
+# from django.shortcuts import render
 
 # Create your views here.
 # Import necessary modules and models
@@ -10,6 +10,7 @@ from django.contrib.auth.models import User
 from .models import *
 
 # Define a view function for the home page
+@login_required
 def home(request):
 	return render(request, 'home.html')
 
@@ -56,7 +57,7 @@ def register_page(request):
 		if user.exists():
 			# Display an information message if the username is taken
 			messages.info(request, "Username already taken!")
-			return redirect('/register/')
+			return redirect('register')
 		
 		# Create a new User object with the provided information
 		user = User.objects.create_user(

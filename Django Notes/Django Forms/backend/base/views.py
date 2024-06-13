@@ -49,4 +49,4 @@ def delete_item(request, pk):
 
 def viewform(request):
     form = ItemForm()
-    return render(request,'test.html',{"form":form})
+    return render(request,'test.html',{"tharani":form})

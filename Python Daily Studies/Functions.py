@@ -13,14 +13,6 @@
 # hello()
 
 
-
-
-
-
-
-
-
-
 #
 # def sai():
 #     return "iam sai function"
@@ -51,6 +43,7 @@
 #
 # numacess()
 # print(a)
+
 # Default Argument
 
 # def cyber(num1=0,num2=0):
@@ -70,6 +63,7 @@
 #
 # groot()
 # print(a)
+
 
 # def multiple_items(*args):
 #    print(args)
@@ -99,24 +93,24 @@
 #       print("your guess is wrong")
 #       i+=1
 
-
+# print(ord("b"))
 
 # Iterator
 # define a list
 # my_list = [4, 7, 0, 3]
 
-# # # create an iterator from the list
+# # create an iterator from the list
 # iterator = iter(my_list)
-#
-# # get the first element of the iterator
+
+# get the first element of the iterator
 # print(next(iterator))  # prints 4
-#
-# # get the second element of the iterator
+
+# get the second element of the iterator
 # print(next(iterator))  # prints 7
-#
-# # get the third element of the iterator
+
+# get the third element of the iterator
 # print(next(iterator))  # prints 0
-# #
+#
 # print(next(iterator))
 # for i in my_list:
 #     print(next(iterator))
@@ -139,9 +133,9 @@
 #
 #         # increment the counter
 #         value += 1
-#
-# # iterate over the generator object produced by my_generator
-# print(tuple( my_generator(5)))
+
+# iterate over the generator object produced by my_generator
+# print(list( my_generator(5)))
 
 
     # print each value produced by generator
@@ -172,7 +166,7 @@
 #
 #     return play_game
 #
-# #
+#
 # tommy = parent_function("Tommy", 3) # play_game
 # jenny = parent_function("Jenny", 5)
 #
@@ -181,7 +175,7 @@
 # #
 # jenny()
 # tommy()
-
+#
 
 
 
@@ -206,6 +200,7 @@
 #    print("Hello Every one")
 #
 #
+#
 # # decorate the ordinary function
 # decorated_func = make_pretty(ordinary)
 #
@@ -215,12 +210,12 @@
 
 
 # def make_pretty(func):
-#     # define the inner function
+# #     # define the inner function
 #     def inner():
-#         # add some additional behavior to decorated function
+# #         # add some additional behavior to decorated function
 #         print("I got decorated")
-#
-#         # call original function
+# #
+# #         # call original function
 #         func()
 #
 #     # return the inner function
@@ -231,12 +226,15 @@
 # @make_pretty
 # def ordinary():
 #     print("I am ordinary")
-
-
-# decorate the ordinary function
-
+#
+#
+# @make_pretty
+# def hello():
+#     print("I am hello function")
+# # decorate the ordinary function
+#
+# hello()
 # ordinary()
-
 # call the decorated function
 
 
@@ -302,4 +300,28 @@
 
 # sub()
 # mul()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
