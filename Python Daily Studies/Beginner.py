@@ -14,10 +14,14 @@
 # 3. We can use (_) instead of space
 # 4. Special Characters or not used in variables
 
+
 # age ="my age"
 
 # Arthimatic operators
 # +,-,*,/,//,%,**
+
+# z = 5%2
+# print(z)
 
 # Comparision Operators
 # <,>,<=,>=,==,!=

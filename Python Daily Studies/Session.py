@@ -147,4 +147,18 @@
 
 
 
+# class Bank:
+#     def __init__(self,balance=0.0) -> None:
+#         self.balance = balance
+
+#     def get_balance(self):
+#         value = self.balance
+#         print(value)
+
+# obj = Bank()
+# obj.get_balance()
+        
+
+
+
 

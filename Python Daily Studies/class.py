@@ -4,6 +4,7 @@
 
 # class Hello:
 #     x = "Hello iam Executed"
+#     print(x)
 #
 #     # def __str__(self):
 #     #     return self.x
@@ -12,25 +13,27 @@
 #
 #     def hello(self):
 #         return ("ajay")
-#
+
 # obj = Hello()
+# print(Hello().hello())
+# print(obj.x)
 # print(obj.hello())
 # print(obj.hi())
 
 
 
-# class _str:
-#
-#     def __init__(self,name,age):
-#         self.name = name
-#         self.age = age
-#
-#     def __str__(self):
-#         return (f"{self.name},{self.age}")
-#
-#
-# hi=_str("sony",24)
-# print(hi)
+class _str:
+
+    def __init__(self):
+        self.name = "Nithin"
+        self.age = 27
+
+    def __str__(self):
+        return (f"{self.name},{self.age}")
+
+
+hi=_str()
+print(hi)
 
 
 

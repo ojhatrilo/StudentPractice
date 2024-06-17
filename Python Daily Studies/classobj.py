@@ -12,7 +12,7 @@
 #
 #     def __str__ (self):
 #         return (f"{self.num1}+{self.num2}={self.value}")
-#
+
 #
 # class sub:
 #     def __init__(self,num1,num2):
@@ -22,10 +22,16 @@
 #     def subtraction(self):
 #         return self.num1 - self.num2
 #
+#     def addition(self):
+#         return  self.num1 + self.num2
+#
 #
 # a = int(input("enter the number: "))
 # b = int(input("enter the number: "))
 #
+# sub1 = sub(a,b)
+# print(sub1.addition())
+
 # while True:
 #
 #     options = input("enter the add-1 and sub-2:")
