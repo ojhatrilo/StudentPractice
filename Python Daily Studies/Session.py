@@ -158,6 +158,18 @@
 # obj = Bank()
 # obj.get_balance()
         
+# radius = 1.1
+# pi = 3.14
+# area = pi * radius ** 2
+# print(area)
+
+# formula for area of a triangle is (1/2*base*height)
+# base = 5
+# height = 2
+# area_triangle = 1/2*base*height
+# print(area_triangle)
+
+
 
 
 

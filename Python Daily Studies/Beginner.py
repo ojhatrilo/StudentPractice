@@ -26,11 +26,14 @@
 # Comparision Operators
 # <,>,<=,>=,==,!=
 
+# print(23!=23)
+
+
 # membership operators
 # in
 # not in
 # a = "my name is Ms.Santhoshni"
-# print("Santhoshni"  in a)
+# print("Santhoshni" not in a)
 
 # Logical Operators
 # and
