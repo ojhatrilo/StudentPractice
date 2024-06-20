@@ -171,6 +171,40 @@
 
 
 
+# num1 = str(input("enter number:"))
+# num2 = str(input("enter the number:"))
+
+
+# total = int(num1)-int(num2)
+# print(total)
+
+
+
+# firstname = str(input("Enter your name:"))
+# lastname = str(input("Enter your lname:"))
+# fullname = firstname+" "+lastname
+# print(fullname)
+
+# decimal = float(input("Enter your decimal value:"))
+# print(decimal)
+
+# num1 = int(input("enter the value:"))
+# print(num1)
+
+
+# a = 23.0
+# print(type(a))
+
+# a = "23"
+# b = float(a)
+# print(b)
+# print(type(b))
+
+
+
+
+
+
 
 
 

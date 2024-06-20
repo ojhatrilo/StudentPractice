@@ -76,7 +76,7 @@
 # // -- Escapes the character
 # print("c:user\\name")
 # r -- raw string
-# print(r"c:user\\name")
+# print(r"c:user\name\hello\nama")
 # F -- Formated String
 # a  = "shri"
 # b  = 25
@@ -84,6 +84,9 @@
 
 
 # print('my "name" is "shri"')
+
+# a  = "Zahara"
+# print(a)
 
 
 # Accessing the characters from the given string

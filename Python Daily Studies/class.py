@@ -22,18 +22,18 @@
 
 
 
-class _str:
+# class _str:
 
-    def __init__(self):
-        self.name = "Nithin"
-        self.age = 27
+#     def __init__(self):
+#         self.name = "Nithin"
+#         self.age = 27
 
-    def __str__(self):
-        return (f"{self.name},{self.age}")
+#     def __str__(self):
+#         return (f"{self.name},{self.age}")
 
 
-hi=_str()
-print(hi)
+# hi=_str()
+# print(hi)
 
 
 
