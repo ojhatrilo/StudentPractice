@@ -12,7 +12,7 @@
 #
 #     def __str__ (self):
 #         return (f"{self.num1}+{self.num2}={self.value}")
-#
+
 #
 # class sub:
 #     def __init__(self,num1,num2):
@@ -22,10 +22,16 @@
 #     def subtraction(self):
 #         return self.num1 - self.num2
 #
+#     def addition(self):
+#         return  self.num1 + self.num2
+#
 #
 # a = int(input("enter the number: "))
 # b = int(input("enter the number: "))
 #
+# sub1 = sub(a,b)
+# print(sub1.addition())
+
 # while True:
 #
 #     options = input("enter the add-1 and sub-2:")
@@ -93,19 +99,19 @@
 #     def __init__(self,num1,num2):
 #         self.num1 = num1
 #         self.num2 = num2
-#
+
 #     def addition(self):
 #         return self.num1 + self.num2
-#
+
 # class sub(add):
 #     # def __init__(self,num1,num2):
 #     #     self.num1 = num1
 #     #     self.num2 = num2
-#
+
 #     def subtraction(self):
 #         return self.num1 - self.num2
-#
-#
+
+
 # while True:
 #     a = int(input("enter the number: "))
 #     b = int(input("enter the number2: "))
@@ -127,32 +133,32 @@
 #     def __init__(self, num1, num2):
 #         self.num1 = num1
 #         self.num2 = num2
-#
+
 #     def addition(self):
 #         return self.num1 + self.num2
-#
-#
+
+
 # class sub(add):
 #     # def __init__(self, num1, num2):
 #     #     self.num1 = num1
 #     #     self.num2 = num2
-#
+
 #     def subtraction(self):
 #         return self.num1 - self.num2
-#
+
 # class mul(sub):
 #     # def __init__(self, num1, num2):
 #     #     self.num1 = num1
 #     #     self.num2 = num2
-#
+
 #     def multiplication(self):
 #         return self.num1 * self.num2
-#
+
 # class div(mul):
 #     def division(self):
 #         return self.num2/self.num1
-#
-#
+
+
 # while True:
 #     a = int(input("enter the number: "))
 #     b = int(input("enter the number2: "))
@@ -176,36 +182,36 @@
 #     def __init__(self,num1,num2):
 #         self.num1 = num1
 #         self.num2 = num2
-#
+
 #     def addition(self):
 #         return self.num1 + self.num2
-#
+
 # class sub:
 #     # def __init__(self,num1,num2):
 #     #     self.num1 = num1
 #     #     self.num2 = num2
-#
+
 #     def subtraction(self):
 #         return self.num1 - self.num2
-#
+
 # class mul:
 #     # def __init__(self, num1, num2):
 #     #     self.num1 = num1
 #     #     self.num2 = num2
-#
+
 #     def multiplication(self):
 #         return self.num1 * self.num2
-#
-#
+
+
 # class div:
 #     def division(self):
 #         return self.num2/self.num1
-#
-#
-#
+
+
+
 # class Calculator(add,sub,mul,div):
 #     pass
-#
+
 # while True:
 #     a = int(input("enter the number: "))
 #     b = int(input("enter the number2: "))

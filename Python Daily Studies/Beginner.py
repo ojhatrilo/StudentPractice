@@ -14,19 +14,26 @@
 # 3. We can use (_) instead of space
 # 4. Special Characters or not used in variables
 
+
 # age ="my age"
 
 # Arthimatic operators
 # +,-,*,/,//,%,**
 
+# z = 5%2
+# print(z)
+
 # Comparision Operators
 # <,>,<=,>=,==,!=
+
+# print(23!=23)
+
 
 # membership operators
 # in
 # not in
 # a = "my name is Ms.Santhoshni"
-# print("Santhoshni"  in a)
+# print("Santhoshni" not in a)
 
 # Logical Operators
 # and

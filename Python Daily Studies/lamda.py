@@ -1,6 +1,6 @@
 # def myfunc(n):
 #   return lambda a : a * n
-#
+# #
 # mydoubler = myfunc(2)
 # mytripler = myfunc(3)
 # #
@@ -13,8 +13,11 @@
 
 # def myfunc(n):
 #   return lambda a : a * n
+
+# myfunc = lambda a:a*2
 #
 # mydoubler = myfunc(2)
+# mydoubler(11)
 # print(mydoubler(11))
 
 
@@ -25,12 +28,16 @@
 # num3= input()
 # print(a(num1,num2,num3))
 
-
+# def alo(a,b):
+#     return a+b
+# print(alo)
 
 # add = lambda a,b : a+b
-# sub = lambda a,b : a-b
+# sub = lambda a,b : a+b
+#
+# print(sub(23,66))
 
-# print(sub(23,45))
+
 # 
 # while(True):
 #     options = input("enter option:")

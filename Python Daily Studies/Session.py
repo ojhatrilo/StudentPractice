@@ -133,14 +133,44 @@
 
 
 
-a = "hi my name is yogesh"
+# a = "hi my name is yogesh"
+#
+# output = "himy nameis YOGESH"
+#
+#
+# b = "hi my name is yogesh"
+#
+# output1 = "hi my name is Hsegoy"
 
-output = "himy nameis YOGESH"
 
 
-b = "hi my name is yogesh"
 
-output1 = "hi my name is Hsegoy"
+
+
+# class Bank:
+#     def __init__(self,balance=0.0) -> None:
+#         self.balance = balance
+
+#     def get_balance(self):
+#         value = self.balance
+#         print(value)
+
+# obj = Bank()
+# obj.get_balance()
+        
+# radius = 1.1
+# pi = 3.14
+# area = pi * radius ** 2
+# print(area)
+
+# formula for area of a triangle is (1/2*base*height)
+# base = 5
+# height = 2
+# area_triangle = 1/2*base*height
+# print(area_triangle)
+
+
+
 
 
 

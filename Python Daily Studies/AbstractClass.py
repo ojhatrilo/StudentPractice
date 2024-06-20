@@ -2,57 +2,58 @@
 # # abstract base class work
 
 
-# from abc import ABC, abstractmethod
+from abc import ABC, abstractmethod
 #
 #
-# class Polygon(ABC):
+class vechile(ABC):
 # 	# print("hello")
-# 	@abstractmethod
-# 	def noofsides(self):
-# 		pass
+	@abstractmethod
+	def noofsides(self):
+		pass
+
 #
 #
-# class Triangle(Polygon):
-#
-# 	# overriding abstract method
-# 	def noofsides(self):
-# 		print("I have 3 sides")
-#
-#
-# class Pentagon(Polygon):
-#
-# 	# overriding abstract method
-# 	def noofsides(self):
-# 		print("I have 5 sides")
+class bike(vechile):
+
+	# overriding abstract method
+	def noofsides(self):
+		print("I have 3 sides")
 #
 #
-# class Hexagon(Polygon):
+class cycle(vechile):
+
+	# overriding abstract method
+	def noofsides(self):
+		print("I have 5 sides")
 #
-# 	# overriding abstract method
-# 	def noofsides(self):
-# 		print("I have 6 sides")
+#
+class Hexagon(Polygon):
+
+	# overriding abstract method
+	def noofsides(self):
+		print("I have 6 sides")
 #
 #
-# class Quadrilateral(Polygon):
-#
-# 	# overriding abstract method
-# 	def noofsides(self):
-# 		print("I have 4 sides")
+class Quadrilateral(Polygon):
+
+	# overriding abstract method
+	def noofsides(self):
+		print("I have 4 sides")
 #
 #
 # # # Driver code
-# R = Triangle()
-# R.noofsides()
+R = Triangle()
+R.noofsides()
 #
 #
-# K = Quadrilateral()
-# K.noofsides()
+K = Quadrilateral()
+K.noofsides()
 #
-# P = Pentagon()
-# P.noofsides()
+P = Pentagon()
+P.noofsides()
 #
-# K = Hexagon()
-# K.noofsides()
+K = Hexagon()
+K.noofsides()
 
 
 # Cannot be called this method without inheriting it
