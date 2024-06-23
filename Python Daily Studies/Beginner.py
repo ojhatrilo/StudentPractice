@@ -3,6 +3,8 @@
 # c = a != b
 # print(c)
 
+# print("Hello World")
+
 # Data Types 
 # int - numerical values(23)
 # Float - Decimal Values (23.432 or 23.0)
@@ -96,7 +98,7 @@
 
 # Accessing the multiple characters from the given string
 # first_name = "Tharani Kumar"
-# single_char = first_name[0:7]
+# single_char = first_name[0:9]
 # single_char = first_name[::-1]
 # single_char = first_name[::2]
 # print(single_char)
@@ -169,7 +171,7 @@
 # Join
 # users = ['Dave', 'John', 'Sara']
 # print(users)
-# z = " ".join(users)
+# z = "".join(users)
 # print(z)
 
 # cov_str1 = str(users)
@@ -177,7 +179,7 @@
 
 
 
-# split
+# split8
 # name = "tharani is good"
 # x = name.split()
 # print(x)

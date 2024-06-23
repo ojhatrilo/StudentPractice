@@ -191,7 +191,6 @@
 # num1 = int(input("enter the value:"))
 # print(num1)
 
-
 # a = 23.0
 # print(type(a))
 
@@ -204,7 +203,44 @@
 
 
 
+# a = "Saroj Kumar"
+
+# b = a[0:5]
+# reverse = b[::-1]
+# print(reverse)
+
+
+# a = "hi my name is ojha"
+# output = "hi my eman is ojha"
+
+
+# b = "hi iam fine"
+# output2 = "fine iam hi"
+
+# # Get the name number form the user 
+# # then reverse the number
+# sample_input = 5438
+# sample_output = 8345
+
+
+# input = "hi iam the pro coder"
+# output ="hi pro coder"
+
+
+# input1 = "HI MY NAME OJHA"
+# output1 = "hi my name ojha"
+
+# input2 = "hi my name is ojha"
+# output2 = "himynameis OJHA"
+
+# input3 = ["hello", "Everyone"]
+# output3 = ["HELLO", "EVERYONE"]
 
 
 
 
+# x = int(input())
+# y = int(input())
+# z = int(input())
+# n = int(input())
+# print(list([i,j,k] for i in range(x+1) for j in range(y+1) for k in range(z+1)  if i+j+k !=n))
