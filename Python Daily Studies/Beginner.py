@@ -120,7 +120,7 @@
 # comp_value = 5+3j
 # print(type(comp_value))
 # print(comp_value)
-# print(comp_value.imag)
+# print(comp_value.real + comp_value.imag)
 
 # String Methods
 
@@ -200,6 +200,8 @@
 # To convert list we use "list()"
 
 
+
+
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # print(list1)
 
@@ -218,7 +220,7 @@
 
 
 # users = ['Dave', 'John', 'Sara','dmmi','anti']
-# users.sort(key=str.lower)
+# users.sort(key=str.upper)
 # print(users)
 
 
