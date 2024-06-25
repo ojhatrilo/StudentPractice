@@ -25,24 +25,24 @@
 # class India:
 # 	def capital(self):
 # 		print("New Delhi is the capital of India.")
-#
-#
+
+
 # 	def language(self):
 # 		print("Hindi is the most widely spoken language of India.")
-#
+
 # 	def type(self):
 # 		print("India is a developing country.")
-#
+
 # class USA:
 # 	def capital(self):
 # 		print("Washington, D.C. is the capital of USA.")
-#
+
 # 	def language(self):
 # 		print("English is the primary language of USA.")
-#
+
 # 	def type(self):
 # 		print("USA is a developed country.")
-#
+
 # obj_ind = India()
 # # obj_ind.capital()
 # obj_usa = USA()
@@ -59,31 +59,31 @@
 # class India():
 # 	def capital(self):
 # 		print("New Delhi is the capital of India.")
-#
+
 # 	def language(self):
 # 		print("Hindi is the most widely spoken language of India.")
-#
+
 # 	def type(self):
 # 		print("India is a developing country.")
-#
+
 # class USA():
 # 	def capital(self):
 # 		print("Washington, D.C. is the capital of USA.")
-#
+
 # 	def language(self):
 # 		print("English is the primary language of USA.")
-#
+
 # 	def type(self):
 # 		print("USA is a developed country.")
-#
+
 # def func(obj):
 # 	obj.capital()
 # 	obj.language()
 # 	obj.type()
-#
+
 # obj_ind = India()
 # obj_usa = USA()
-#
+
 # func(obj_ind)
 # func(obj_usa)
 
@@ -91,22 +91,22 @@
 # class Bird:
 #     def intro(self):
 #         print("There are many types of birds.")
-#
+
 #     def flight(self):
 #         print("Most of the birds can fly but some cannot.")
-#
-#
+
+
 # class sparrow(Bird):
-#
+
 #     def flight(self):
 #         print("Sparrows can fly.")
-#
-#
+
+
 # class ostrich(Bird):
 #     def flight(self):
 #         print("Ostriches cannot fly.")
+# # #
 # #
-#
 # obj_bird = Bird()
 # obj_spr = sparrow()
 # obj_ost = ostrich()
@@ -136,6 +136,26 @@
 # obj1 = Bird()
 # obj1.flight()
 # obj1.intro()
+
+
+
+# def india():
+#     print("India")
+
+# def india():
+#     print("Delhi")
+
+# india()
+
+
+# class hello:
+#     def hi():
+#         print("iam hi function")
+
+
+# class hello:
+#     def hey():
+#         print("iam hey")
 
 
 
