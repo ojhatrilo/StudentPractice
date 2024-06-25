@@ -244,3 +244,32 @@
 # z = int(input())
 # n = int(input())
 # print(list([i,j,k] for i in range(x+1) for j in range(y+1) for k in range(z+1)  if i+j+k !=n))
+
+
+
+# a = (22,34,56)
+# # a[1] = 45
+# z = list(a)
+# z[-1] = 99
+# x = tuple(z)
+# print(x)
+
+
+# a.append([87,44,78,90])
+# print(a)
+# print(len(a))
+
+
+# b = [87,44,78,90]
+# a.extend(b)
+# print(a)
+# print(len(a))
+
+
+# a = [1,3,4,5,67]
+# a.reverse()
+# print(a)
+
+
+
+

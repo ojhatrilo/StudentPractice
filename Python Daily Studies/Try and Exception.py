@@ -15,7 +15,7 @@
 #             print("mvyg")
 #
 #     hello()
-# except :
+# except:
 #     print("error while calling function")
 #
 # else:
@@ -46,5 +46,5 @@
 
 # a = int(input("Enter the number;"))
 # b = int(input("Enter the number:"))
-# z = a+b:
+# z = a+b
 # print(z)

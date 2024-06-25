@@ -16,8 +16,8 @@
 # 3. We can use (_) instead of space
 # 4. Special Characters or not used in variables
 
-
-# age ="my age"
+# age_hi ="my age"
+# print(age_hi)
 
 # Arthimatic operators
 # +,-,*,/,//,%,**
@@ -28,7 +28,7 @@
 # Comparision Operators
 # <,>,<=,>=,==,!=
 
-# print(23!=23)
+# print(24!=45)
 
 
 # membership operators
@@ -258,10 +258,14 @@
 # insert -- it is used to insert the vlue in the list
 
 # append
-# a = [1,2,3,4,5,"hello"]
-# a1 = 'JOE'
+# a = [1,2,3,4,5,"hello"]#[1,2,3,4,5,"hello",[23,44]]
+# a1 = [23,44]
 # a.append(a1)
+# print(len(a))
 # print(a)
+
+# z = a[6][1]
+# print(z)
 
 # Extend
 # a = [1,2,3]
@@ -279,14 +283,16 @@
 # a.reverse()
 # print(a)
 
+
+
 # pop
-# a = [1,2,3,4,5,"hello"]
+# a = [1,2,3,4,5,"hello","sir"]
 # a.pop()
 # print(a)
 
 # remove
 # a = [1,2,3,4,5,"hello"]
-# a.remove(4)
+# a.remove()
 # print(a)
 
 
@@ -300,7 +306,7 @@
 
 
 # anothertuple = (1, 4, 2, 8, 2, 2)
-# y = anothertuple.index(4)
+# y = anothertuple.index(2)
 # print(y)
 
 # anothertuple = (1, 4, 2, 8, 2, 2)
@@ -333,7 +339,8 @@
 
 
 # thisset = {1,2,3,4,45,6,5,34,33,45,23}
-# x = (23 not in thisset)
+# x = (23 in thisset)
+# print(x)
 # print(x)
 # print(len(thisset))
 # print(thisset)
