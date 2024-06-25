@@ -76,7 +76,7 @@
 # \t -- Tab space
 # print("hello my name is\tsanjeev")
 # // -- Escapes the character
-# print("c:user\\name")
+# print("c:user\name")
 # r -- raw string
 # print(r"c:user\name\hello\nama")
 # F -- Formated String
@@ -90,6 +90,13 @@
 # a  = "Zahara"
 # print(a)
 
+# print('''   
+#       ba ba black sheep 
+#       have you any wool
+#       yes sir yes sir
+#       three bags full
+#       '''
+#       )
 
 # Accessing the characters from the given string
 # first_name = "Tharani Kumar"
@@ -98,7 +105,7 @@
 
 # Accessing the multiple characters from the given string
 # first_name = "Tharani Kumar"
-# single_char = first_name[0:9]
+# single_char = first_name[7:13]
 # single_char = first_name[::-1]
 # single_char = first_name[::2]
 # print(single_char)

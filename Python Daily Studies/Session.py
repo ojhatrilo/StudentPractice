@@ -266,6 +266,8 @@
 # a.reverse()
 # print(a)
 
-
+# a = 23
+# b = float(a)
+# print(type(b))
 
 
