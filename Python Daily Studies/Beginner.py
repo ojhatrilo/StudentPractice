@@ -373,14 +373,17 @@
 
 # Acessing the particular value from the dict
 #
-# a = {
-#     "name":"Ranjani",
-#     "age":25,
-#     "address":"UK"
-# }
-# # print(a)
-# print(a["address"])
-# print(a.get("ages"))
+a = {
+    "name":"Ranjani",
+    "age":25,
+    "address":"UK"
+}
+# print(a)
+# print(a["addresss"])
+# print(a.get("age"))
+
+# list1 = [65,23,66,45]
+# print(list1[0])
 
 
 # # Acessing the keys from the dict
@@ -422,6 +425,7 @@
 # op = dict(name = "super man", age=1000)
 # print(op)
 
+
 # Nested dictionaries
 
 # member1 = {
@@ -438,10 +442,10 @@
 # }
 # print(band)
 # print(band["member1"]["name"])
-#
+
 
 # family = {
-#
+
 # "father" : {
 # "son":"dasy",
 # "wife":"shaerin"
@@ -452,7 +456,7 @@
 # }
 # #
 # }
-# print(family["father"])
+# print(family["father"]["son"])
 
 
 # if and else condition
