@@ -278,8 +278,8 @@
 # print(alp)
 # print(result)
 
-list1 = [22,45,67,34]
-list2 = [44,55,33]
+# list1 = [22,45,67,34]
+# list2 = [44,55,33]
 # for i in range(len(list1)):
 #     print(list1[i])
 
@@ -306,7 +306,11 @@ list2 = [44,55,33]
 
 
 
-
+# x = int(input())
+# y = int(input())
+# z = int(input())
+# n = int(input())
+# print(list([i,j,k] for i in range(x+1) for j in range(y+1) for k in range(z+1)  if i+j+k !=n))
 
 
 
