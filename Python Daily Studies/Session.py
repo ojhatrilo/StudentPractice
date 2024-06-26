@@ -271,3 +271,18 @@
 # print(type(b))
 
 
+a = "hi my name is ojha"
+output = "hi my eman is ojha"
+
+question = "hi my name is ojha"
+
+required = a[6:10]
+# print(required)
+reversed = required[::-1]
+ans = question.replace("name",reversed)
+print(ans)
+
+
+
+
+
