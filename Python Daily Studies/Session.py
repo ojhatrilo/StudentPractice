@@ -396,25 +396,25 @@
 #     print("both are not satisfied")
 
 
-a = 45
-if a%5 == 0 :
-    if a>33:
-        print("a is greater according secerete condition")
-    else:
-        print("a is not greater according secerete condition")
-else:
-    print("a is not divisible by 5")
+# a = 45
+# if a%5 == 0 :
+#     if a>33:
+#         print("a is greater according secerete condition")
+#     else:
+#         print("a is not greater according secerete condition")
+# else:
+#     print("a is not divisible by 5")
 
-a = "hi my name is ojha"
-output = "hi my eman is ojha"
+# a = "hi my name is ojha"
+# output = "hi my eman is ojha"
 
-question = "hi my name is ojha"
+# question = "hi my name is ojha"
 
-required = a[6:10]
-# print(required)
-reversed = required[::-1]
-ans = question.replace("name",reversed)
-print(ans)
+# required = a[6:10]
+# # print(required)
+# reversed = required[::-1]
+# ans = question.replace("name",reversed)
+# print(ans)
 
 
 
