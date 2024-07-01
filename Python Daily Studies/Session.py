@@ -405,6 +405,19 @@ if a%5 == 0 :
 else:
     print("a is not divisible by 5")
 
+a = "hi my name is ojha"
+output = "hi my eman is ojha"
+
+question = "hi my name is ojha"
+
+required = a[6:10]
+# print(required)
+reversed = required[::-1]
+ans = question.replace("name",reversed)
+print(ans)
+
+
+
 
 
 
