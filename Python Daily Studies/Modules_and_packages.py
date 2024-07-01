@@ -1,10 +1,10 @@
 # import package as pk
-# from package import add as pk
+# from package import add 
 
 # x = dir(pk)
 # print(x)
 
-# Add1 = pk.add(2,3)
+# Add1 = add(2,3)
 # print(Add1.addition())
 
 # pk.options()
@@ -12,8 +12,9 @@
 #
 
 # import package as pk
-# # options()
+# options()
 # a = pk.person1["age"]
+# print(a)
 #
 # pk.person1['name']='ranjani'
 # print(pk.person1)

@@ -178,7 +178,7 @@
 # Join
 # users = ['Dave', 'John', 'Sara']
 # print(users)
-# z = "".join(users)
+# z = " ".join(users)
 # print(z)
 
 # cov_str1 = str(users)
@@ -186,7 +186,7 @@
 
 
 
-# split8
+# split
 # name = "tharani is good"
 # x = name.split()
 # print(x)
@@ -209,8 +209,8 @@
 # Acessing the list items
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # list1[0] = 56
-# print(list1[0])
-# print(list1[0:3])
+# print(list1[3])
+# print(list1[0:4])
 # print(len(list1))
 
 # print(list1[1])
@@ -220,7 +220,7 @@
 
 
 # users = ['Dave', 'John', 'Sara','dmmi','anti']
-# users.sort(key=str.upper)
+# users.sort(key=str.lower)
 # print(users)
 
 
@@ -296,12 +296,13 @@
 
 # pop
 # a = [1,2,3,4,5,"hello","sir"]
-# a.pop()
+# a.pop(2)
 # print(a)
 
 # remove
 # a = [1,2,3,4,5,"hello"]
-# a.remove()
+
+# a.remove(3)
 # print(a)
 
 
@@ -356,7 +357,7 @@
 
 # thisset = {1,2,3,4,45,6,5,34,33,45,23}
 # x = (32 not in thisset)
-# print(len(thisset))
+# print(len(thisset)) 
 # print(thisset,x)
 # nums = {1, True, 2, False, 3, 4, 0}
 # print(nums)
@@ -373,14 +374,14 @@
 
 # Acessing the particular value from the dict
 #
-a = {
-    "name":"Ranjani",
-    "age":25,
-    "address":"UK"
-}
+# a = {
+#     "name":"Ranjani",
+#     "age":25,
+#     "address":"UK"
+# }
 # print(a)
-# print(a["addresss"])
-# print(a.get("age"))
+# print(a["address"])
+# print(a.get("ages"))
 
 # list1 = [65,23,66,45]
 # print(list1[0])
@@ -496,7 +497,7 @@ a = {
 # #
 # if 0<a<100:
 
-#
+
 # a = int(input("Enter the number:"))
 #
 # if a>0:

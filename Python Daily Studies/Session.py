@@ -237,8 +237,52 @@
 # output3 = ["HELLO", "EVERYONE"]
 
 
+# question = "hi my name is ojha"
+# to_be_reversed = question[6:10]
+# reverse = to_be_reversed[::-1]
+# replace_1 = question.replace("name",reverse)
+# print(replace_1)
 
 
+
+# question2 = "hi iam fine"
+# reverse_value = question2.split()
+# reverse_value.reverse()
+# replace_2 = " ".join(reverse_value)
+# print(replace_2)
+
+
+# question3 = 5438
+# reverse_value = str(question3)
+# reverse_value = reverse_value[::-1]
+# num = int(reverse_value)
+# print(num)
+# print(type(num))
+
+# question4 = "hi iam the pro coder"
+# z = question4.replace("iam the",'')
+# print(z)
+
+# question5 = "HI MY NAME OJHA"
+# question5 = question5.lower()
+# print(question5)
+
+# quetion6 ="hi my name is ojha"
+# list1 = quetion6.split()
+# want_to_be_removed = list1[0:4]
+# x = "".join(want_to_be_removed)
+# replace = quetion6.replace("hi my name is",x)
+# print(replace)
+
+# question7 = ["hello", "Everyone"]
+# question7[0] = question7[0].upper()
+# question7[1] = question7[1].upper()
+# print(question7)
+
+# question7 = ["hello", "Everyone"]
+# upp = " ".join(question7).upper()
+# x =upp.split()
+# print(x)
 
 
 
@@ -269,5 +313,98 @@
 # a = 23
 # b = float(a)
 # print(type(b))
+
+
+
+# try:
+#     a = int(input("Enter the number:"))
+#     b = int(input("Enter the number:"))
+#     print(a/b)
+# except ValueError:
+#     print("Invalid input")
+# except ZeroDivisionError:
+#     print("Division error")
+
+
+# try:
+#     a = int(input("Enter the number;"))
+#     b = int(input("Enter the number:"))
+#     z = a+b
+
+# except ValueError:
+#     print("invalid input")
+
+# else:
+#     print(z)
+
+# finally:
+#     print("mvyg")
+
+
+
+# set1 = {25,45,92}
+# print(set1)
+
+# a = "hello"
+# a.sort()
+# print(a)
+
+# a = ["hello","everyone","hi"]
+# a[1] = a[1].upper()
+# print(a)
+
+# word = a[1]
+# z = word.upper()
+# a[1] = z
+# print(a)
+
+
+# a = 25
+# b = 39
+
+# if a>b:
+#     print("a is greater")
+# elif a<b:
+#     print("b is greater")
+# else:
+#     print("None of the condition satisfied")
+
+# if a%5 == 0:
+#     if b%5 == 0:
+#         print("both are divisible by 5")
+#     else:
+#         print("a is divisible by 5")
+# else:
+#     print('It is not divisible by 5')
+
+
+
+# a = 41
+# b = 43
+
+# if a>b:
+#     print("a is greater")
+# else:
+#     print("b is greater")
+
+
+# if a>b:
+#     print("a is greater")
+# elif b>a:
+#     print("b is greater")
+# else:
+#     print("both are not satisfied")
+
+
+a = 45
+if a%5 == 0 :
+    if a>33:
+        print("a is greater according secerete condition")
+    else:
+        print("a is not greater according secerete condition")
+else:
+    print("a is not divisible by 5")
+
+
 
 

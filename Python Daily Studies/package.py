@@ -7,7 +7,7 @@ class add:
         return self.num1 + self.num2
 
 
-# add1 = add(3,4)
+# add1 = add()
 # print(add1.addition())
 
 
