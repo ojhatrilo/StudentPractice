@@ -419,5 +419,51 @@
 
 
 
+# a = 23.56
+# print(type(a))
+
+
+# print(5%2)
+
+
+
+
+# a = [22,43,56,78]
+# for i in a:
+#     print(i)
+
+
+
+# intro = {
+#     "name":"ojha",
+#     "age":23,
+#     "city":"delhi"
+# }
+# for i in intro:
+#     print(intro[i])
+
+list1 = [23,12,45,13,30,0,-1,-3,1]
+
+a = list1.copy()
+list1.sort()
+# print(list1)
+
+value = 0
+nearest_0 = list1[0]
+dict1 = {}
+for i in list1:
+    difference = value - abs(i)
+    dict1[abs(difference)] = i
+
+dict1.pop(0)
+x =min(dict1.items())
+print(x[1])
+
+# # print(nearest_0)
+
+
+# print("fizz")
+
+
 
 
