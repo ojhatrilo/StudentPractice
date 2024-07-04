@@ -440,29 +440,20 @@
 #     "city":"delhi"
 # }
 # for i in intro:
-#     print(intro[i])
+# 
+#    print(intro[i])
+# num1 = str(input("Enter number:"))
+# print("hi")
+# num2 = str(input("Enter number:"))
 
-list1 = [23,12,45,13,30,0,-1,-3,1]
+# print(type(num1))
 
-a = list1.copy()
-list1.sort()
-# print(list1)
+# name = input("Enter your name:")
+# print(type(name))
 
-value = 0
-nearest_0 = list1[0]
-dict1 = {}
-for i in list1:
-    difference = value - abs(i)
-    dict1[abs(difference)] = i
-
-dict1.pop(0)
-x =min(dict1.items())
-print(x[1])
-
-# # print(nearest_0)
-
-
-# print("fizz")
+# a = '23'
+# a = int(a)
+# print(a)
 
 
 
