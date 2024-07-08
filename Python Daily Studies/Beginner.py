@@ -72,11 +72,11 @@
 
 # Escape Characters
 # \n -- New Line
-# print("hello my name is \nsanjeev")
+# print("hello my name is \nsanjeev is good")
 # \t -- Tab space
 # print("hello my name is\tsanjeev")
 # // -- Escapes the character
-# print("c:user\name")
+# print("c:user\\name")
 # r -- raw string
 # print(r"c:user\name\hello\nama")
 # F -- Formated String
@@ -105,12 +105,13 @@
 
 # Accessing the multiple characters from the given string
 # first_name = "Tharani Kumar"
-# single_char = first_name[7:13]
+# single_char = first_name[8:13]
 # single_char = first_name[::-1]
 # single_char = first_name[::2]
 # print(single_char)
 # output (Tharani)
 # output (ramuK inarahT)
+# print(len(first_name))
 
 # Format String
 # age  = 18
@@ -128,7 +129,7 @@
 
 # name = "tharani is good"
 
-# name = "tharani is good"
+name = "tharani is good"
 
 # print(name.upper())
 # print(name.lower())
@@ -632,9 +633,72 @@
 #             output+=i
 # print(output)
 
+# list1 = []
+
+# for i in range(0,2):
+#     for j in range(0,2):
+#         print(i,j)
+ 
+# -
+# a = "pranesh raj"
+# output = ""
+# vowel = ("a","e","i","o","u")
+# a_length = len(a)
+# for i in a:
+#     if i not in vowel:
+#         output+=i
+# print(output)
+# i=0
+# while i<a_length:
+#     if a[i] not in vowel:
+#         output+=a[i]
+#     i+=1    
+
+# print(output)
 
 
 
+# list1 = [45,34,67,23]
+# for i in list1:
+#     print(i)
+
+
+# list1 = [56,23,45,89]
+# no1 = list1[0]
+# print(no1)
+# no2 = list1[1]
+# print(no2)
+# no3 = list1[2]
+# print(no3)
+# no4 = list1[3]
+# print(no4)
+
+
+
+
+# list1 = [24,25,32,64,77]
+# list2 = []
+# for i in list1:
+#     if i%2 == 0:
+#         list2.append(i)
+
+# print(list2)
+ 
+
+'''
+1 0 0 
+0 1 0
+0 0 1
+'''
+
+# n = int(input("Enter the number:"))
+# for i in range(n):
+#     for j in range(n):
+#         if i == j:
+#             print(1,end=" ")
+#         else:
+#             print(0,end=" ")
+#     print()
 
 
 

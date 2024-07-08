@@ -2,10 +2,10 @@
 
 # def hello():
 #     print("iam hello function")
-#
+
 # def hi():
-#     print("belongs to Hi function")
-#     return ("satisfied")
+#     # print("belongs to Hi function")
+#     return "satisfied"
 
 # hi = "satisfied"
 
@@ -13,7 +13,7 @@
 # hello()
 
 
-#
+
 # def sai():
 #     return "iam sai function"
 #
@@ -23,8 +23,9 @@
 
 # def add(num1,num2):
 #     sum = num1+num2
-#     return sum
-#
+#     return(sum)
+    
+
 #
 # a = input("Enter the number:")
 # b = input("Enter the number:")
@@ -40,7 +41,7 @@
 #    global a
 #    a +=33
 #    print(a)
-#
+
 # numacess()
 # print(a)
 
@@ -48,8 +49,8 @@
 
 # def cyber(num1=0,num2=0):
 #    return num1+num2
-#
-# print(cyber())
+
+# print(cyber(5))
 
 
 
@@ -68,7 +69,7 @@
 # def multiple_items(*args):
 #    print(args)
 #    print(type(args))
-#
+
 # multiple_items("Dave", "John", "Sara")
 
 
@@ -76,8 +77,8 @@
 # def multiple_items(*args):
 #    print(args[0] + args[2])
 #    print(type(args))
-#
-#
+
+
 # multiple_items(2,6,7)
 
 

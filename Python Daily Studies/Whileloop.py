@@ -111,9 +111,34 @@
 
 
 
+# i = 0
+# while i < 6:
+#   i += 1
+#   if i == 3:
+#     continue
+#   print(i)
+ 
 
+print("Welcome to the Lucky Draw")
 
+secrete = 9
 
+while(True):
+    print("guessing Range of Vaue from 1 to 10")
+
+    guss = int(input("Enter the Number:"))
+    if guss<11:
+        if guss == secrete:
+            print("You win")
+            break
+        elif guss>secrete:
+            print("the value is max")
+        elif guss<secrete:
+            print("th value is min")
+        else:
+            print("Try again")
+    else:
+        print("Invalid input")
 
 
 

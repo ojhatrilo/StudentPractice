@@ -458,3 +458,84 @@
 
 
 
+# list1=[22,45,85,58,33]
+# min=list1[0]
+# for i in list1:
+#     if i<min:
+#         min=i
+# print(min) 
+
+
+# list1=[22,45,85,58,33]
+# max=list1[0]
+# for i in list1:
+#     if i>max:
+#         max=i
+# print(max)  
+
+# Write a function named capital_indexes. The function takes a single parameter, which is a string.
+#  Your function should return a list of all the indexes in the string that have capital letters.
+# For example, calling capital_indexes("HeLlO") should return the list [0, 2, 4].
+
+# def capital_indexes(a):
+#     list1 = []
+#     for i in range(len(a)):
+#         if a[i].isupper():
+#             list1.append(i)
+#     return list1
+
+# output = capital_indexes("HeLlO")
+# print(output)
+
+        
+
+# i = 0
+# while i<5:
+#     print(i)
+#     i+=1
+
+
+
+'''
+
+1 0 0 
+0 1 0
+0 0 1
+
+'''
+# def identity(num):
+#     for i in range(num):
+#         for j in range(num):
+#             if i == j:
+#                 print(1,end=" ")
+#             else:
+#                 print(0,end=" ")
+#         print()
+
+
+# num = int(input("Enter the number:"))
+# identity(num)
+
+
+
+
+
+def add(num1,num2):
+    sum1 = num1+num2
+    return sum1
+
+def sub(num1, num2):
+    sub1 = num2-num1
+    return sub1
+
+def predict(num1,num2):
+    if num1 > num2:
+        print("Great")
+    else:
+        print("Some Fault")
+
+
+x = add(25,33) #58 
+y = sub(20,70) #50
+
+predict(x,y)
