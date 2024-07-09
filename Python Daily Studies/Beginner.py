@@ -129,7 +129,7 @@
 
 # name = "tharani is good"
 
-name = "tharani is good"
+# name = "tharani is good"
 
 # print(name.upper())
 # print(name.lower())
@@ -475,13 +475,13 @@ name = "tharani is good"
 
 # a = 24
 # b = 24
-
+#
 # if a==b:
 #     a+=23
-
+#
 # if a!=b:
 #     a+=24
-#
+# #
 #     print(a)
 # else:
 #     b+=27
@@ -596,7 +596,7 @@ name = "tharani is good"
 
 
 # list1 = [22,44,55,86,92,55]
-
+#
 # count = 0-1
 # key = 55
 #
@@ -616,11 +616,11 @@ name = "tharani is good"
 # for i in list1:
 #     add+=i
 #
-
+#
 # print(add)
-
-
-
+#
+#
+#
 # name = input("Enter your name:")
 # vowles = "aeiou"
 # output = ''
@@ -684,12 +684,12 @@ name = "tharani is good"
 
 # print(list2)
  
-
-'''
-1 0 0 
-0 1 0
-0 0 1
-'''
+#
+# '''
+# 1 0 0
+# 0 1 0
+# 0 0 1
+# '''
 
 # n = int(input("Enter the number:"))
 # for i in range(n):
@@ -699,8 +699,8 @@ name = "tharani is good"
 #         else:
 #             print(0,end=" ")
 #     print()
-
-
+#
+#
 
 
 

@@ -112,9 +112,11 @@
 # get the third element of the iterator
 # print(next(iterator))  # prints 0
 #
+# print(next(iterator)) # prints 3
+
 # print(next(iterator))
 # for i in my_list:
-#     print(next(iterator))
+    # print(next(iterator))
 
 
 
