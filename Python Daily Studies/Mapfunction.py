@@ -92,8 +92,6 @@
 #     print("length is not satisfied")
 
 
-
-
 # list1 = []
 # n = int(input("Enter the number of elements to be stored:"))
 #
@@ -101,5 +99,21 @@
 #     a = int(input("Enter the number:"))
 #     list1.append(a)
 # print(list1)
+
+
+
+# list1 = [24,34,56,78,89]
+
+# def hello(n):
+#     return n+2
+
+# x = map(hello,list1)
+# print(list(x))
+
+
+
+
+
+
 
 

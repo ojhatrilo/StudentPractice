@@ -1,6 +1,6 @@
 # a = 23
 # b = 23
-# c = a != b
+# c = a >= b
 # print(c)
 
 # print("Hello World")
@@ -40,7 +40,7 @@
 # Logical Operators
 # and
 # or
-# not
+# not     
 
 
 # Identity Operators
@@ -105,9 +105,9 @@
 
 # Accessing the multiple characters from the given string
 # first_name = "Tharani Kumar"
-# single_char = first_name[8:13]
+# single_char = first_name[0:7]
 # single_char = first_name[::-1]
-# single_char = first_name[::2]
+# single_char = first_name[0:7:2]
 # print(single_char)
 # output (Tharani)
 # output (ramuK inarahT)
@@ -191,7 +191,7 @@
 # name = "tharani is good"
 # x = name.split()
 # print(x)
-
+   
 
 # List 
 # It is used to store multiple items or values in a single variable
@@ -201,8 +201,6 @@
 # To convert list we use "list()"
 
 
-
-
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # print(list1)
 
@@ -210,8 +208,10 @@
 # Acessing the list items
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # list1[0] = 56
-# print(list1[3])
+
+# print(list1)
 # print(list1[0:4])
+# print(list1[::2])
 # print(len(list1))
 
 # print(list1[1])
@@ -269,9 +269,9 @@
 
 # append
 # a = [1,2,3,4,5,"hello"]#[1,2,3,4,5,"hello",[23,44]]
-# a1 = [23,44]
+# a1 = [23,44] 
 # a.append(a1)
-# print(len(a))
+# print(len(a[6]))
 # print(a)
 
 # z = a[6][1]
@@ -297,12 +297,11 @@
 
 # pop
 # a = [1,2,3,4,5,"hello","sir"]
-# a.pop(2)
+# a.pop()
 # print(a)
 
 # remove
 # a = [1,2,3,4,5,"hello"]
-
 # a.remove(3)
 # print(a)
 

@@ -1,16 +1,16 @@
-# # # # function that filters vowels
+# # function that filters vowels
 # def fun(variable):
 #     letters = ['a', 'e', 'i', 'o', 'u']
-#     if (variable in letters):
+#     if (variable not in letters):
 #         return True
 #     else:
 #         return False
-#
-# # #
-# # # # sequence
-# sequence = ["h","e","i","o","u"]
+
+# # 
+# # sequence
+# sequence = "hello"
 # #
-# #  using filter function
+# # using filter function
 # filtered = filter(fun, sequence)
 # print(list(filtered))
 # #

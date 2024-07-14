@@ -83,24 +83,14 @@
 
 
 
-# i = 0
-# secrets = 5
-# while (i<3):
-#    num1 = int(input("Enter the number:"))
-#    if num1==secrets:
-#       print("you win")
-#       break
-#    else:
-#       print("your guess is wrong")
-#       i+=1
 
-# print(ord("b"))
+# print(ord("c"))
 
 # Iterator
 # define a list
 # my_list = [4, 7, 0, 3]
 
-# # create an iterator from the list
+# create an iterator from the list
 # iterator = iter(my_list)
 
 # get the first element of the iterator
@@ -111,12 +101,12 @@
 
 # get the third element of the iterator
 # print(next(iterator))  # prints 0
-#
+
 # print(next(iterator)) # prints 3
 
 # print(next(iterator))
 # for i in my_list:
-    # print(next(iterator))
+#     print(next(iterator))
 
 
 
@@ -124,20 +114,20 @@
 
 # Generator
 # def my_generator(n):
-#
+
 #     # initialize counter
 #     value = 0
-#
+
 #     # loop until counter is less than n
 #     while value < n:
-#
+
 #         # produce the current value of the counter
-#         yield value
-#
+#         yield value%2
+
 #         # increment the counter
 #         value += 1
 
-# iterate over the generator object produced by my_generator
+# # iterate over the generator object produced by my_generator
 # print(list( my_generator(5)))
 
 
@@ -149,65 +139,65 @@
 # if __name__ =='__main__':
 #     my_function()
 
-# Closure is a function having access to the scope of its parent
+# Closure is a function having access to the scope of its parent function
 # function after the parent function has returned.
 #
 
 # def parent_function(person, coins):
 #     # coins = 3
-#
+
 #     def play_game():
 #         nonlocal coins
 #         coins -= 1
-#
+
 #         if coins > 1:
 #             print("\n" + person + " has " + str(coins) + " coins left.")
 #         elif coins == 1:
 #             print("\n" + person + " has " + str(coins) + " coin left.")
 #         else:
 #             print("\n" + person + " is out of coins.")
-#
+
 #     return play_game
-#
-#
+
+
 # tommy = parent_function("Tommy", 3) # play_game
 # jenny = parent_function("Jenny", 5)
-#
+
 # tommy()
 # tommy()
 # #
 # jenny()
 # tommy()
-#
+
 
 
 
 # Decorator Concept
 
 # def make_pretty(func):
-#    # define the inner function
+#   #  define the inner function
 #    def inner():
 #       # add some additional behavior to decorated function
 #       print("I got decorated")
-#
+
 #       # call original function
 #       func()
-#
-#    # return the inner function
+
+#   #  return the inner function
 #    return inner
-#
-#
+
+
 # # define ordinary function
 # def ordinary():
 #    print("I am ordinary")
 #    print("Hello Every one")
-#
-#
-#
-# # decorate the ordinary function
-# decorated_func = make_pretty(ordinary)
-#
-# # call the decorated function
+
+
+
+# decorate the ordinary function
+# decorated_func = make_pretty(ordinary) # inner
+
+# call the decorated function
 # decorated_func()
 
 
@@ -220,16 +210,16 @@
 # #
 # #         # call original function
 #         func()
-#
+
 #     # return the inner function
 #     return inner
-#
-#
-# # define ordinary function
+
+
+# define ordinary function
 # @make_pretty
 # def ordinary():
 #     print("I am ordinary")
-#
+
 #
 # @make_pretty
 # def hello():

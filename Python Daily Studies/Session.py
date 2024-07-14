@@ -520,22 +520,3 @@
 
 
 
-def add(num1,num2):
-    sum1 = num1+num2
-    return sum1
-
-def sub(num1, num2):
-    sub1 = num2-num1
-    return sub1
-
-def predict(num1,num2):
-    if num1 > num2:
-        print("Great")
-    else:
-        print("Some Fault")
-
-
-x = add(25,33) #58 
-y = sub(20,70) #50
-
-predict(x,y)
