@@ -33,7 +33,7 @@
 
 # numbers1 = [1, 2, 3]
 # numbers2 = [4, 5, 6]
-#
+# #
 # result = map(lambda x, y: x + y, numbers1, numbers2)
 # print(list(result))
 
@@ -73,10 +73,9 @@
 
 # # number of elements
 # n = int(input("Enter number of elements : "))
-#
-# # Below line read inputs from user using map() function
-# a = list(map(int,input("\nEnter the numbers : ").strip().split()))[:n]
-#
+
+# Below line read inputs from user using map() function
+
 # print("\nList is - ", a)
 #
 # a = map(int,input("enter the ele:").split())
@@ -101,7 +100,6 @@
 # print(list1)
 
 
-
 # list1 = [24,34,56,78,89]
 
 # def hello(n):
@@ -112,6 +110,22 @@
 
 
 
+# list1 = [22,52,45,56,34]
+
+# for i in list1:
+#     print(i)
+
+# list1 = [25,32,56,78]
+# list2 = []
+# for i in list1:
+#     list2.append(i+2)
+# print(list2)
+
+# def hello(n):
+#     return n+2
+
+# maptut = map(hello,list1)
+# print(list(maptut))
 
 
 

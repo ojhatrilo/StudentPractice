@@ -58,3 +58,24 @@
 #
 # # Print the result
 # print(result)
+
+
+list1 = [25,34,15,16,18,23]
+list1.sort()
+
+
+# def age_18(n):
+#     if n >= 18:
+#         return True
+#     else:
+#         return False
+    
+# ageFilter = list(filter(age_18,list1))
+# print(ageFilter)
+
+
+x = lambda a:a>=18
+
+agefilter = list(filter(x,list1))
+print(agefilter)
+

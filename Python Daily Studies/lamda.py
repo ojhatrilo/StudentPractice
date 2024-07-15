@@ -15,11 +15,11 @@
 #   return lambda a : a * n
 
 # myfunc = lambda a:a*2
-
 # mydoubler = myfunc(2)
 # mydoubler(11)
 # print(mydoubler(11))
-
+# add = lambda a:a+2
+# print(add(10))
 
 # a =  lambda a,b,c:a+b+c
 
@@ -54,3 +54,4 @@
 #
 # print("Alphabets:",alphabets)
 # print("Numbers:",numbers)
+
