@@ -7,7 +7,7 @@ def homepage(request):
     # return HttpResponse("Hello World! I'm Home.")
     data = models.Student.objects.all()
     # singledata = models.Student.objects.get(id=id)
-    return render(request, 'home.html',{"data": })
+    return render(request, 'home.html',{"data":data})
 
 
 def about(request):

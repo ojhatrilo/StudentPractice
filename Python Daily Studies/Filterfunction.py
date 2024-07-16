@@ -60,8 +60,8 @@
 # print(result)
 
 
-list1 = [25,34,15,16,18,23]
-list1.sort()
+# `list1 = [25,34,15,16,18,23]
+# list1.sort()`
 
 
 # def age_18(n):
@@ -74,8 +74,8 @@ list1.sort()
 # print(ageFilter)
 
 
-x = lambda a:a>=18
+# x = lambda a:a>=18
 
-agefilter = list(filter(x,list1))
-print(agefilter)
+# agefilter = list(filter(x,list1))
+# print(agefilter)
 

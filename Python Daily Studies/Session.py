@@ -518,5 +518,80 @@
 
 
 
+# class Calculator:
+#     def __init__(self,num1,num2):
+#         self.num1 = num1
+#         self.num2 = num2
+    
+#     def add(self):
+#         return self.num1 + self.num2
+    
+#     def sub(self):
+#         return self.num1 - self.num2
+    
+#     def mul(self):
+#         return self.num1 * self.num2
+    
+#     def div(self):
+#         return self.num1 / self.num2
+    
+# num1 = int(input("Enter the first number:"))
+# num2 = int(input("Enter the second number:"))
+# while True:
+#     print("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division")
+#     choice =input("Enter your choice:")
+#     obj = Calculator(num1,num2)
+#     if choice == "1":
+#         print("Addition is:",obj.add())
+#     elif choice == "2":
+#         print("Subtraction is:",obj.sub())
+#     elif choice == "3":1,
+#         print("Multiplication is:",obj.mul())
+#     elif choice == "4":
+#         print("Division is:",obj.div())
+#     else:
+#         print("Invalid choice")
+#         print("Do you want to continue? (y/n):")
+#         choice = input()
+#         if choice == "y":
+#             continue
+#         else:
+#             break
+
+def add(num1,num2):
+    return num1 + num2
+
+def sub (num1,num2) :   
+    return num1 - num2
+
+def mul (num1,num2) :
+    return num1 * num2
+def div (num1,num2):
+    return num1 / num2
+
+num1 =int(input ("Enter the first number:"))
+num2 = int(input ("Enter the second number:"))
+while True:
+    print("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division")
+    choice = input("Enter your choice:")
+    if choice == "1":
+        print("Addition is:",add(num1,num2))
+    elif choice == "2":
+        print("Subtraction is:",sub(num1,num2))
+    elif choice == "3":
+        print("Multiplication is:",mul(num1,num2))
+    elif choice == "4":
+        print("Division is:",div(num1,num2))
+    else:
+        print("Invalid choice")
+        print("Do you want to continue? (y/n):")
+        choice = input()
+        if choice == "y":
+            continue
+        else:
+            break
+        
+
+
 
 
