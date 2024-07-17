@@ -32,11 +32,14 @@ def about(request):
     return render(request, 'about.html')
 
 
-def data(request,id):
-    singledata = models.Student.objects.get(id=id)
-    return render(request, 'singledata.html',{"sin":singledata})
-
-def delete(request,id):
+def data(request,id):        
+    try:
+        singledata = models.Student.objects.get(id=id)
+        return render(request, 'singledata.html',{"sin":singledata})
+    except:
+        return HttpResponse("No data found")
+    
+def delete(request,id): 
     if request.user.is_authenticated:
         singledata = models.Student.objects.get(id=id)
         singledata.delete()

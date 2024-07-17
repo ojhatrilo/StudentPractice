@@ -558,39 +558,60 @@
 #         else:
 #             break
 
-def add(num1,num2):
-    return num1 + num2
+# def add(num1,num2):
+#     return num1 + num2
 
-def sub (num1,num2) :   
-    return num1 - num2
+# def sub (num1,num2) :   
+#     return num1 - num2
 
-def mul (num1,num2) :
-    return num1 * num2
-def div (num1,num2):
-    return num1 / num2
+# def mul (num1,num2) :
+#     return num1 * num2
+# def div (num1,num2):
+#     return num1 / num2
 
-num1 =int(input ("Enter the first number:"))
-num2 = int(input ("Enter the second number:"))
-while True:
-    print("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division")
-    choice = input("Enter your choice:")
-    if choice == "1":
-        print("Addition is:",add(num1,num2))
-    elif choice == "2":
-        print("Subtraction is:",sub(num1,num2))
-    elif choice == "3":
-        print("Multiplication is:",mul(num1,num2))
-    elif choice == "4":
-        print("Division is:",div(num1,num2))
-    else:
-        print("Invalid choice")
-        print("Do you want to continue? (y/n):")
-        choice = input()
-        if choice == "y":
-            continue
-        else:
-            break
+# num1 =int(input ("Enter the first number:"))
+# num2 = int(input ("Enter the second number:"))
+# while True:
+#     print("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division")
+#     choice = input("Enter your choice:")
+#     if choice == "1":
+#         print("Addition is:",add(num1,num2))
+#     elif choice == "2":
+#         print("Subtraction is:",sub(num1,num2))
+#     elif choice == "3":
+#         print("Multiplication is:",mul(num1,num2))
+#     elif choice == "4":
+#         print("Division is:",div(num1,num2))
+#     else:
+#         print("Invalid choice")
+#         print("Do you want to continue? (y/n):")
+#         choice = input()
+#         if choice == "y":
+#             continue
+#         else:
+#             break
         
+
+# list1 = ["hello","god"]
+# a= list1[1]
+# b=a[0].upper()
+# print(b)
+
+input = "hi iam the pro coder"
+output ="hi pro coder"
+a=input.split()
+a.remove("iam")
+a.remove("the")
+b=" ".join(a)
+print(b)
+
+
+
+
+
+
+
+
 
 
 
