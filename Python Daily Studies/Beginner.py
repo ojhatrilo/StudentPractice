@@ -84,7 +84,6 @@
 # b  = 25
 # print(f"\tmy name is \"{a}\"\nMy age is {b}")
 
-
 # print('my "name" is "shri"')
 
 # a  = "Zahara"
@@ -107,7 +106,7 @@
 # first_name = "Tharani Kumar"
 # single_char = first_name[0:7]
 # single_char = first_name[::-1]
-# single_char = first_name[0:7:2]
+# single_char = first_name[7:0:-2]
 # print(single_char)
 # output (Tharani)
 # output (ramuK inarahT)

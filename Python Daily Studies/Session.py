@@ -648,22 +648,56 @@
 #             print("Invalid choice")
 #     else:
 #         print("invalid Pin")
-        
+
+# class add:
+#     def __init__(self,a,b):
+#         self.a = a
+#         self.b = b
+
+#     def __str__ (self):
+#         # return (f"Addition of {self.a} and {self.b} is {self.a+self.b}")
+#         return str(self.a)
     
-a = {
-    "name":"Rahul",
-    "ages":20,
-    "city":"Delhi",
-    "pin":1234    
-}
+
+# obj = add(56,23)
+# print(obj)
+
+# class Add:
+#     def __init__(self,a,b):
+#         self.a = a
+#         self.b = b
+    
+#     def addition(self):
+#         return self.a + self.b
+    
+# class Sub:
+#     def __init__(self,a,b):
+#         self.a = a
+#         self.b = b
+    
+#     def subtraction(self):
+#         return self.a - self.b
+    
+# class Mul:
+#     def __init__(self,a,b):
+#         self.a = a
+#         self.b = b
+    
+#     def multiplication(self):
+#         return self.a * self.b
+    
+# class Div:
+#     def __init__(self,a,b):
+#         self.a = a
+#         self.b = b
+
+#     def divide(self):
+#         return self.a / self.b
 
 
+# class Calculator(Add,Sub,Mul,Div):
+#     pass
 
-
-
-
-
-
-
-
+# obj = Calculator(4,2)
+# print(obj.addition())
 

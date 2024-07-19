@@ -2,10 +2,10 @@
 # morphic functions
 
 # # len() being used for a string
-# print(len("geeks"))
+print(len("geeks"))
 #
 # # len() being used for a list
-# print(len([10, 20, 30]))
+print(len([10, 20, 30]))
 
 
 
@@ -44,7 +44,7 @@
 # 		print("USA is a developed country.")
 
 # obj_ind = India()
-# # obj_ind.capital()
+# obj_ind.capital()
 # obj_usa = USA()
 # for country in (obj_ind, obj_usa):
 # 	country.capital()

@@ -5,17 +5,17 @@
 # class Hello:
 #     x = "Hello iam Executed"
 #     print(x)
-#
+
 #     # def __str__(self):
 #     #     return self.x
 #     def hi(self):
 #         return ("Hi")
-#
+
 #     def hello(self):
 #         return ("ajay")
 
 # obj = Hello()
-# print(Hello().hello())
+# # print(Hello().hello())
 # print(obj.x)
 # print(obj.hello())
 # print(obj.hi())
