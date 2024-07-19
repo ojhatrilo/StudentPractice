@@ -364,12 +364,7 @@
 
 
 
-# Dictionaries 
-# Dictionaries are used to store key,value pairs
-# Dictionaries are used to create "{}"
-# Dictionaries are odered, changeable, and not indexed
-# Dictionaries do not allow duplicates
-# We have nested dictionaries 
+             
  
 
 # Acessing the particular value from the dict
@@ -457,7 +452,7 @@
 # }
 # #
 # }
-# print(family["father"]["son"])
+# print(family['grandFather']['mother'])
 
 
 # if and else condition

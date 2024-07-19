@@ -597,14 +597,65 @@
 # b=a[0].upper()
 # print(b)
 
-input = "hi iam the pro coder"
-output ="hi pro coder"
-a=input.split()
-a.remove("iam")
-a.remove("the")
-b=" ".join(a)
-print(b)
 
+# pin = 1234
+# amount = 0
+
+# def deposite(value):
+#     global amount
+#     amount +=value
+#     print("Your current balance is:",amount)
+
+# def withdraw(value):
+#     global amount
+#     if amount < value:
+#         print("Insufficient balance")
+#     else:
+#         amount -=value
+#         print("Your current balance is:",amount)
+
+# def balance():
+#     global amount
+#     print("Your current balance is:",amount)
+
+# def user_pin(value):
+#     global pin
+#     if value == pin:
+#         new_pin = int(input("Enter your new pin"))
+#         pin = new_pin
+#     else:
+#         print("invalid pin")
+
+    
+# while True:
+#     cus_pin = int(input("Enter the pin number:"))
+#     if cus_pin == pin:
+#         print("Welcome to our account")
+#         user_pin(cus_pin)    
+#         print("1.Deposite\n2.Withdraw\n3.Balance\n4.Exit")
+#         choice = input("Enter your choice:")
+#         if choice == "1":
+#             value1 = int(input("Enter the amount:"))
+#             deposite(value1)
+#         elif choice == "2":
+#             value2 = int(input("Enter the amount:"))
+#             withdraw(value2)
+#         elif choice == "3":
+#             balance()
+#         elif choice == "4":
+#             break
+#         else:
+#             print("Invalid choice")
+#     else:
+#         print("invalid Pin")
+        
+    
+a = {
+    "name":"Rahul",
+    "ages":20,
+    "city":"Delhi",
+    "pin":1234    
+}
 
 
 

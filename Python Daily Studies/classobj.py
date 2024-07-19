@@ -14,16 +14,16 @@
 #         return (f"{self.num1}+{self.num2}={self.value}")
 
 #
-class sub:
-    def __init__(self,num1,num2):
-        self.num1 = num1
-        self.num2 = num2
+# class sub:
+#     def __init__(self,num1,num2):
+#         self.num1 = num1
+#         self.num2 = num2
 
-    def subtraction(self):
-        return self.num1 - self.num2
+#     def subtraction(self):
+#         return self.num1 - self.num2
 
-    def addition(self):
-        return  self.num1 + self.num2
+#     def addition(self):
+#         return  self.num1 + self.num2
 #
 #
 # a = int(input("enter the number: "))
@@ -138,7 +138,16 @@ class sub:
 #         return self.num1 + self.num2
 
 
-# class sub(add):
+# 
+
+
+
+
+
+
+
+
+
 #     # def __init__(self, num1, num2):
 #     #     self.num1 = num1
 #     #     self.num2 = num2
@@ -170,6 +179,7 @@ class sub:
 #         print(cal.subtraction())
 #     elif options == "3":
 #         print(cal.multiplication())
+
 #     elif options == "4":
 #         print(cal.division())
 #     else:
@@ -178,7 +188,7 @@ class sub:
 
 
 # Multiple Inheritance
-# e
+#
 #
 # class myclass:
 #
@@ -195,8 +205,6 @@ class sub:
 # obj = myclass(34,43)
 # print(obj.add())
 # print(obj.sub())
-
-
 
 
 # Contructor

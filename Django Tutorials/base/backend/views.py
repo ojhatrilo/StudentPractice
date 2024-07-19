@@ -55,6 +55,7 @@ def update(request,id):
             Age  = request.POST.get('number')
             email = request.POST.get('email')
             Phone = request.POST.get('phone')
+            
             data.name = name
             data.Age = Age
             data.email = email
