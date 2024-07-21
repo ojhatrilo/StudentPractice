@@ -237,8 +237,52 @@
 # output3 = ["HELLO", "EVERYONE"]
 
 
+# question = "hi my name is ojha"
+# to_be_reversed = question[6:10]
+# reverse = to_be_reversed[::-1]
+# replace_1 = question.replace("name",reverse)
+# print(replace_1)
 
 
+
+# question2 = "hi iam fine"
+# reverse_value = question2.split()
+# reverse_value.reverse()
+# replace_2 = " ".join(reverse_value)
+# print(replace_2)
+
+
+# question3 = 5438
+# reverse_value = str(question3)
+# reverse_value = reverse_value[::-1]
+# num = int(reverse_value)
+# print(num)
+# print(type(num))
+
+# question4 = "hi iam the pro coder"
+# z = question4.replace("iam the",'')
+# print(z)
+
+# question5 = "HI MY NAME OJHA"
+# question5 = question5.lower()
+# print(question5)
+
+# quetion6 ="hi my name is ojha"
+# list1 = quetion6.split()
+# want_to_be_removed = list1[0:4]
+# x = "".join(want_to_be_removed)
+# replace = quetion6.replace("hi my name is",x)
+# print(replace)
+
+# question7 = ["hello", "Everyone"]
+# question7[0] = question7[0].upper()
+# question7[1] = question7[1].upper()
+# print(question7)
+
+# question7 = ["hello", "Everyone"]
+# upp = " ".join(question7).upper()
+# x =upp.split()
+# print(x)
 
 
 
@@ -271,18 +315,389 @@
 # print(type(b))
 
 
-a = "hi my name is ojha"
-output = "hi my eman is ojha"
 
-question = "hi my name is ojha"
-
-required = a[6:10]
-# print(required)
-reversed = required[::-1]
-ans = question.replace("name",reversed)
-print(ans)
-
+# try:
+#     a = int(input("Enter the number:"))
+#     b = int(input("Enter the number:"))
+#     print(a/b)
+# except ValueError:
+#     print("Invalid input")
+# except ZeroDivisionError:
+#     print("Division error")
 
 
+# try:
+#     a = int(input("Enter the number;"))
+#     b = int(input("Enter the number:"))
+#     z = a+b
 
+# except ValueError:
+#     print("invalid input")
+
+# else:
+#     print(z)
+
+# finally:
+#     print("mvyg")
+
+
+
+# set1 = {25,45,92}
+# print(set1)
+
+# a = "hello"
+# a.sort()
+# print(a)
+
+# a = ["hello","everyone","hi"]
+# a[1] = a[1].upper()
+# print(a)
+
+# word = a[1]
+# z = word.upper()
+# a[1] = z
+# print(a)
+
+
+# a = 25
+# b = 39
+
+# if a>b:
+#     print("a is greater")
+# elif a<b:
+#     print("b is greater")
+# else:
+#     print("None of the condition satisfied")
+
+# if a%5 == 0:
+#     if b%5 == 0:
+#         print("both are divisible by 5")
+#     else:
+#         print("a is divisible by 5")
+# else:
+#     print('It is not divisible by 5')
+
+
+
+# a = 41
+# b = 43
+
+# if a>b:
+#     print("a is greater")
+# else:
+#     print("b is greater")
+
+
+# if a>b:
+#     print("a is greater")
+# elif b>a:
+#     print("b is greater")
+# else:
+#     print("both are not satisfied")
+
+
+# a = 45
+# if a%5 == 0 :
+#     if a>33:
+#         print("a is greater according secerete condition")
+#     else:
+#         print("a is not greater according secerete condition")
+# else:
+#     print("a is not divisible by 5")
+
+# a = "hi my name is ojha"
+# output = "hi my eman is ojha"
+
+# question = "hi my name is ojha"
+
+# required = a[6:10]
+# # print(required)
+# reversed = required[::-1]
+# ans = question.replace("name",reversed)
+# print(ans)
+
+
+
+
+# a = 23.56
+# print(type(a))
+
+
+# print(5%2)
+
+
+
+
+# a = [22,43,56,78]
+# for i in a:
+#     print(i)
+
+
+
+# intro = {
+#     "name":"ojha",
+#     "age":23,
+#     "city":"delhi"
+# }
+# for i in intro:
+# 
+#    print(intro[i])
+# num1 = str(input("Enter number:"))
+# print("hi")
+# num2 = str(input("Enter number:"))
+
+# print(type(num1))
+
+# name = input("Enter your name:")
+# print(type(name))
+
+# a = '23'
+# a = int(a)
+# print(a)
+
+
+
+
+# list1=[22,45,85,58,33]
+# min=list1[0]
+# for i in list1:
+#     if i<min:
+#         min=i
+# print(min) 
+
+
+# list1=[22,45,85,58,33]
+# max=list1[0]
+# for i in list1:
+#     if i>max:
+#         max=i
+# print(max)  
+
+# Write a function named capital_indexes. The function takes a single parameter, which is a string.
+#  Your function should return a list of all the indexes in the string that have capital letters.
+# For example, calling capital_indexes("HeLlO") should return the list [0, 2, 4].
+
+# def capital_indexes(a):
+#     list1 = []
+#     for i in range(len(a)):
+#         if a[i].isupper():
+#             list1.append(i)
+#     return list1
+
+# output = capital_indexes("HeLlO")
+# print(output)
+
+        
+
+# i = 0
+# while i<5:
+#     print(i)
+#     i+=1
+
+
+
+'''
+
+1 0 0 
+0 1 0
+0 0 1
+
+'''
+# def identity(num):
+#     for i in range(num):
+#         for j in range(num):
+#             if i == j:
+#                 print(1,end=" ")
+#             else:
+#                 print(0,end=" ")
+#         print()
+
+
+# num = int(input("Enter the number:"))
+# identity(num)
+
+
+
+# class Calculator:
+#     def __init__(self,num1,num2):
+#         self.num1 = num1
+#         self.num2 = num2
+    
+#     def add(self):
+#         return self.num1 + self.num2
+    
+#     def sub(self):
+#         return self.num1 - self.num2
+    
+#     def mul(self):
+#         return self.num1 * self.num2
+    
+#     def div(self):
+#         return self.num1 / self.num2
+    
+# num1 = int(input("Enter the first number:"))
+# num2 = int(input("Enter the second number:"))
+# while True:
+#     print("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division")
+#     choice =input("Enter your choice:")
+#     obj = Calculator(num1,num2)
+#     if choice == "1":
+#         print("Addition is:",obj.add())
+#     elif choice == "2":
+#         print("Subtraction is:",obj.sub())
+#     elif choice == "3":1,
+#         print("Multiplication is:",obj.mul())
+#     elif choice == "4":
+#         print("Division is:",obj.div())
+#     else:
+#         print("Invalid choice")
+#         print("Do you want to continue? (y/n):")
+#         choice = input()
+#         if choice == "y":
+#             continue
+#         else:
+#             break
+
+# def add(num1,num2):
+#     return num1 + num2
+
+# def sub (num1,num2) :   
+#     return num1 - num2
+
+# def mul (num1,num2) :
+#     return num1 * num2
+# def div (num1,num2):
+#     return num1 / num2
+
+# num1 =int(input ("Enter the first number:"))
+# num2 = int(input ("Enter the second number:"))
+# while True:
+#     print("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division")
+#     choice = input("Enter your choice:")
+#     if choice == "1":
+#         print("Addition is:",add(num1,num2))
+#     elif choice == "2":
+#         print("Subtraction is:",sub(num1,num2))
+#     elif choice == "3":
+#         print("Multiplication is:",mul(num1,num2))
+#     elif choice == "4":
+#         print("Division is:",div(num1,num2))
+#     else:
+#         print("Invalid choice")
+#         print("Do you want to continue? (y/n):")
+#         choice = input()
+#         if choice == "y":
+#             continue
+#         else:
+#             break
+        
+
+# list1 = ["hello","god"]
+# a= list1[1]
+# b=a[0].upper()
+# print(b)
+
+
+# pin = 1234
+# amount = 0
+
+# def deposite(value):
+#     global amount
+#     amount +=value
+#     print("Your current balance is:",amount)
+
+# def withdraw(value):
+#     global amount
+#     if amount < value:
+#         print("Insufficient balance")
+#     else:
+#         amount -=value
+#         print("Your current balance is:",amount)
+
+# def balance():
+#     global amount
+#     print("Your current balance is:",amount)
+
+# def user_pin(value):
+#     global pin
+#     if value == pin:
+#         new_pin = int(input("Enter your new pin"))
+#         pin = new_pin
+#     else:
+#         print("invalid pin")
+
+    
+# while True:
+#     cus_pin = int(input("Enter the pin number:"))
+#     if cus_pin == pin:
+#         print("Welcome to our account")
+#         user_pin(cus_pin)    
+#         print("1.Deposite\n2.Withdraw\n3.Balance\n4.Exit")
+#         choice = input("Enter your choice:")
+#         if choice == "1":
+#             value1 = int(input("Enter the amount:"))
+#             deposite(value1)
+#         elif choice == "2":
+#             value2 = int(input("Enter the amount:"))
+#             withdraw(value2)
+#         elif choice == "3":
+#             balance()
+#         elif choice == "4":
+#             break
+#         else:
+#             print("Invalid choice")
+#     else:
+#         print("invalid Pin")
+
+# class add:
+#     def __init__(self,a,b):
+#         self.a = a
+#         self.b = b
+
+#     def __str__ (self):
+#         # return (f"Addition of {self.a} and {self.b} is {self.a+self.b}")
+#         return str(self.a)
+    
+
+# obj = add(56,23)
+# print(obj)
+
+# class Add:
+#     def __init__(self,a,b):
+#         self.a = a
+#         self.b = b
+    
+#     def addition(self):
+#         return self.a + self.b
+    
+# class Sub:
+#     def __init__(self,a,b):
+#         self.a = a
+#         self.b = b
+    
+#     def subtraction(self):
+#         return self.a - self.b
+    
+# class Mul:
+#     def __init__(self,a,b):
+#         self.a = a
+#         self.b = b
+    
+#     def multiplication(self):
+#         return self.a * self.b
+    
+# class Div:
+#     def __init__(self,a,b):
+#         self.a = a
+#         self.b = b
+
+#     def divide(self):
+#         return self.a / self.b
+
+
+# class Calculator(Add,Sub,Mul,Div):
+#     pass
+
+# obj = Calculator(4,2)
+# print(obj.addition())
 

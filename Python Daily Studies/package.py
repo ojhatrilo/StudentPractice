@@ -6,9 +6,9 @@ class add:
     def addition(self):
         return self.num1 + self.num2
 
-
-# add1 = add(3,4)
-# print(add1.addition())
+if __name__ == '__main__':
+    add2 = add(5,4)
+    print(add2.addition())
 
 
 class sub(add):
@@ -54,3 +54,11 @@ class sub(add):
 #     'name':'tharani',
 #     'age': 24
 # }
+
+# list2 = [22,34,56,67,67,34]
+# list1 = []
+# for i in list2:
+#     if i not in list1:
+#         list1.append(i)
+
+# print(list1)

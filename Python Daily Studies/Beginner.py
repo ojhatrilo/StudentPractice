@@ -1,6 +1,6 @@
 # a = 23
 # b = 23
-# c = a != b
+# c = a >= b
 # print(c)
 
 # print("Hello World")
@@ -40,7 +40,7 @@
 # Logical Operators
 # and
 # or
-# not
+# not     
 
 
 # Identity Operators
@@ -72,18 +72,17 @@
 
 # Escape Characters
 # \n -- New Line
-# print("hello my name is \nsanjeev")
+# print("hello my name is \nsanjeev is good")
 # \t -- Tab space
 # print("hello my name is\tsanjeev")
 # // -- Escapes the character
-# print("c:user\name")
+# print("c:user\\name")
 # r -- raw string
 # print(r"c:user\name\hello\nama")
 # F -- Formated String
 # a  = "shri"
 # b  = 25
 # print(f"\tmy name is \"{a}\"\nMy age is {b}")
-
 
 # print('my "name" is "shri"')
 
@@ -105,12 +104,13 @@
 
 # Accessing the multiple characters from the given string
 # first_name = "Tharani Kumar"
-# single_char = first_name[7:13]
+# single_char = first_name[0:7]
 # single_char = first_name[::-1]
-# single_char = first_name[::2]
+# single_char = first_name[7:0:-2]
 # print(single_char)
 # output (Tharani)
 # output (ramuK inarahT)
+# print(len(first_name))
 
 # Format String
 # age  = 18
@@ -178,7 +178,7 @@
 # Join
 # users = ['Dave', 'John', 'Sara']
 # print(users)
-# z = "".join(users)
+# z = " ".join(users)
 # print(z)
 
 # cov_str1 = str(users)
@@ -186,11 +186,11 @@
 
 
 
-# split8
+# split
 # name = "tharani is good"
 # x = name.split()
 # print(x)
-
+   
 
 # List 
 # It is used to store multiple items or values in a single variable
@@ -200,8 +200,6 @@
 # To convert list we use "list()"
 
 
-
-
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # print(list1)
 
@@ -209,8 +207,10 @@
 # Acessing the list items
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # list1[0] = 56
-# print(list1[0])
-# print(list1[0:3])
+
+# print(list1)
+# print(list1[0:4])
+# print(list1[::2])
 # print(len(list1))
 
 # print(list1[1])
@@ -220,7 +220,7 @@
 
 
 # users = ['Dave', 'John', 'Sara','dmmi','anti']
-# users.sort(key=str.upper)
+# users.sort(key=str.lower)
 # print(users)
 
 
@@ -268,9 +268,9 @@
 
 # append
 # a = [1,2,3,4,5,"hello"]#[1,2,3,4,5,"hello",[23,44]]
-# a1 = [23,44]
+# a1 = [23,44] 
 # a.append(a1)
-# print(len(a))
+# print(len(a[6]))
 # print(a)
 
 # z = a[6][1]
@@ -301,7 +301,7 @@
 
 # remove
 # a = [1,2,3,4,5,"hello"]
-# a.remove()
+# a.remove(3)
 # print(a)
 
 
@@ -356,31 +356,26 @@
 
 # thisset = {1,2,3,4,45,6,5,34,33,45,23}
 # x = (32 not in thisset)
-# print(len(thisset))
+# print(len(thisset)) 
 # print(thisset,x)
 # nums = {1, True, 2, False, 3, 4, 0}
 # print(nums)
 
 
 
-# Dictionaries 
-# Dictionaries are used to store key,value pairs
-# Dictionaries are used to create "{}"
-# Dictionaries are odered, changeable, and not indexed
-# Dictionaries do not allow duplicates
-# We have nested dictionaries 
+             
  
 
 # Acessing the particular value from the dict
 #
-a = {
-    "name":"Ranjani",
-    "age":25,
-    "address":"UK"
-}
+# a = {
+#     "name":"Ranjani",
+#     "age":25,
+#     "address":"UK"
+# }
 # print(a)
-# print(a["addresss"])
-# print(a.get("age"))
+# print(a["address"])
+# print(a.get("ages"))
 
 # list1 = [65,23,66,45]
 # print(list1[0])
@@ -456,7 +451,7 @@ a = {
 # }
 # #
 # }
-# print(family["father"]["son"])
+# print(family['grandFather']['mother'])
 
 
 # if and else condition
@@ -473,13 +468,13 @@ a = {
 
 # a = 24
 # b = 24
-
+#
 # if a==b:
 #     a+=23
-
+#
 # if a!=b:
 #     a+=24
-#
+# #
 #     print(a)
 # else:
 #     b+=27
@@ -496,7 +491,7 @@ a = {
 # #
 # if 0<a<100:
 
-#
+
 # a = int(input("Enter the number:"))
 #
 # if a>0:
@@ -594,7 +589,7 @@ a = {
 
 
 # list1 = [22,44,55,86,92,55]
-
+#
 # count = 0-1
 # key = 55
 #
@@ -614,11 +609,11 @@ a = {
 # for i in list1:
 #     add+=i
 #
-
+#
 # print(add)
-
-
-
+#
+#
+#
 # name = input("Enter your name:")
 # vowles = "aeiou"
 # output = ''
@@ -631,11 +626,74 @@ a = {
 #             output+=i
 # print(output)
 
+# list1 = []
+
+# for i in range(0,2):
+#     for j in range(0,2):
+#         print(i,j)
+ 
+# -
+# a = "pranesh raj"
+# output = ""
+# vowel = ("a","e","i","o","u")
+# a_length = len(a)
+# for i in a:
+#     if i not in vowel:
+#         output+=i
+# print(output)
+# i=0
+# while i<a_length:
+#     if a[i] not in vowel:
+#         output+=a[i]
+#     i+=1    
+
+# print(output)
+
+
+
+# list1 = [45,34,67,23]
+# for i in list1:
+#     print(i)
+
+
+# list1 = [56,23,45,89]
+# no1 = list1[0]
+# print(no1)
+# no2 = list1[1]
+# print(no2)
+# no3 = list1[2]
+# print(no3)
+# no4 = list1[3]
+# print(no4)
 
 
 
 
+# list1 = [24,25,32,64,77]
+# list2 = []
+# for i in list1:
+#     if i%2 == 0:
+#         list2.append(i)
 
+# print(list2)
+ 
+#
+# '''
+# 1 0 0
+# 0 1 0
+# 0 0 1
+# '''
+
+# n = int(input("Enter the number:"))
+# for i in range(n):
+#     for j in range(n):
+#         if i == j:
+#             print(1,end=" ")
+#         else:
+#             print(0,end=" ")
+#     print()
+#
+#
 
 
 

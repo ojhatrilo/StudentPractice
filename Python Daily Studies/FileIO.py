@@ -1,7 +1,11 @@
 
 # f = open("demo.txt","w")
 # #
-# f.write("\nHello i have deleted all the above content")
+# f.write("Hello i have deleted all the above content")
+# f.close()
+
+
+
 
 
 # f = open("demo.txt","r")
@@ -9,7 +13,7 @@
 
 # f = open("demo.txt", "a+")
 # f.write("\nhello iam elakiya")
-#
+
 # f.close()
 
 
@@ -65,3 +69,5 @@
 
 # import os
 # os.remove("hello.txt")
+
+

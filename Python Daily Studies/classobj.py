@@ -18,10 +18,10 @@
 #     def __init__(self,num1,num2):
 #         self.num1 = num1
 #         self.num2 = num2
-#
+
 #     def subtraction(self):
 #         return self.num1 - self.num2
-#
+
 #     def addition(self):
 #         return  self.num1 + self.num2
 #
@@ -137,7 +137,6 @@
 #     def addition(self):
 #         return self.num1 + self.num2
 
-
 # class sub(add):
 #     # def __init__(self, num1, num2):
 #     #     self.num1 = num1
@@ -170,6 +169,7 @@
 #         print(cal.subtraction())
 #     elif options == "3":
 #         print(cal.multiplication())
+
 #     elif options == "4":
 #         print(cal.division())
 #     else:
@@ -178,7 +178,7 @@
 
 
 # Multiple Inheritance
-# e
+#
 #
 # class myclass:
 #
@@ -195,8 +195,6 @@
 # obj = myclass(34,43)
 # print(obj.add())
 # print(obj.sub())
-
-
 
 
 # Contructor

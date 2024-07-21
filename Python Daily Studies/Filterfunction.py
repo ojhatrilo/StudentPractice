@@ -1,16 +1,16 @@
-# # # # function that filters vowels
+# # function that filters vowels
 # def fun(variable):
 #     letters = ['a', 'e', 'i', 'o', 'u']
-#     if (variable in letters):
+#     if (variable not in letters):
 #         return True
 #     else:
 #         return False
-#
-# # #
-# # # # sequence
-# sequence = ["h","e","i","o","u"]
+
+# # 
+# # sequence
+# sequence = "hello"
 # #
-# #  using filter function
+# # using filter function
 # filtered = filter(fun, sequence)
 # print(list(filtered))
 # #
@@ -58,3 +58,24 @@
 #
 # # Print the result
 # print(result)
+
+
+# `list1 = [25,34,15,16,18,23]
+# list1.sort()`
+
+
+# def age_18(n):
+#     if n >= 18:
+#         return True
+#     else:
+#         return False
+    
+# ageFilter = list(filter(age_18,list1))
+# print(ageFilter)
+
+
+# x = lambda a:a>=18
+
+# agefilter = list(filter(x,list1))
+# print(agefilter)
+

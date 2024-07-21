@@ -312,8 +312,24 @@
 # n = int(input())
 # print(list([i,j,k] for i in range(x+1) for j in range(y+1) for k in range(z+1)  if i+j+k !=n))
 
+# python program to find the nearest value of 0 in the list
+# list1 = [23,12,45,13,30,0,-1,-3,1]
 
+# a = list1.copy()
+# list1.sort()
+# print(list1)
 
+# value = 0
+# nearest_0 = list1[0]
+# dict1 = {}
+# for i in list1:
+#     difference = value - abs(i)
+#     dict1[abs(difference)] = i
+
+# dict1.pop(0)
+# x =min(dict1.items())
+# print(x[1])
+# # print(nearest_0)
 
 
 
