@@ -13,7 +13,7 @@
 # 	def __init__(self):
 
 # 		# Protected member
-# 		self._a = 2
+# 		self._ab = 2
 
 # # Creating a derived class
 # class Derived(Base):
@@ -23,12 +23,12 @@
 # 		# Base class
 # 		Base.__init__(self)
 # 		print("Calling protected member of base class: ",
-# 			self._a)
+# 			self._ab)
 
 # 		# Modify the protected variable:
-# 		self._a = 3
+# 		self._ab = 3
 # 		print("Calling modified protected member outside class: ",
-# 			self._a)
+# 			self._ab)
 
 
 
@@ -37,7 +37,7 @@
 # ooj = organ()
 
 # obj1 = Derived()
-# #
+#
 # obj2 = Base()
 
 
@@ -61,20 +61,20 @@
 # Creating a Base class
 
 #
-# class Base:
-# 	def __init__(self):
-# 		self.a = "GeeksforGeeks"
-# 		self.__c = "GeeksforGeeks"
+class Base:
+	def __init__(self):
+		self.a = "GeeksforGeeks"
+		self.__c = "GeeksforGeeks2"
 
-# # Creating a derived class
-# class Derived(Base):
-# 	def __init__(self):
+# Creating a derived class
+class Derived(Base):
+	def __init__(self):
 
-# 		# Calling constructor of
-# 		# Base class
-# 		Base.__init__(self)
-# 		print("Calling private member of base class: ")
-# 		print(self.a)
+		# Calling constructor of
+		# Base class
+		Base.__init__(self)
+		print("Calling private member of base class: ")
+		print(self.a)
 
 
 # Driver code

@@ -2,10 +2,10 @@
 # morphic functions
 
 # # len() being used for a string
-print(len("geeks"))
+# print(len("geeks"))
 #
 # # len() being used for a list
-print(len([10, 20, 30]))
+# print(len([10, 20, 30]))
 
 
 
@@ -46,6 +46,7 @@ print(len([10, 20, 30]))
 # obj_ind = India()
 # obj_ind.capital()
 # obj_usa = USA()
+# obj_usa.capital()
 # for country in (obj_ind, obj_usa):
 # 	country.capital()
 # 	country.language()
@@ -160,4 +161,27 @@ print(len([10, 20, 30]))
 
 
 
+# class Regular:
+#     def hi(self):
+#         print("iam hi function")
 
+#     # def hi(self,bee):
+#     #     print("iam hi to all")
+
+# obj1 = Regular()
+# obj1.hi()
+
+
+
+# class Base:
+#     def __init__(self):
+#         self.a = 25
+#         self.b = 44
+
+# class Derived(Base):
+#     def __init__(self):
+#         Base.__init__(self)
+   
+
+# obj1 = Derived()
+# print(obj1.a)
