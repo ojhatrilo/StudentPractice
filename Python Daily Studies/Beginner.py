@@ -123,11 +123,6 @@
 # print(comp_value.real + comp_value.imag)
 
 # String Methods
-
-
-
-# name = "tharani is good"
-
 # name = "tharani is good"
 
 # print(name.upper())
@@ -198,7 +193,7 @@
 # To create list  we use "[]"
 # It can store multiple datatyes in single Variable
 # To convert list we use "list()"
-
+ 
 
 # list1 = [21,"hellow",True,23.5,"hellow"]
 # print(list1)
@@ -210,7 +205,7 @@
 
 # print(list1)
 # print(list1[0:4])
-# print(list1[::2])
+# print(list1[::3])
 # print(len(list1))
 
 # print(list1[1])

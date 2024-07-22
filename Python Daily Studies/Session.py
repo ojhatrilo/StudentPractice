@@ -701,3 +701,64 @@
 # obj = Calculator(4,2)
 # print(obj.addition())
 
+
+# a = 56
+# b = 47
+
+# if a<b:
+#     if b>a:
+#         print("b is greater than a")
+#     else:
+#         print("a is greater than b")
+# else:
+#     print("a is greater than b")
+
+
+# Reverse the nuber
+
+
+# age = 23
+# name = "adline"
+
+# print(f"{name} {name} {age} {age}")
+
+# try:
+#     a = int(input("Enter the first number:"))
+#     b = int(input("Enter the second number:"))
+#     print(a/b)
+# except ZeroDivisionError:
+#     print("Wrong input for division")
+# except ValueError:
+#     print("Entered value dosen't mathch with the datatype")
+# finally:
+#     print("Have a Good Day")
+
+
+
+# a = int(input("Enter the first number:"))
+# b = int(input("Enter the second number:"))
+# print(a/b)
+
+# a = "hi iam fine"
+# x = a.split()
+# x.reverse()
+# print(x)
+# y = " ".join(x)
+# print(y)
+
+
+# a = "hi iam fine"
+# x = a[0:2]
+# y = a[3:6]
+# z = a[7:]
+# print(z,y,x)
+# z = a[::-1]
+# print(z)
+
+
+# a = 5854
+# x = a[-1]
+# print(x)
+
+
+

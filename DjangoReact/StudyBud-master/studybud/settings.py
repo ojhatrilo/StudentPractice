@@ -59,7 +59,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'studybud.urls'
+ROOT_URLCONF = "base.urls"
 
 TEMPLATES = [
     {
