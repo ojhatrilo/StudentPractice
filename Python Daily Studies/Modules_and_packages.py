@@ -1,11 +1,11 @@
-import package as pk
-from package import add 
+# import package as pk
+# from package import add,sub 
 
 # x = dir(pk)
 # print(x)
 
-Add1 = add(2,3)
-print(Add1.addition())
+# Add1 = sub(2,3)
+# print(Add1.subtraction())
 
 # pk.options()
 

@@ -43,7 +43,7 @@ def delete_item(request, pk):
     item = Item.objects.get(id=pk)
     if request.method == 'POST':
         item.delete()
-        return redirect('item_list')
+        return redirect('item_list') 
     return render(request, 'myapp/item_confirm_delete.html', {'item': item})
 
 

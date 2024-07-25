@@ -23,7 +23,6 @@
 
 
 
-
 # try:
 #     a = int(input("Enter the number;"))
 #     b = int(input("Enter the number:"))
@@ -35,12 +34,13 @@
 #     except ZeroDivisionError:
 #         print("input is not valid")
 #     else:
-#         print("Something Wrong")
+#         print("Correct answer is executed")
 # except ValueError:
 #     print("Given input is not valid")
 # else:
-#     print("something problem")
-
+#     print("Good Inputs havebeen executed")
+# finally:
+#     print("Finally block is executed")
 
 # a = int(input("Enter the number;"))
 
@@ -65,3 +65,12 @@
 # # if false then raise the value error 
 # except ValueError as a : 
 # 		print(a) 
+
+
+
+
+
+
+
+
+

@@ -762,3 +762,67 @@
 
 
 
+# a = 45
+# b = 56
+# if a>b:
+#     a +=30
+#     print("a is greater than b")
+#     print(a)
+# if a == b:
+#     print("a is equal to b")
+
+# else:
+#     b +=30
+#     print("b is greater than a")
+#     print(b)
+
+
+# a = ["Welcome to python programing Language"]
+# x = a[0].split()
+# x[2] = x[2].upper()
+# z = " ".join(x)
+# a[0] = z
+# print(a)
+
+
+# try:
+#     a = int(input("enter the number:"))
+#     if a % 2 == 0:
+#         print("even number")
+#     else:
+#         print("odd number")
+# except ValueError:
+#     print("Invalid input")
+# except ZeroDivisionError:
+#     print("Zero division error")
+
+
+# a = int(input("enter the number:"))
+# print(a)
+
+# print("Finally i have got executed")
+
+# list1 = [68,47,34,44,92]
+# # print(list1[0])
+# # print(list1[1])
+# # print(list1[2])
+# # print(list1[3])
+# # print(list1[4])
+# for i in list1:
+#     print(i)
+
+
+
+# list1 = [68,47,34,44,92,1]
+
+# minimum = list1[0]#47 34 1
+# for i in list1:
+#     if i < minimum:
+#         minimum = i
+# print(minimum)
+        
+
+
+
+
+

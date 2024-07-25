@@ -300,12 +300,13 @@
 # print(a)
 
 
+
 # Tuples
 # It is used to store multiple items in a single variable
 # It allows duplicates
 # It is ordered
 # It is not changeable or not mutable
-# To create tuples "()"
+# To create tuples"()"
 # To convert into tuples we use "tuple()"
 
 
@@ -355,22 +356,18 @@
 # print(thisset,x)
 # nums = {1, True, 2, False, 3, 4, 0}
 # print(nums)
-
-
-
-             
  
 
 # Acessing the particular value from the dict
 #
-# a = {
-#     "name":"Ranjani",
-#     "age":25,
-#     "address":"UK"
-# }
+a = {
+    "name":"Ranjani",
+    "age":25,
+    "address":"UK"
+}
 # print(a)
 # print(a["address"])
-# print(a.get("ages"))
+# print(a.get("age"))
 
 # list1 = [65,23,66,45]
 # print(list1[0])
@@ -446,7 +443,7 @@
 # }
 # #
 # }
-# print(family['grandFather']['mother'])
+# print(family["grandFather"]["mother"])
 
 
 # if and else condition
@@ -463,13 +460,14 @@
 
 # a = 24
 # b = 24
-#
+# #
 # if a==b:
 #     a+=23
+#     print(a)
 #
 # if a!=b:
 #     a+=24
-# #
+# 
 #     print(a)
 # else:
 #     b+=27
