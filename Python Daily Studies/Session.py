@@ -175,8 +175,8 @@
 # num2 = str(input("enter the number:"))
 
 
-# total = int(num1)-int(num2)
-# print(total)
+# minimum = int(num1)-int(num2)
+# print(minimum)
 
 
 
@@ -821,6 +821,41 @@
 #         minimum = i
 # print(minimum)
         
+
+
+# a = int(input("enter the number:"))
+
+# if a%2 ==0 and a%3 == 0 :
+#     print("number is divisible by 2 and 3")
+# elif a%5 == 0 or a%10 == 0:
+#     print("number is divisible by 5 or 10")
+# else:
+#     print("number is not divisible by 2,3,5,10")
+
+
+# list1 = [23,12,44,"hi",'hello','yellow',30]
+# num=[]
+# str=[]
+# for i in list1:
+#     if type(i)==int:
+#         num.append(i)
+#     else:
+#         str.append(i)
+# print(num)
+# print(str)
+
+# val = int(input("enter the number:"))
+# adder = 0
+# for c in range(1,val,3):
+#     adder += c
+#     if c%2 == 0 :
+#         print(c*10)
+#     else:
+#         print(adder)
+
+# print(c)
+
+
 
 
 

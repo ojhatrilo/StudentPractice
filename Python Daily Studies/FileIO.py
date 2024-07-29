@@ -5,11 +5,14 @@
 # f.close()
 
 
+# f = open("demo3.txt","a")
+# f.write("Hello i have deleted all the above content")
+# f.close()
 
 
-
-# f = open("demo.txt","r")
-# print(f.read())
+# f = open("demo3.txt", "w")
+# f.write("Hello i have deleted all the above content")
+# f.close()
 
 # f = open("demo.txt", "a+")
 # f.write("\nhello iam elakiya")
@@ -29,16 +32,16 @@
 # text=input.read()
 # z=text.split()
 # y=[]
-#
+
 # for i in z:
 #     if i not in y:
 #         y.append(i)
-#
+
 # x=" ".join(y)
 # output.write(x)
 # input.close()
 # output.close()
-#
+
 
 # create file
 
@@ -68,6 +71,6 @@
 
 
 # import os
-# os.remove("hello.txt")
+# os.remove("demo3.txt")
 
 

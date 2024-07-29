@@ -116,5 +116,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-# usernamme = ojha
-# password = 6542
+# packages required to connect with mysql pip install mysqlclient

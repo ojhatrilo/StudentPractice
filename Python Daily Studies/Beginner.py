@@ -455,7 +455,7 @@ a = {
 # Types of conditional statements
 # if 
 # if and else
-# nested if and else
+# nested if and else..
 # elif  as the same funtion of else
 
 # a = 24
@@ -485,22 +485,20 @@ a = {
 # if 0<a<100:
 
 
-# a = int(input("Enter the number:"))
+a = int(input("Enter the number:"))
 #
-# if a>0:
-#
-#
-#     if a%2 == 0:
-#         print("divisible by 2")
-#     elif a%3 == 0:
-#         print("divisible by 3")
-#     elif a%5 == 0:
-#         print("divisible by 5")
-#     else:
-#         print("not divisible by any number")
-#
-# else:
-#     print("invalid input")
+if a>0:
+    if a%2 == 0:
+        print("divisible by 2")
+    elif a%3 == 0:
+        print("divisible by 3")
+    elif a%5 == 0:
+        print("divisible by 5")
+    else:
+        print("not divisible by any number")
+    
+else:
+    print("invalid input")
 
 # loops 
 # iterating the sequences like string, list, tuple, & sets etc

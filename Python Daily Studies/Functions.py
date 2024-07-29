@@ -87,7 +87,7 @@
 # print(ord("c"))
 
 # Iterator
-# define a list
+# # define a list
 # my_list = [4, 7, 0, 3]
 
 # create an iterator from the list
@@ -103,6 +103,7 @@
 # print(next(iterator))  # prints 0
 
 # print(next(iterator)) # prints 3
+# print(next(iterator)) # raises StopIteration
 
 # print(next(iterator))
 # for i in my_list:
@@ -194,31 +195,31 @@
 
 
 
-# decorate the ordinary function
+# # decorate the ordinary function
 # decorated_func = make_pretty(ordinary) # inner
 
-# call the decorated function
+# # call the decorated function
 # decorated_func()
 
 
 
-# def make_pretty(func):
-# #     # define the inner function
-#     def inner():
-# #         # add some additional behavior to decorated function
-#         print("I got decorated")
-# #
-# #         # call original function
-#         func()
+def make_pretty(func):
+#     # define the inner function
+    def inner():
+#         # add some additional behavior to decorated function
+        print("I got decorated")
+#
+#         # call original function
+        func()
 
-#     # return the inner function
-#     return inner
+    # return the inner function
+    return inner
 
 
 # define ordinary function
-# @make_pretty
-# def ordinary():
-#     print("I am ordinary")
+@make_pretty
+def ordinary():
+    print("I am ordinary")
 
 #
 # @make_pretty
@@ -227,7 +228,7 @@
 # # decorate the ordinary function
 #
 # hello()
-# ordinary()
+ordinary()
 # call the decorated function
 
 
