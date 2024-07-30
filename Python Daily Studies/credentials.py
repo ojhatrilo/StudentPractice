@@ -1,5 +1,5 @@
 
 host="localhost"
 user = "root"
-password= "Admin@123"
+password= "root"
 port = "3306"

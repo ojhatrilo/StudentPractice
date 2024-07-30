@@ -857,7 +857,26 @@
 
 
 
+# a = "iam good not"
+# b = "you are super"
+
+# list1 = a.split()
+# list2 = b.split()
+
+# output = []
+
+# for i in range(len(list1)):
+#     output.append(list1[i])
+#     output.append(list2[i])
+
+# str1 = ' '.join(output)
+# print(str1)
+
+
+# a = [56,56,23,44,44,29]
 
 
 
+
+ 
 

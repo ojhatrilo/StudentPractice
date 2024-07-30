@@ -1,18 +1,19 @@
-import mysql.connector
-import credentials as cd
+# import mysql.connector
+# import credentials as cd
 
 
-mydb = mysql.connector.connect(
-    host=cd.host,
-    user = cd.user,
-    password= cd.password,
-    port = cd.port
-)
+# mydb = mysql.connector.connect(
+#     host=cd.host,
+#     user = cd.user,
+#     password= cd.password,
+#     port = cd.port
+# )
 
-data = mydb.cursor()
+# data = mydb.cursor()
+# print("I have executed ")
 
 # data.execute("show databases")
-#
+# #
 # for i in data:
 #     print(i)
 

@@ -1,9 +1,9 @@
-# i = 0
-# while i<=5:
-#     print(i)
-#     if i==3:
-#         break
-#     i+=1
+i = 0
+while i<=5:
+    print(i)
+    i+=1
+  
+   
 
 # while(True):
 #     pass
@@ -119,26 +119,26 @@
 #   print(i)
  
 
-print("Welcome to the Lucky Draw")
+# print("Welcome to the Lucky Draw")
 
-secrete = 9
+# secrete = 9
 
-while(True):
-    print("guessing Range of Vaue from 1 to 10")
+# while(True):
+#     print("guessing Range of Vaue from 1 to 10")
 
-    guss = int(input("Enter the Number:"))
-    if guss<11:
-        if guss == secrete:
-            print("You win")
-            break
-        elif guss>secrete:
-            print("the value is max")
-        elif guss<secrete:
-            print("th value is min")
-        else:
-            print("Try again")
-    else:
-        print("Invalid input")
+#     guss = int(input("Enter the Number:"))
+#     if guss<11:
+#         if guss == secrete:
+#             print("You win")
+#             break
+#         elif guss>secrete:
+#             print("the value is max")
+#         elif guss<secrete:
+#             print("th value is min")
+#         else:
+#             print("Try again")
+#     else:
+#         print("Invalid input")
 
 
 

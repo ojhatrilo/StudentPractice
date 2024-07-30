@@ -360,11 +360,11 @@
 
 # Acessing the particular value from the dict
 #
-a = {
-    "name":"Ranjani",
-    "age":25,
-    "address":"UK"
-}
+# a = {
+#     "name":"Ranjani",
+#     "age":25,
+#     "address":"UK"
+# }
 # print(a)
 # print(a["address"])
 # print(a.get("age"))
@@ -485,26 +485,28 @@ a = {
 # if 0<a<100:
 
 
-a = int(input("Enter the number:"))
-#
-if a>0:
-    if a%2 == 0:
-        print("divisible by 2")
-    elif a%3 == 0:
-        print("divisible by 3")
-    elif a%5 == 0:
-        print("divisible by 5")
-    else:
-        print("not divisible by any number")
+# a = int(input("Enter the number:"))
+# 
+# if a>0:
+#     if a%2 == 0:
+#         print("divisible by 2")
+#     elif a%3 == 0:
+#         print("divisible by 3")
+#     elif a%5 == 0:
+#         print("divisible by 5")
+#     else:
+#         print("not divisible by any number")
     
-else:
-    print("invalid input")
+# else:
+#     print("invalid input")
 
 # loops 
 # iterating the sequences like string, list, tuple, & sets etc
 # types of loops 
 # for loop
 # while loop
+
+
 
 # a =[25,44,53,"hellow","hi","how"]
 # num = []
@@ -558,19 +560,19 @@ else:
 #         print("value found at index ",count)
 # print(count)
 
-# a = "qw"
-# print(a.isalpha())
-# for i in range(0,3):
-#     for j in range(0,3):
-#         print(i,j)
 
+
+# a = "qw"
+#    
 
 
 
 
 #
 # list1 = [22,12,34,65,23]
-#
+
+
+
 # add = 0
 # for i in list1:
 #     add+=i
@@ -583,7 +585,9 @@ else:
 #
 # count = 0-1
 # key = 55
-#
+
+
+
 # for i in list1:
 #     count+=1
 #     if i == key:
@@ -594,6 +598,7 @@ else:
 # for i in list1:
 #     add+=i
 
+
 # list1 = [22,12,34,65,23]
 #
 # add = 0
@@ -602,9 +607,9 @@ else:
 #
 #
 # print(add)
-#
-#
-#
+
+
+
 # name = input("Enter your name:")
 # vowles = "aeiou"
 # output = ''
@@ -623,7 +628,7 @@ else:
 #     for j in range(0,2):
 #         print(i,j)
  
-# -
+# 
 # a = "pranesh raj"
 # output = ""
 # vowel = ("a","e","i","o","u")
