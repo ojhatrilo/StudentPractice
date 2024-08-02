@@ -20,16 +20,32 @@
 #
 #
 # print(sai())
-
-# def add(num1,num2):
-#     sum = num1+num2
+# a = int(input("enter the number:"))
+# b = int(input("enter the number:"))
+# def add():
+#     sum = a+b
 #     return(sum)
+
+# print(add())
     
+# functions with arguments
+
+# def add(a,b):
+#     sum = a+b
+#     print(sum)
+
+# z = int(input("enter the number:"))
+# x = int(input("enter the number:"))
+# add(z,x)
+
+
+
 
 #
 # a = input("Enter the number:")
 # b = input("Enter the number:")
-# #
+# 
+
 # print(add(a,b))
 # print(add(44,34))
 
@@ -50,7 +66,7 @@
 # def cyber(num1=0,num2=0):
 #    return num1+num2
 
-# print(cyber(5))
+# print(cyber(0))
 
 
 
@@ -66,9 +82,9 @@
 # print(a)
 
 
-# def multiple_items(*args):
-#    print(args)
-#    print(type(args))
+# def multiple_items(*hq):
+#    print(hq)
+#    print(type(hq))
 
 # multiple_items("Dave", "John", "Sara")
 
