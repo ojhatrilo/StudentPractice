@@ -100,22 +100,22 @@
 
 
 
-# print(ord("c"))
+# print(ord("A"))
 
 # Iterator
-# # define a list
+# define a list
 # my_list = [4, 7, 0, 3]
 
 # create an iterator from the list
 # iterator = iter(my_list)
 
-# get the first element of the iterator
+# # get the first element of the iterator
 # print(next(iterator))  # prints 4
 
-# get the second element of the iterator
+# # get the second element of the iterator
 # print(next(iterator))  # prints 7
 
-# get the third element of the iterator
+# # get the third element of the iterator
 # print(next(iterator))  # prints 0
 
 # print(next(iterator)) # prints 3
@@ -139,7 +139,7 @@
 #     while value < n:
 
 #         # produce the current value of the counter
-#         yield value%2
+#         yield value
 
 #         # increment the counter
 #         value += 1
@@ -200,6 +200,7 @@
 #       # call original function
 #       func()
 
+
 #   #  return the inner function
 #    return inner
 
@@ -211,10 +212,10 @@
 
 
 
-# # decorate the ordinary function
+# # # decorate the ordinary function
 # decorated_func = make_pretty(ordinary) # inner
 
-# # call the decorated function
+# # # call the decorated function
 # decorated_func()
 
 

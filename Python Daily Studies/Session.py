@@ -887,7 +887,6 @@
   # Output: 64
 
 
-
 # avg function
 # min function
 # max function
@@ -917,7 +916,56 @@
 #     print(A[i],end=" ") 
 
 
+# a = 23
 
+# def change():
+#   global a
+#   a = 40
+
+# change()
+# print(a)  # Output: 23
+
+
+students = [
+    {'name': 'Priya','age': 99, 'rank': 5},
+    {'name': 'Amma', 'age': 45, 'rank': 100},
+    {'name': 'Arun', 'age': 29, 'rank': 2},
+    {'name': 'Ranju','age': 94, 'rank': 4},
+    {'name': 'Appa', 'age': 52, 'rank': 99}
+]
+
+# def min_rank(data):
+#   rank = data[0]['rank']
+#   count = 0
+#   for i in range(len(students)):  
+#     if rank>data[i]['rank']:
+#       rank = data[i]['rank']
+#       count = i
+#   return data[count]
+
+# print(min_rank(students))    
+# print(students[2]['rank'])
+
+
+# def add(a,b):
+#     return a+b
+
+# print(add(6,3))
+
+# x = lambda a,b : a+b
+# print(x(5,7))  # Output: 12
+
+# def add(n):
+#     return n + n
+
+# list1 = [25,23,56,5]
+
+# x = map(add,list1)
+# print(list(x))  # Output: [50, 46, 112, 10]
+
+
+
+list1 = ["23",'45','56']
 
 
 

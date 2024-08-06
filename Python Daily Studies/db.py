@@ -9,6 +9,7 @@
 #     port = cd.port
 # )
 
+# print("I have sucefully connected to the database")
 # data = mydb.cursor()
 # print("I have executed ")
 

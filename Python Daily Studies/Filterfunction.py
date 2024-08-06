@@ -60,8 +60,8 @@
 # print(result)
 
 
-# `list1 = [25,34,15,16,18,23]
-# list1.sort()`
+# list1 = [25,34,15,16,18,23]
+# list1.sort()
 
 
 # def age_18(n):
@@ -78,4 +78,15 @@
 
 # agefilter = list(filter(x,list1))
 # print(agefilter)
+
+
+
+
+
+
+
+
+
+
+
 
