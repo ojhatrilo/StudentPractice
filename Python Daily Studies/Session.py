@@ -917,7 +917,6 @@
 
 
 # a = 23
-
 # def change():
 #   global a
 #   a = 40
@@ -925,14 +924,13 @@
 # change()
 # print(a)  # Output: 23
 
-
-students = [
-    {'name': 'Priya','age': 99, 'rank': 5},
-    {'name': 'Amma', 'age': 45, 'rank': 100},
-    {'name': 'Arun', 'age': 29, 'rank': 2},
-    {'name': 'Ranju','age': 94, 'rank': 4},
-    {'name': 'Appa', 'age': 52, 'rank': 99}
-]
+# students = [
+#     {'name': 'Priya','age': 99, 'rank': 5},
+#     {'name': 'Amma', 'age': 45, 'rank': 100},
+#     {'name': 'Arun', 'age': 29, 'rank': 2},
+#     {'name': 'Ranju','age': 94, 'rank': 4},
+#     {'name': 'Appa', 'age': 52, 'rank': 99}
+# ]
 
 # def min_rank(data):
 #   rank = data[0]['rank']
@@ -945,7 +943,6 @@ students = [
 
 # print(min_rank(students))    
 # print(students[2]['rank'])
-
 
 # def add(a,b):
 #     return a+b
@@ -964,8 +961,62 @@ students = [
 # print(list(x))  # Output: [50, 46, 112, 10]
 
 
+# list1 = [54,30,20,40]
+# min = list1[0]
+# for i in list1:
+#     if i<min:
+#         min = i 
 
-list1 = ["23",'45','56']
+# print(min)
+
+# for i in range(0,4):
+#     for j in range(0,4):
+#         print(i,j)
 
 
+# i = 0
+# while i < 5:
+#     print(i)
+#     i+=1  
 
+
+# def hi():
+#     print("Hello, World!")
+# hi()
+
+# 
+
+
+# list1 = [25,34,56,72]
+# def hi(we):
+#     for i in we:
+#         yield i
+
+# print(list(hi(list1)))
+    
+
+
+# class Helllo:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+    
+#     def display(self):
+#         print("Hello, my name is", self.name, "and I am", self.age)
+
+#     def hi(self,a):
+#         print (self.name, a)
+      
+    # def __str__(k) -> str:
+    #     return (f"Hello, my name is {k.name} and I am {k.age}")
+      
+    
+
+# obj = Helllo('Mahima',23)
+# obj.display()
+# obj.hi(56)
+
+
+# def add(a,b):
+#     return a+b
+# print(add(5,7))

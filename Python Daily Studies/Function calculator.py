@@ -19,16 +19,16 @@ while(True):
     value_1 = int(input("Enter the number:"))
     value_2 = int(input("Enter the number:"))
 
-    if value_2 > value_1:
-        # temp = value_2
-        # value_2 = value_1
-        # value_1 = temp
-        value_1,value_2 = value_2,value_1
-    else:
-        # temp = value_1
-        # value_1 = value_2
-        # value_2 = temp
-        value_2,value_1 = value_1,value_2
+    # if value_2 > value_1:
+    #     # temp = value_2
+    #     # value_2 = value_1
+    #     # value_1 = temp
+    #     value_1,value_2 = value_2,value_1
+    # else:
+    #     # temp = value_1
+    #     # value_1 = value_2
+    #     # value_2 = temp
+    #     value_2,value_1 = value_1,value_2
 
 
     if option == "1":
@@ -65,59 +65,59 @@ while(True):
 #     return (n1 / n2)
 
 
-add = lambda n1,n2:n1+n2
-sub = lambda n1,n2:n1-n2
-mul = lambda n1,n2:n1*n2
-div = lambda n1,n2:n1/n2
+# add = lambda n1,n2:n1+n2
+# sub = lambda n1,n2:n1-n2
+# mul = lambda n1,n2:n1*n2
+# div = lambda n1,n2:n1/n2
 
 
-def call():
-    # while True:
-    n1 = int(input("Enter your 1st value: "))
-    n2 = int(input("Enter your 2st value: "))
+# def call():
+#     # while True:
+#     n1 = int(input("Enter your 1st value: "))
+#     n2 = int(input("Enter your 2st value: "))
 
-    print("Menu\n"
-          "1 for addition\n"
-          "2 for substraction\n"
-          "3 for multiplication\n"
-          "4 for division")
+#     print("Menu\n"
+#           "1 for addition\n"
+#           "2 for substraction\n"
+#           "3 for multiplication\n"
+#           "4 for division")
 
-    choice = int(input("Enter your choice:"))
+#     choice = int(input("Enter your choice:"))
 
-    if choice == 1:
-        print(add(n1, n2))
+#     if choice == 1:
+#         print(add(n1, n2))
 
-    elif choice == 2:
-        print(sub(n1, n2))
+#     elif choice == 2:
+#         print(sub(n1, n2))
 
-    elif choice == 3:
-        print(mul(n1, n2))
+#     elif choice == 3:
+#         print(mul(n1, n2))
 
-    elif choice == 4:
-        print(div(n1, n2))
+#     elif choice == 4:
+#         print(div(n1, n2))
 
-    else:
-        print("Invalid choice")
+#     else:
+#         print("Invalid choice")
 
 
-i = 0
-while True:
-    if i == 0:
+# i = 0
+# while True:
+#     if i == 0:
 
-        opt = input("enter the option to start. Yes/NO: ")
-        i += 1
+#         opt = input("enter the option to start. Yes/NO: ")
+#         i += 1
 
-    else:
-        opt = input("Want another calculation? yes/no: ")
+#     else:
+#         opt = input("Want another calculation? yes/no: ")
 
-    if opt.lower() == "no":
-        print("Calculations done")
-        break
-    elif opt.lower() == "yes":
-        # continue
-        call()
-    else:
-        print("Invalid input")
+#     if opt.lower() == "no":
+#         print("Calculations done")
+#         break
+#     elif opt.lower() == "yes":
+#         # continue
+#         call()
+#     else:
+#         print("Invalid input")
         # break
 
 

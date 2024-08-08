@@ -6,14 +6,16 @@
 #     x = "Hello iam Executed"
 #     print(x)
 
-#     # def __str__(self):
-#     #     return self.x
+#     def __str__(self):
+#         return self.x
 #     def hi(self):
 #         return ("Hi")
 
 #     def hello(self):
 #         return ("ajay")
 
+
+# print(Hello())
 # obj = Hello()
 # # print(Hello().hello())
 # print(obj.x)
@@ -262,8 +264,6 @@
 # # object1.func2()
 # object1.func3()
 
-
-
 # class Elakkiya:
 #     print("XXYY")
 #
@@ -274,16 +274,5 @@
 #         print(self.staf1+"\n"+self.staf2)
 #
 # Elakkiya()
-
-
-
-
-
-
-
-
-
-
-
 
 

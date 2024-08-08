@@ -109,7 +109,7 @@
 # create an iterator from the list
 # iterator = iter(my_list)
 
-# # get the first element of the iterator
+# get the first element of the iterator
 # print(next(iterator))  # prints 4
 
 # # get the second element of the iterator

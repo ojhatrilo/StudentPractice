@@ -4,10 +4,14 @@
 #         self.num1 = num1
 #         self.num2 = num2
 #         self.value = value
-#
-#
+
+
 #     def addition(self):
 #         self.value += self.num1 + self.num2
+
+# hi = add(56,45)
+# hi.addition()
+# print(hi.value)  # Output: 101
 #
 #
 #     def __str__ (self):
