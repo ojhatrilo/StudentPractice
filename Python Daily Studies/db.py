@@ -1,13 +1,13 @@
-# import mysql.connector
-# import credentials as cd
+import mysql.connector
+import credentials as cd
 
 
-# mydb = mysql.connector.connect(
-#     host=cd.host,
-#     user = cd.user,
-#     password= cd.password,
-#     port = cd.port
-# )
+mydb = mysql.connector.connect(
+    host=cd.host,
+    user = cd.user,
+    password= cd.password,
+    port = cd.port
+)
 
 # print("I have sucefully connected to the database")
 # data = mydb.cursor()
@@ -36,6 +36,6 @@
 
 
 
-# for i in point:
+# for i in point:   
 #     print(i)
 

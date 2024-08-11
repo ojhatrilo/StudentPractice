@@ -38,10 +38,6 @@
 # x = int(input("enter the number:"))
 # add(z,x)
 
-
-
-
-#
 # a = input("Enter the number:")
 # b = input("Enter the number:")
 # 
@@ -56,8 +52,7 @@
 # def numacess():
 #    global a
 #    a +=33
-#    print(a)
-
+   
 # numacess()
 # print(a)
 
@@ -66,7 +61,7 @@
 # def cyber(num1=0,num2=0):
 #    return num1+num2
 
-# print(cyber(0))
+# print(cyber(56,23))
 
 
 
@@ -106,7 +101,7 @@
 # define a list
 # my_list = [4, 7, 0, 3]
 
-# create an iterator from the list
+# # create an iterator from the list
 # iterator = iter(my_list)
 
 # get the first element of the iterator
@@ -156,10 +151,7 @@
 # if __name__ =='__main__':
 #     my_function()
 
-# Closure is a function having access to the scope of its parent function
-# function after the parent function has returned.
 #
-
 # def parent_function(person, coins):
 #     # coins = 3
 
@@ -179,6 +171,7 @@
 
 # tommy = parent_function("Tommy", 3) # play_game
 # jenny = parent_function("Jenny", 5)
+
 
 # tommy()
 # tommy()
@@ -212,7 +205,7 @@
 
 
 
-# # # decorate the ordinary function
+# # # # decorate the ordinary function
 # decorated_func = make_pretty(ordinary) # inner
 
 # # # call the decorated function
@@ -238,13 +231,13 @@
 # def ordinary():
 #     print("I am ordinary")
 
-#
-# @make_pretty
-# def hello():
-#     print("I am hello function")
-# # decorate the ordinary function
-#
-# hello()
+# #
+# # @make_pretty
+# # def hello():
+# #     print("I am hello function")
+# # # decorate the ordinary function
+# #
+# # hello()
 # ordinary()
 # call the decorated function
 

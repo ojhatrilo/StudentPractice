@@ -1020,3 +1020,40 @@
 # def add(a,b):
 #     return a+b
 # print(add(5,7))
+
+
+# def hello():
+#     print("Hello, World!")
+
+
+# def hi(a):
+#     a()
+
+
+# hi(hello)
+
+
+
+# x = lambda a,b:a+b
+# print(x(5,7))
+
+
+
+# def hello(n):
+#     return lambda a,b:a+b+n
+    
+# call_back = hello(5)# lambda a,b:a+b+5
+# print(call_back(4,7))
+
+
+
+
+
+
+
+
+
+
+
+
+
