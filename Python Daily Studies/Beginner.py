@@ -220,13 +220,13 @@
 
 
 # copy
-
 # num = [12,10,1]
 # y = num
 # x = num.copy()
 # num.sort()
 # print(x)
 # print(y)
+# print(num)
 
 
 
@@ -265,6 +265,7 @@
 # a = [1,2,3,4,5,"hello"]#[1,2,3,4,5,"hello",[23,44]]
 # a1 = [23,44] 
 # a.append(a1)
+# print(len(a))
 # print(len(a[6]))
 # print(a)
 
@@ -286,7 +287,8 @@
 # a = [1,2,3,4,5,"hello"]
 # a.reverse()
 # print(a)
-
+# z = a[::-1]
+# print(z)
 
 
 # pop

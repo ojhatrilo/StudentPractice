@@ -1046,8 +1046,9 @@
 # print(call_back(4,7))
 
 
-
-
+# list1 = [25,6,45,45,"HELLO Medona",True,False]
+# list1[0] = 100
+# print(list1)  # Output: [100, 6, 45, 45,
 
 
 
