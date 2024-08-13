@@ -1032,8 +1032,6 @@
 
 # hi(hello)
 
-
-
 # x = lambda a,b:a+b
 # print(x(5,7))
 
@@ -1049,6 +1047,47 @@
 # list1 = [25,6,45,45,"HELLO Medona",True,False]
 # list1[0] = 100
 # print(list1)  # Output: [100, 6, 45, 45,
+
+
+# class Hello:
+#     x = "Hello Sathoshni"
+
+# hi = Hello()
+# print(hi.x)  # Output: Hello Sathoshni
+
+
+# class Dev:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+
+#     def display(self):
+#         print(f"Name: {self.name} \nAge: {self.age}")
+
+# hi = Dev("Kung Fu Panada",32)
+# hi.display()  # Output: Name: Kung Fu Panada, Age: 32
+
+# class Sumen:
+#     def __init__(self, name, age, gender):
+#         self.name = name
+#         self.age = age
+#         self.gender = gender
+
+#     def display(self):
+#         print(f"Name: {self.name} \nAge: {self.age} \nGender: {self.gender}")
+      
+    
+# name = input("Enter your name:")
+# hi = Sumen(name,25,"others")
+# print(hi.display())
+
+
+
+
+
+
+
+
 
 
 

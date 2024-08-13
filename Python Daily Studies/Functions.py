@@ -205,7 +205,7 @@
 
 
 
-# # # # decorate the ordinary function
+# # decorate the ordinary function
 # decorated_func = make_pretty(ordinary) # inner
 
 # # # call the decorated function

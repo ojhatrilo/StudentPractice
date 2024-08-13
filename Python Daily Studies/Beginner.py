@@ -259,7 +259,7 @@
 # delete -- To delete the whole list or indexed value
 # clear -- It deletes the entire list
 # copy -- It makes duplicate of the present list
-# insert -- it is used to insert the vlue in the list
+# insert -- it is used to insert the vlue in the ss
 
 # append
 # a = [1,2,3,4,5,"hello"]#[1,2,3,4,5,"hello",[23,44]]

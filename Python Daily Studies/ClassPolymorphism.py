@@ -3,7 +3,7 @@
 
 # # len() being used for a string
 # print(len("geeks"))
-#
+
 # # len() being used for a list
 # print(len([10, 20, 30]))
 
@@ -26,7 +26,6 @@
 # 	def capital(self):
 # 		print("New Delhi is the capital of India.")
 
-
 # 	def language(self):
 # 		print("Hindi is the most widely spoken language of India.")
 
@@ -43,7 +42,7 @@
 # 	def type(self):
 # 		print("USA is a developed country.")
 
-# obj_ind = India()
+# obj_ind = India()  
 # obj_ind.capital()
 # obj_usa = USA()
 # obj_usa.capital()
