@@ -1,6 +1,5 @@
 
 # f = open("demo.txt","w")
-# #
 # f.write("Hello i have deleted all the above content")
 # f.close()
 
@@ -61,7 +60,6 @@
 # output.close()
 
 
-
 # f = open("hello.txt",'x')
 # f.write("hello iam mathavan")
 # f.close()
@@ -71,6 +69,10 @@
 
 
 # import os
-# os.remove("demo3.txt")
+# os.remove("myfile2.txt")
 
 
+# file = open('myfile2.txt','w')
+# text = "\nShe is a fantastic, Dashing, and beautifull"
+# file.write(text)
+# file.close()

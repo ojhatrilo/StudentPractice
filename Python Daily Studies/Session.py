@@ -1083,17 +1083,39 @@
 
 
 
+'''
+try:
+    a = int(input("Enter the Number:"))
+    b = int(input("Enter the Number:"))
+    print(a+b)
+except:
+    print("Invalid Input")
+'''
+
+
+
+# def Hello(func):
+#     def hi():
+#         func()
+#         print("Hello")
+#     return hi
+
+# @Hello
+# def shallow():
+#     print("Shallow")
+
+
+# shallow()
 
 
 
 
 
+# def hi():
+#     def sai():
+#         print("Sai")
 
+#     return sai
 
-
-
-
-
-
-
-
+# frod = hi()
+# frod()

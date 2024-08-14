@@ -53,5 +53,43 @@ values("Python",21);
 select * from student_enroll;
 
 
+select avg(mark) from Student_Data;
+
+
+select count(name),city from Student_Data group by city having max(mark)>80  order by city asc;
+
+select * from Student_Data;
+
+update Student_Data 
+set grade = "O"
+where grade = "A";
+
+SET SQL_SAFE_UPDATES=0;
+
+delete from Student_Data
+where mark <=50;
+
+ALTER TABLE Student_Enroll
+MODIFY stu_id INT,
+ADD CONSTRAINT stu_id
+FOREIGN KEY (stu_id) REFERENCES Student_data(id)
+ON DELETE CASCADE;
+
+
+create table employee(id int primary key,
+name varchar(50),
+manager_id int unique
+);
+
+insert into employee(id,name,manager_id)
+values(101,"adam",103),
+(102,"bob",104),
+(103,"casey",null),
+(104,"donald",105);
+
+
+select a.name as manager_name,b.name from employee as a
+join employee as b on a.id = b.manager_id;
+
 
 
