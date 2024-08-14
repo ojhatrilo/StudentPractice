@@ -1119,3 +1119,35 @@ except:
 
 # frod = hi()
 # frod()
+
+# class Calcualtor:
+#     def __init__(self, num1, num2):
+#         self.num1 = num1
+#         self.num2 = num2
+
+# class Add:
+#     def addition(self):
+#         return self.num1 + self.num2
+# class Sub:
+#     def subraction(self):
+#         return self.num1 - self.num2
+# class Div:
+#     def division(self):
+#         return self.num1 / self.num2
+# class Mul:
+#     def multiplication(self):
+#         return self.num1 * self.num2
+                 
+# class Performance(Calcualtor,Add,Sub,Mul,Div):
+#     pass
+
+
+# obj = Performance(45,56)
+# print(obj.multiplication())  # Output: 2520
+# print(obj.addition())  # Output: 101
+# print(obj.subraction())  # Output: -11
+# print(obj.division())
+
+
+
+

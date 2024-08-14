@@ -22,7 +22,7 @@ while True:
     if option=='d':
         amount=float(input("enter the amout to be depositted:"))
         data.deposit(amount)
-    elif option=='w':
+    elif option=='w': 
         amount=float(input("enter the amout to be withdraw:"))
         data.withdraw(amount)
     elif option=='e':
