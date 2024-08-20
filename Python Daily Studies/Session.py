@@ -1151,3 +1151,42 @@ except:
 
 
 
+# print(8%6)
+
+
+# a = "hi my name is adeline"
+# x = a.split()
+# x[2] =x[2][::-1]
+# y= " ".join(x) 
+# print(y)
+
+
+# a = int(input("Enter the number:"))
+# z = str(a)
+# print(z[::-1])  # Output: 12321
+
+# tuple1 = (25,34,56,76)
+# a = list(tuple1)
+# a[0] = 100
+# print(a)
+# x = tuple(a)
+# print(x)
+
+
+# try:
+#     a = int(input("Enter the number:"))
+#     b = int(input("Enter the number:"))
+#     c = a / b
+#     print(c)
+# except ZeroDivisionError:
+#     print("Divsion Error")
+# except ValueError:
+#     print("Invalid Input")
+
+
+
+
+
+
+# a = int(input("Enter the number:"))
+# print(a)

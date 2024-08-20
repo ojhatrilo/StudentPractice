@@ -37,7 +37,7 @@
 # ooj = organ()
 
 # obj1 = Derived()
-#
+
 # obj2 = Base()
 
 
@@ -63,7 +63,7 @@
 #
 # class Base:
 # 	def __init__(self):
-# 		self.a = "GeeksforGeeks"
+# 		self._a = "GeeksforGeeks"
 # 		self.__c = "GeeksforGeeks2"
 
 # # Creating a derived class
@@ -74,13 +74,13 @@
 # 		# Base class
 # 		Base.__init__(self)
 # 		print("Calling private member of base class: ")
-# 		print(self.a)
+# 		print(self._a)
 
 
 # Driver code
 # obj1 = Base()
 # obj2 = Derived()
-# print(obj2.a)
+# print(obj2._a)
 # print(obj2.__c)
 
 # Uncommenting print(obj1.c) will

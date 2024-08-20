@@ -24,9 +24,9 @@
 
 
 # try:
-#     a = int(input("Enter the number;"))
+#     a = int(input("Enter the number:"))
 #     b = int(input("Enter the number:"))
-#     try:``
+#     try:
 #         z = a/b
 #         print(z)
 #     except SyntaxError:
