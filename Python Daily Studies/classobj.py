@@ -1,13 +1,13 @@
 #
-# class add:
-#     def __init__(self,num1,num2,value=0):
-#         self.num1 = num1
-#         self.num2 = num2
-#         self.value = value
+class add:
+    def __init__(self,num1,num2,value=0):
+        self.num1 = num1
+        self.num2 = num2
+        self.value = value
 
 
-#     def addition(self):
-#         self.value += self.num1 + self.num2
+    def addition(self):
+        self.value += self.num1 + self.num2
 
 # hi = add(56,45)
 # hi.addition()
@@ -18,23 +18,23 @@
 #         return (f"{self.num1}+{self.num2}={self.value}")
 
 #
-# class sub:
-#     def __init__(self,num1,num2):
-#         self.num1 = num1
-#         self.num2 = num2
+class sub:
+    def __init__(self,num1,num2):
+        self.num1 = num1
+        self.num2 = num2
 
-#     def subtraction(self):
-#         return self.num1 - self.num2
+    def subtraction(self):
+        return self.num1 - self.num2
 
-#     def addition(self):
-#         return  self.num1 + self.num2
-#
-#
-# a = int(input("enter the number: "))
-# b = int(input("enter the number: "))
-#
-# sub1 = sub(a,b)
-# print(sub1.addition())
+    def addition(self):
+        return  self.num1 + self.num2
+
+
+a = int(input("enter the number: "))
+b = int(input("enter the number: "))
+
+sub1 = sub(a,b)
+print(sub1.addition())
 
 # while True:
 #

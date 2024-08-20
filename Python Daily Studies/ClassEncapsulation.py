@@ -14,6 +14,7 @@
 
 # 		# Protected member
 # 		self._ab = 2
+# 		print(self._ab)
 
 # # Creating a derived class
 # class Derived(Base):
@@ -37,6 +38,8 @@
 # ooj = organ()
 
 # obj1 = Derived()
+# obj1.ab = 5
+# print(obj1.ab)
 
 # obj2 = Base()
 
@@ -74,7 +77,7 @@
 # 		# Base class
 # 		Base.__init__(self)
 # 		print("Calling private member of base class: ")
-# 		print(self._a)
+# 		print(self.__c)
 
 
 # Driver code
