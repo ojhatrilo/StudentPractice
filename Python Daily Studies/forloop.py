@@ -123,14 +123,6 @@
 #             print(i,j,k)
 
 
-
-
-
-
-
-
-
-
 #
 # seceret = 10
 #
@@ -327,11 +319,9 @@
 #     dict1[abs(difference)] = i
 
 # dict1.pop(0)
-# x =min(dict1.items())
+# x = min(dict1.items())
 # print(x[1])
-# # print(nearest_0)
-
-
+# print(nearest_0)
 
 
 # for i in range(0,3):
@@ -343,3 +333,9 @@
 
 
 
+list1 = [5,5,8,8,6,5]
+
+set1 = set(list1)
+
+for i in set1:
+    print(i)

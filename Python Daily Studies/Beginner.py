@@ -209,9 +209,7 @@
 # print(len(list1))
 
 # print(list1[1])
-#
 # print(list1)
-
 
 
 # users = ['Dave', 'John', 'Sara','dmmi','anti']
@@ -362,11 +360,11 @@
 
 # Acessing the particular value from the dict
 
-a = {
-    "name":"Ranjani",
-    "age":25,
-    "address":"UK"
-}
+# a = {
+#     "name":"Ranjani",
+#     "age":25,
+#     "address":"UK"
+# }
 # print(a)
 # print(a["address"])
 # print(a.get("ages"))

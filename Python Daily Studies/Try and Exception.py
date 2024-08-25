@@ -72,12 +72,17 @@
 
 
 
+# try:
+#     a = int(input("Enter the number:"))
+#     b = int(input("Enter the number:"))
+#     z = a/b
+#     print(z)
+# except:
+#     print("Invalid input")
+
+# a = int(input("Enter the number:"))
 
 
-
-
-
-
-
+# print("Sucessfully")
 
 

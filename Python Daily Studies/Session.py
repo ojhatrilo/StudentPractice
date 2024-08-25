@@ -1190,3 +1190,18 @@ except:
 
 # a = int(input("Enter the number:"))
 # print(a)
+
+
+# num1re = 52
+# print(num1re)
+
+# a = 34
+# b = 45
+
+# temp = a
+# a=b
+# b=temp
+
+# print(a)
+# print(b)
+

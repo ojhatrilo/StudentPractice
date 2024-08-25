@@ -6,9 +6,9 @@
 #     def addition(self):
 #         return self.num1 + self.num2
 
-# # if __name__ == '__main__':
-# #     add2 = add(5,4)
-# #     print(add2.addition())
+#  if __name__ == '__main__':
+#      add2 = add(5,4)
+#      print(add2.addition())
 
 
 # class sub(add):
