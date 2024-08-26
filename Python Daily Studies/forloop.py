@@ -265,7 +265,7 @@
 #         num.append(int(i))
 #         x = int(i)
 #         result+=x*ch
-#
+
 # print(num)
 # print(alp)
 # print(result)
@@ -295,7 +295,6 @@
 #         unique[list1[i]] += 1
 #
 # print(unique)
-
 
 
 # x = int(input())
@@ -329,13 +328,12 @@
 #         print(i,j)
 
 
+# list1 = [5,5,8,8,6,5]
+
+# set1 = set(list1)
+
+# for i in set1:
+#     print(i)
 
 
 
-
-list1 = [5,5,8,8,6,5]
-
-set1 = set(list1)
-
-for i in set1:
-    print(i)

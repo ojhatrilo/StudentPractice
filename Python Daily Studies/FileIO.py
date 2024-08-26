@@ -76,3 +76,7 @@
 # text = "\nShe is a fantastic, Dashing, and beautifull"
 # file.write(text)
 # file.close()
+
+
+file = open("myfile.txt", 'r')
+print(file.read())

@@ -4,12 +4,10 @@
 # x = dir(pk)
 # print(x)
 
-# Add1 = sub(2,3)
+# Add1 = sub(3,2)
 # print(Add1.subtraction())
 
 # pk.options()
-
-#
 
 # import package as pk
 # options()
