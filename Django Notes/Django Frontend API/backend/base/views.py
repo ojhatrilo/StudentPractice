@@ -29,12 +29,12 @@ class ProfileDetail(APIView):
     template_name = 'profile_detail.html'
 
     def get(self, request, pk):
-        profile = Profile.objects.get(pk=pk)
+        profile = get_object_or_404(Profile, pk=pk)
         serializer = ProfileSerializer(profile)
         return Response({'serializer': serializer, 'profile': profile})
 
     def post(self, request, pk):
-        profile = Profile.objects.get(pk=pk)
+        profile = get_object_or_404(Profile, pk=pk)
         serializer = ProfileSerializer(profile, data=request.data)
         if not serializer.is_valid():
             return Response({'serializer': serializer, 'profile': profile})
