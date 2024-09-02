@@ -93,9 +93,11 @@
 
 
 
-# from package import div as pk
-# obj=pk(20,23)
-# print(obj.multiplication())
+# import package as pk
+
+# dude = pk.sub(25,20)
+# print(dude.addition())
+
 
 
 

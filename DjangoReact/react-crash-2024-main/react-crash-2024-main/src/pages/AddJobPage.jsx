@@ -17,7 +17,7 @@ const AddJobPage = ({ addJobSubmit }) => {
 
   const submitForm = (e) => {
     e.preventDefault();
-
+// Objects are created
     const newJob = {
       title,
       type,

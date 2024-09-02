@@ -1,23 +1,23 @@
-# class add:
-#     def __init__(self, num1, num2):
-#         self.num1 = num1
-#         self.num2 = num2
+class add:
+    def __init__(self, num1, num2):
+        self.num1 = num1
+        self.num2 = num2
 
-#     def addition(self):
-#         return self.num1 + self.num2
+    def addition(self):
+        return self.num1 + self.num2
 
 #  if __name__ == '__main__':
 #      add2 = add(5,4)
 #      print(add2.addition())
 
 
-# class sub(add):
-#     # def __init__(self, num1, num2):
-#     #     self.num1 = num1
-#     #     self.num2 = num2
+class sub(add):
+    # def __init__(self, num1, num2):
+    #     self.num1 = num1
+    #     self.num2 = num2
 
-#     def subtraction(self):
-#         return self.num1 - self.num2
+    def subtraction(self):
+        return self.num1 - self.num2
 
 
 # class mul(sub):

@@ -1,6 +1,6 @@
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
 has been industry's standard ever since 1500s,
-when an unknown printer took a galley type scrambled it to make specimen book.
-It survived not only five centuries, but also leap into electronic typesetting,
+when an unknown printer took a galley type scrambled it to make specimen book. 
+It survived not only five centuries, but also leap into electronic typesetting, 
 remaining essentially unchanged. was popularised in 1960s with release Letraset sheets containing passages,
-more recently desktop publishing software like Aldus PageMaker including versions Ipsum.
+more recently desktop publishing software like Aldus PageMaker including versions

@@ -10,7 +10,7 @@ def homepage(request):
     return render(request, 'home.html',{"data":data})
 
 
-def about(request):
+def about(request): 
     # return HttpResponse("My About page.")
     # form = DetailsForms()
     if request.user.is_authenticated:

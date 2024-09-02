@@ -4,17 +4,23 @@
 # f.close()
 
 
+
 # f = open("demo3.txt","a")
 # f.write("Hello i have deleted all the above content")
 # f.close()
+
 
 
 # f = open("demo3.txt", "w")
 # f.write("Hello i have deleted all the above content")
 # f.close()
 
+
+
 # f = open("demo.txt", "a+")
 # f.write("\nhello iam elakiya")
+
+
 
 # f.close()
 
@@ -27,7 +33,7 @@
 
 
 # input=open('demo.txt', 'r')
-# output=open('demo2.txt', 'w+')
+# output=open('demo2.txt', 'w')
 # text=input.read()
 # z=text.split()
 # y=[]
@@ -78,5 +84,9 @@
 # file.close()
 
 
-file = open("myfile.txt", 'r')
-print(file.read())
+# file = open("myfile.txt", 'a')
+# print(file.write("\nHello everyone my name is santhoshni"))
+
+
+
+
