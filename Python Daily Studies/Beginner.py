@@ -177,7 +177,7 @@
 # print(z)
 
 # cov_str1 = str(users)
-# print(type(cov_str1))
+# print((cov_str1))
 
 
 
@@ -686,7 +686,13 @@
 
 
 
+# String Modules in 
 
+# it is used to covert letter into ascii value
+# print(ord("a"))
+
+# it is used to ascii value into letter
+# print(chr(97))
 
 
 
