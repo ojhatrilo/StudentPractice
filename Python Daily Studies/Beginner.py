@@ -200,12 +200,12 @@
 
 
 # Acessing the list items
-# list1 = [21,"hellow",True,23.5,"hellow"]
+list1 = [21,"hellow",True,23.5,"hellow"]
 # list1[0] = 56
 
 # print(list1)
 # print(list1[0:4])
-# print(list1[::3])
+print(list1[::3])
 # print(len(list1))
 
 # print(list1[1])
@@ -689,10 +689,51 @@
 # String Modules in 
 
 # it is used to covert letter into ascii value
-# print(ord("a"))
+# print(ord("A"))
 
 # it is used to ascii value into letter
 # print(chr(97))
+import string
+print(string.ascii_letters)
+# print(string.ascii_lowercase)
+# print(string.ascii_uppercase)
+# print(string.punctuation)
+# print(string.octdigits)
+# print(string.printable)
+# print(string.whitespace)
+
+
+# extension = input("Enter the name of the file extension:")
+# x = string.punctuation
+# correct_count = 0
+# wrong_count = 0
+# for i in extension:
+#     if i not in x:
+#         count = 1
+#     else:
+#         wrong_count = 1
+
+# if wrong_count:
+#     print("Used wrong extension")
+# else:
+#     print("Correct extension")
+
+
+# letter = input("Enter the message to be sent:")
+# list1 = []
+# for i in letter:
+#     list1.append(ord(i))
+
+# print(list1)
+# name = ""
+# for i in list1:
+#     name += chr(i)
+    
+# print(name)
+
+a = "hello" "hi" "how"
+print(a)
+
 
 
 
