@@ -200,12 +200,12 @@
 
 
 # Acessing the list items
-list1 = [21,"hellow",True,23.5,"hellow"]
+# list1 = [21,"hellow",True,23.5,"hellow"]
 # list1[0] = 56
 
 # print(list1)
 # print(list1[0:4])
-print(list1[::3])
+# print(list1[::3])
 # print(len(list1))
 
 # print(list1[1])
